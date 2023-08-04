@@ -14,7 +14,7 @@ const PostSchema = new mongoose.Schema({
   category: {
     type: String,
     required: true,
-    enum: ["Woman", "Man"]
+    enum: ["Tshirt", "Trousers", "Shoes", "Phone", "Earphones", "Mouse", "Keyboard", "Headphones"]
   }
 });
 

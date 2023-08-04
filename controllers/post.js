@@ -3,45 +3,126 @@ const PostSchema = require("../models/post.js");
 // CREATE
 const createPosts = async (req, res) => {
   try {
-    const { WomanData, ManData } = req.body;
+    const {
+      TshirtData,
+      TrousersData,
+      ShoesData,
+      PhoneData,
+      WatchData,
+      EarphonesData,
+      MouseData,
+      KeyboardData,
+      HeadphonesData
+    } = req.body;
 
-    const newWomanPost = await PostSchema.create({
-      name: WomanData.name,
-      description: WomanData.description,
-      category: "Woman"
+    const newTshirtPost = await PostSchema.create({
+      name: TshirtData.name,
+      description: TshirtData.description,
+      category: "Tshirt"
     });
 
-    const newManPost = await PostSchema.create({
-      name: ManData.name,
-      description: ManData.description,
-      category: "Man"
+    const newTrousersPost = await PostSchema.create({
+      name: TrousersData.name,
+      description: TrousersData.description,
+      category: "Trousers"
+    });
+
+    const newShoesPost = await PostSchema.create({
+      name: ShoesData.name,
+      description: ShoesData.description,
+      category: "Shoes"
+    });
+
+    const newPhonePost = await PostSchema.create({
+      name: PhoneData.name,
+      description: PhoneData.description,
+      category: "Phone"
+    });
+
+    const newWatchPost = await PostSchema.create({
+      name: WatchData.name,
+      description: WatchData.description,
+      category: "Watch"
+    });
+
+    const newEarphonesPost = await PostSchema.create({
+      name: EarphonesData.name,
+      description: EarphonesData.description,
+      category: "Earphones"
+    });
+
+    const newMousePost = await PostSchema.create({
+      name: MouseData.name,
+      description: MouseData.description,
+      category: "Mouse"
+    });
+
+    const newKeyboardPost = await PostSchema.create({
+      name: KeyboardData.name,
+      description: KeyboardData.description,
+      category: "Keyboard"
+    });
+
+    const newHeadphonesPost = await PostSchema.create({
+      name: HeadphonesData.name,
+      description: HeadphonesData.description,
+      category: "Headphones"
     });
 
     res.status(201).json({
-      Woman: newWomanPost,
-      Man: newManPost,
+      Tshirt: newTshirtPost,
+      Trousers: newTrousersPost,
+      Shoes: newShoesPost,
+      Phone: newPhonePost,
+      Watch: newWatchPost,
+      Earphones: newEarphonesPost,
+      Mouse: newMousePost,
+      Keyboard: newKeyboardPost,
+      Headphones: newHeadphonesPost
     });
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
 };
+
 
 
 
 // GET
 const Products = async (req, res) => {
   try {
-    const WomanPosts = await PostSchema.find({ category: "Woman" });
-    const ManPosts = await PostSchema.find({ category: "Man" });
+    const TshirtPosts = await PostSchema.find({ category: "Tshirt" });
+    const TrousersPosts = await PostSchema.find({ category: "Trousers" });
+    const ShoesPosts = await PostSchema.find({ category: "Shoes" });
+    const PhonePosts = await PostSchema.find({ category: "Phone" });
+    const WatchPosts = await PostSchema.find({ category: "Watch" });
+    const EarphonesPosts = await PostSchema.find({ category: "Earphones" });
+    const MousePosts = await PostSchema.find({ category: "Mouse" });
+    const KeyboardPosts = await PostSchema.find({ category: "Keyboard" });
+    const HeadphonesPosts = await PostSchema.find({ category: "Headphones" });
 
     res.status(200).json({
-      Woman: WomanPosts,
-      Man: ManPosts,
+      Tshirt: TshirtPosts,
+      Trousers: TrousersPosts,
+      Shoes: ShoesPosts,
+      Phone: PhonePosts,
+      Watch: WatchPosts,
+      Earphones: EarphonesPosts,
+      Mouse: MousePosts,
+      Keyboard: KeyboardPosts,
+      Headphones: HeadphonesPosts
     });
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
 };
+
+
+
+
+
+
+
 
 
 
