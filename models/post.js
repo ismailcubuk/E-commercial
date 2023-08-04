@@ -3,14 +3,19 @@ const mongoose = require("mongoose");
 const PostSchema = new mongoose.Schema({
   name: {
     type: String,
-    require: true,
+    required: false,
     trim: true
   },
   description: {
     type: String,
-    require: true,
+    required: false,
     trim: true
+  },
+  category: {
+    type: String,
+    required: true,
+    enum: ["Woman", "Man"]
   }
 });
 
-module.exports = mongoose.model('post', PostSchema)
+module.exports = mongoose.model('post', PostSchema);

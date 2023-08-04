@@ -1,14 +1,14 @@
 const express = require('express');
-const { getPosts, createPosts, getDetail, getUpdate, deletePost, searchPost } = require('../controllers/post.js');
+const { Products, createPosts, getDetail, getUpdate, deletePost, searchPost,getLaptops } = require('../controllers/post.js');
 
 const router =  express.Router();
 
 
-router.get('/getPosts', getPosts)
-router.get('/createPosts', createPosts)
+router.get('/Products', Products)
+router.post('/createPosts', createPosts)
 router.get('/getDetail/:id', getDetail)
-router.get('/getUpdate/:id', getUpdate)
-router.get('/deletePost/:id', deletePost)
+router.patch('/getUpdate/:id', getUpdate)
+router.delete('/deletePost/:id', deletePost)
 router.get('/searchPost', searchPost)
 
 module.exports = router

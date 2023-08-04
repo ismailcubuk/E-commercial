@@ -12,7 +12,7 @@ app.use(express.urlencoded({limit: '30mb', extended:true}))
 app.use('/', Post)
 
 app.get('/', (req, res) => {
-    res.json({message: "deneme"})
+    res.json({message: "deneme", asd: "qwe", dsa: "123"})
 })
 
 const PORT = process.env.PORT || 5000;

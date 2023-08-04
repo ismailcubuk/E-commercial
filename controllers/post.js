@@ -3,26 +3,47 @@ const PostSchema = require("../models/post.js");
 // CREATE
 const createPosts = async (req, res) => {
   try {
-    const newPost = await PostSchema.create(req.body);
+    const { WomanData, ManData } = req.body;
+
+    const newWomanPost = await PostSchema.create({
+      name: WomanData.name,
+      description: WomanData.description,
+      category: "Woman"
+    });
+
+    const newManPost = await PostSchema.create({
+      name: ManData.name,
+      description: ManData.description,
+      category: "Man"
+    });
+
     res.status(201).json({
-      newPost,
+      Woman: newWomanPost,
+      Man: newManPost,
     });
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
 };
 
+
+
 // GET
-const getPosts = async (req, res) => {
+const Products = async (req, res) => {
   try {
-    const getPosts = await PostSchema.find();
+    const WomanPosts = await PostSchema.find({ category: "Woman" });
+    const ManPosts = await PostSchema.find({ category: "Man" });
+
     res.status(200).json({
-      getPosts,
+      Woman: WomanPosts,
+      Man: ManPosts,
     });
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
 };
+
+
 
 // DETAİL
 const getDetail = async (req, res) => {
@@ -80,4 +101,4 @@ const searchPost = async (req,res) => {
     }
 }
 
-module.exports = { createPosts, getDetail, getPosts, getUpdate, deletePost, searchPost };
+module.exports = { createPosts, getDetail, Products, getUpdate, deletePost, searchPost };
