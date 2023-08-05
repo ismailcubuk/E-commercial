@@ -16,55 +16,62 @@ const createPosts = async (req, res) => {
     } = req.body;
 
     const newTshirtPost = await PostSchema.create({
-      name: TshirtData.name,
+      title: TshirtData.title,
       description: TshirtData.description,
       category: "Tshirt"
     });
 
     const newTrousersPost = await PostSchema.create({
-      name: TrousersData.name,
+      title: TrousersData.title,
       description: TrousersData.description,
       category: "Trousers"
     });
 
     const newShoesPost = await PostSchema.create({
-      name: ShoesData.name,
+      title: ShoesData.title,
       description: ShoesData.description,
       category: "Shoes"
     });
 
+
+
+
     const newPhonePost = await PostSchema.create({
-      name: PhoneData.name,
+      title: PhoneData.title,
       description: PhoneData.description,
-      category: "Phone"
+      category: "Phone",
+      brand : PhoneData.brand,
     });
 
+
+
+
     const newWatchPost = await PostSchema.create({
-      name: WatchData.name,
+      title: WatchData.title,
       description: WatchData.description,
       category: "Watch"
     });
 
     const newEarphonesPost = await PostSchema.create({
-      name: EarphonesData.name,
+      title: EarphonesData.title,
       description: EarphonesData.description,
       category: "Earphones"
     });
 
     const newMousePost = await PostSchema.create({
-      name: MouseData.name,
+      title: MouseData.title,
       description: MouseData.description,
       category: "Mouse"
     });
 
     const newKeyboardPost = await PostSchema.create({
-      name: KeyboardData.name,
+      title: KeyboardData.title,
       description: KeyboardData.description,
       category: "Keyboard"
     });
 
     const newHeadphonesPost = await PostSchema.create({
-      name: HeadphonesData.name,
+      title: HeadphonesData.title,
       description: HeadphonesData.description,
       category: "Headphones"
     });

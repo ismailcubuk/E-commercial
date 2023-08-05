@@ -1,15 +1,19 @@
 const mongoose = require("mongoose");
 
 const PostSchema = new mongoose.Schema({
-  name: {
+  title: {
     type: String,
-    required: false,
-    trim: true
   },
   description: {
     type: String,
-    required: false,
-    trim: true
+  },
+  category:{
+    type:String,
+    default:'none'
+  },
+  brand:{
+    type:String,
+    default:"none"
   },
   stock:{
     type: Number,
@@ -17,7 +21,7 @@ const PostSchema = new mongoose.Schema({
   category: {
     type: String,
     required: true,
-    enum: ["Tshirt", "Trousers", "Shoes", "Phone", "Earphones", "Mouse", "Keyboard", "Headphones"]
+    enum: ["Tshirt", "Trousers", "Shoes", "Phone", "Watch","Earphones", "Mouse", "Keyboard", "Headphones"]
   }
 });
 

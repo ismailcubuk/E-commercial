@@ -1,5 +1,5 @@
 const express = require('express');
-const { Products, createPosts, getDetail, getUpdate, deletePost, searchPost,getLaptops } = require('../controllers/post.js');
+const { Products, createPosts, getDetail, getUpdate, deletePost, searchPost } = require('../controllers/post.js');
 
 const router =  express.Router();
 
@@ -10,5 +10,6 @@ router.get('/getDetail/:id', getDetail)
 router.patch('/getUpdate/:id', getUpdate)
 router.delete('/deletePost/:id', deletePost)
 router.get('/searchPost', searchPost)
+
 
 module.exports = router
