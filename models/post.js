@@ -11,6 +11,9 @@ const PostSchema = new mongoose.Schema({
     required: false,
     trim: true
   },
+  stock:{
+    type: Number,
+  },
   category: {
     type: String,
     required: true,
