@@ -1,0 +1,39 @@
+{
+    "title": "iPhone 12 64 GB",
+    "description": "iPhone 12 64 GB",
+    "brand": "Apple",
+    "category": "Phone",
+    "color": [
+        "white",
+        "red",
+        "blue",
+        "purple",
+        "black",
+        "green"
+    ],
+    "memory": [
+        64,
+        128,
+        256
+    ],
+    "price": {
+        "quantity": 26.999,
+        "currency": "TRY"
+    },
+    "features": {
+        "ProcessorSpeed": null,
+        "NumberofProcessors": 6,
+        "display": 6.1,
+        "processor": "A14 Bionic",
+        "ram": 4,
+        "camera": 12
+    },
+    "images": {
+        "s": {
+            
+        },
+        "m": {
+            
+        }
+    }
+}
