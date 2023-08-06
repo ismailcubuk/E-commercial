@@ -1,4 +1,5 @@
 {
+    "_id": "64cfbce6449b973b2ed280d7",
     "title": "iPhone 12 64 GB",
     "description": "iPhone 12 64 GB",
     "brand": "Apple",
@@ -30,10 +31,69 @@
     },
     "images": {
         "s": {
-            
+            "black": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/s/1.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/s/2.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/s/3.png"
+            ],
+            "blue": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/s/1.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/s/2.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/s/3.png"
+            ],
+            "green": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/s/1.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/s/2.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/s/3.png"
+            ],
+            "purple": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/s/1.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/s/2.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/s/3.png"
+            ],
+            "red": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/s/1.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/s/2.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/s/3.png"
+            ],
+            "white": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/s/1.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/s/2.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/s/3.png"
+            ]
         },
         "m": {
-            
+            "black": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/m/1.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/m/2.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/m/3.jpeg"
+            ],
+            "blue": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/m/1.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/m/2.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/m/3.jpeg"
+            ],
+            "green": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/m/1.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/m/2.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/m/3.jpeg"
+            ],
+            "purple": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/m/1.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/m/2.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/m/3.jpeg"
+            ],
+            "red": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/m/1.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/m/2.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/m/3.jpeg"
+            ],
+            "white": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/m/1.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/m/2.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/m/3.jpeg"
+            ]
         }
-    }
+    },
+    "__v": 0
 }

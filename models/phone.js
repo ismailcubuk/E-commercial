@@ -33,12 +33,8 @@ const PhoneSchema = new mongoose.Schema({
     required:false
   },
   images:{
-    type:Array,
+    type:Object,
     required:true
-  },
-  stock: {
-    type: Number,
-    default: 0,
   },
 });
 
