@@ -1,4 +1,4 @@
-const Shoes = require("../models/shoes.js"); // Assuming you have a "shoes.js" model
+const Shoes = require("../models/shoes.js"); 
 
 // CREATE Shoes
 const createShoes = async (req, res) => {
