@@ -16,9 +16,10 @@ app.use(express.json({ limit: '30mb' }));
 app.use(express.urlencoded({ limit: '30mb', extended: true }));
 
 // Routes
-app.use('/phones', Phone); // Use the Phone router for phone-related routes
-app.use('/shoes', Shoes); // Use the Phone router for phone-related routes
-app.use('/tshirt', Tshirt); // Use the Phone router for phone-related routes
+app.use('/phones', Phone); // Use the Phone router 
+app.use('/shoes', Shoes); // Use the Shoes router 
+app.use('/tshirt', Tshirt); // Use the Tshirt router 
+app.use('/tracksuit', Tshirt); // Use the Tracksuit router 
 
 // Default route
 app.get('/', (req, res) => {
