@@ -1,0 +1,83 @@
+{
+    "title": "Evostripe",
+    "description": "Evostripe Man T-shirt",
+    "gender": "man",
+    "brand": "puma",
+    "category": "tshirt",
+    "size": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "xxl"
+    ],
+    "color": [
+        "black",
+        "grey",
+        "green",
+        "white"
+    ],
+    "price": {
+        "quantity": 749,
+        "currency": "TRY"
+    },
+    "images": {
+        "s": {
+            "black": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/s/1.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/s/2.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/s/3.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/s/4.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/s/5.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/s/6.png"
+            ],
+            "grey": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/s/1.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/s/2.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/s/3.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/s/4.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/s/5.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/s/6.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/s/7.png"
+            ],
+            "white": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/1.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/2.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/3.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/4.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/5.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/6.png",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/7.png"
+            ]
+        },
+        "m": {
+            "black": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/m/1.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/m/2.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/m/3.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/m/4.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/m/5.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/m/6.jpeg"
+            ],
+            "grey": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/m/1.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/m/2.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/m/3.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/m/4.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/m/5.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/m/6.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/grey/m/7.jpeg"
+            ],
+            "white": [
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/1.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/2.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/3.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/4.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/5.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/6.jpeg",
+                "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/7.jpeg"
+            ]
+        }
+    }
+}
