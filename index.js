@@ -5,6 +5,7 @@ const db = require('./config/database.js');
 const Phone = require('./routes/phone.js'); // Import the Phone router
 const Shoes = require('./routes/shoes.js'); // Import the Shoes router
 const Tshirt = require('./routes/tshirt.js'); // Import the Tshirt router
+const Tracksuit = require('./routes/tracksuit.js'); // Import the Tracksuit router
 
 dotenv.config();
 
@@ -19,7 +20,7 @@ app.use(express.urlencoded({ limit: '30mb', extended: true }));
 app.use('/phones', Phone); // Use the Phone router 
 app.use('/shoes', Shoes); // Use the Shoes router 
 app.use('/tshirt', Tshirt); // Use the Tshirt router 
-app.use('/tracksuit', Tshirt); // Use the Tracksuit router 
+app.use('/tracksuit', Tracksuit); // Use the Tracksuit router 
 
 // Default route
 app.get('/', (req, res) => {

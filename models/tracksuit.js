@@ -20,8 +20,8 @@ const TracksuitSchema = new mongoose.Schema({
     type: Array,
     required: true,
   },
-  size: {  // Adjusted property for tracksuits
-    type: String,
+  size: {  
+    type: Array,
     required: true,
   },
   price: {
