@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
+require("dotenv").config();
 
 const db = () => {
   mongoose
-    .connect("mongodb+srv://iismailcubuk:Miniwolf123.@cluster0.rjip1pa.mongodb.net/?retryWrites=true&w=majority", {
+    .connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
