@@ -6,6 +6,7 @@ const createTracksuit = async (req, res) => {
     const {
       title,
       description,
+      gender,
       brand,
       category,
       color,
@@ -17,6 +18,7 @@ const createTracksuit = async (req, res) => {
     const newTracksuit = await Tracksuit.create({
       title,
       description,
+      gender,
       brand,
       category,
       color,

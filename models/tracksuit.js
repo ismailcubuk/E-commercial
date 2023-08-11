@@ -9,6 +9,10 @@ const TracksuitSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  gender: {
+    type: String,
+    required: true,
+  },
   brand: {
     type: String,
     required: true,
@@ -20,7 +24,7 @@ const TracksuitSchema = new mongoose.Schema({
     type: Array,
     required: true,
   },
-  size: {  
+  size: {
     type: Array,
     required: true,
   },
