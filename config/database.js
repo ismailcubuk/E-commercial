@@ -10,7 +10,6 @@ const db = () => {
       console.log("mongoDB connnect");
     })
     .catch((err) => {
-    //   throw new Error(err.message);
       console.log(err);
     });
 };
