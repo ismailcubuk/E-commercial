@@ -1,13 +1,16 @@
 {
-    "title": "Apple Airpods",
-    "description": "Apple Airpods",
-    "brand": "Apple",
+    "title": "Samsung Galaxy Buds2",
+    "description": "Samsung Galaxy Buds2",
+    "brand": "Samsung",
     "category": "Headphones",
     "color": [
-        "standart"
+        "black",
+        "green",
+        "purple",
+        "white"
     ],
     "price": {
-        "quantity": 3.449,
+        "quantity": 1.899,
         "currency": "TRY"
     },
     "features": {
@@ -22,23 +25,91 @@
         {
             "s": [
                 {
-                    "variant": "standart",
+                    "variant": "black",
                     "images": [
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/s/1.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/s/2.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/s/3.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/s/4.png"
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/1.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/2.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/3.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/4.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/5.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/6.png"
+                    ]
+                },
+                {
+                    "variant": "green",
+                    "images": [
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/1.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/2.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/3.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/4.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/5.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/6.png"
+                    ]
+                },
+                {
+                    "variant": "purple",
+                    "images": [
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/1.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/2.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/3.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/4.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/5.png"
+                    ]
+                },
+                {
+                    "variant": "white",
+                    "images": [
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/1.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/2.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/3.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/4.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/5.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/6.png"
                     ]
                 }
             ],
             "m": [
                 {
-                    "variant": "standart",
+                    "variant": "black",
                     "images": [
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/m/1.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/m/2.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/m/3.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/m/4.jpeg"
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/1.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/2.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/3.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/4.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/5.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/6.jpeg"
+                    ]
+                },
+                {
+                    "variant": "green",
+                    "images": [
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/1.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/2.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/3.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/4.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/5.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/6.jpeg"
+                    ]
+                },
+                {
+                    "variant": "purple",
+                    "images": [
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/1.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/2.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/3.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/4.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/5.jpeg"
+                    ]
+                },
+                {
+                    "variant": "white",
+                    "images": [
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/1.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/2.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/3.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/4.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/5.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/6.jpeg"
                     ]
                 }
             ]

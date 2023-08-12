@@ -8,6 +8,7 @@ const Tshirt = require("./routes/tshirt.js"); // Import the Tshirt router
 const Tracksuit = require("./routes/tracksuit.js"); // Import the Tracksuit router
 const Headset = require("./routes/headset.js"); // Import the Headset router
 const Headphones = require("./routes/headphones.js"); // Import the Headphones router
+const Keyboard = require("./routes/keyboard.js"); // Import the Keyboard router
 
 dotenv.config();
 
@@ -25,6 +26,7 @@ app.use("/tshirt", Tshirt); // Use the Tshirt router
 app.use("/tracksuit", Tracksuit); // Use the Tracksuit router
 app.use("/headset", Headset); // Use the Headset router
 app.use("/headphones", Headphones); // Use the Headphones router
+app.use("/keyboard", Keyboard); // Use the Keyboard router
 
 // Default route
 app.get("/", (req, res) => {
