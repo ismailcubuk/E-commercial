@@ -1,21 +1,20 @@
 {
-    "title": "XİAOMİ POCO X4 GT 8GB/256GB",
-    "description": "XİAOMİ POCO X4 GT 8GB/256GB",
-    "brand": "XIAOMI",
-    "category": "Phone",
+    "title": "Steelseries Nova 7",
+    "description": "Steelseries Nova 7",
+    "brand": "Steelseries",
+    "category": "Headset",
     "color": [
-        "white",
-        "black"
+        "standart"
     ],
     "price": {
-        "quantity": 14.999,
+        "quantity": 1.729,
         "currency": "TRY"
     },
     "features": {
         "usage": "wireless",
-        "impedance (Ohm)": 39,
+        "impedance (Ohm)": 36,
         "connection": "USB 2.0",
-        "microphone": "YES",
+        "microphone": "yes",
         "warranty": 24,
         "origin": "China"
     },
@@ -23,41 +22,20 @@
         {
             "s": [
                 {
-                    "variant": "white",
+                    "variant": "standart",
                     "images": [
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/white/s/1.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/white/s/2.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/white/s/3.png"
-                    ]
-                },
-                {
-                    "variant": "black",
-                    "images": [
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/black/s/1.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/black/s/2.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/black/s/3.png"
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%207/s/1.png"
                     ]
                 }
             ],
             "m": [
                 {
-                    "variant": "white",
+                    "variant": "standart",
                     "images": [
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/white/m/1.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/white/m/2.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/white/m/3.jpeg"
-                    ]
-                },
-                {
-                    "variant": "black",
-                    "images": [
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/black/m/1.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/black/m/2.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/black/m/3.jpeg"
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%207/m/1.jpeg"
                     ]
                 }
             ]
         }
-    ],
-    "__v": 0
+    ]
 }
