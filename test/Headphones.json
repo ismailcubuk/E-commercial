@@ -1,0 +1,47 @@
+{
+    "title": "Apple Airpods",
+    "description": "Apple Airpods",
+    "brand": "Apple",
+    "category": "Headphones",
+    "color": [
+        "standart"
+    ],
+    "price": {
+        "quantity": 3.449,
+        "currency": "TRY"
+    },
+    "features": {
+        "usage": "wireless",
+        "WaterResistance": "yes",
+        "connection": "Bluetooth",
+        "microphone": "yes",
+        "warranty": 24,
+        "origin": "China"
+    },
+    "images": [
+        {
+            "s": [
+                {
+                    "variant": "standart",
+                    "images": [
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/s/1.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/s/2.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/s/3.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/s/4.png"
+                    ]
+                }
+            ],
+            "m": [
+                {
+                    "variant": "standart",
+                    "images": [
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/m/1.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/m/2.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/m/3.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/m/4.jpeg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

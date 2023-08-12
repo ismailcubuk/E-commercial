@@ -1,19 +1,19 @@
 {
-    "title": "Steelseries Nova 7",
-    "description": "Steelseries Nova 7",
+    "title": "Steelseries Nova Pro",
+    "description": "Steelseries Nova Pro",
     "brand": "Steelseries",
     "category": "Headset",
     "color": [
         "standart"
     ],
     "price": {
-        "quantity": 1.729,
+        "quantity": 12.399,
         "currency": "TRY"
     },
     "features": {
         "usage": "wireless",
         "impedance (Ohm)": 36,
-        "connection": "USB 2.0",
+        "connection": "Bluetooth 5.0",
         "microphone": "yes",
         "warranty": 24,
         "origin": "China"
@@ -24,7 +24,10 @@
                 {
                     "variant": "standart",
                     "images": [
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%207/s/1.png"
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/s/1.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/s/2.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/s/3.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/s/4.png"
                     ]
                 }
             ],
@@ -32,7 +35,10 @@
                 {
                     "variant": "standart",
                     "images": [
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%207/m/1.jpeg"
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/m/1.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/m/2.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/m/3.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/m/4.jpeg"
                     ]
                 }
             ]
