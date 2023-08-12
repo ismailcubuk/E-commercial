@@ -1,13 +1,13 @@
 {
-    "title": "Razer Blackwidow v4 Pro",
-    "description": "Razer Blackwidow v4 Pro",
-    "brand": "Razer",
+    "title": "Steelseries Apex 7",
+    "description": "Steelseries Apex 7",
+    "brand": "Steelseries",
     "category": "Keyboard",
     "color": [
         "standart"
     ],
     "price": {
-        "quantity": 6.690,
+        "quantity": 4.999,
         "currency": "TRY"
     },
     "features": {
@@ -24,11 +24,10 @@
                 {
                     "variant": "standart",
                     "images": [
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/s/1.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/s/2.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/s/3.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/s/4.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/s/5.png"
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/s/1.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/s/2.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/s/3.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/s/4.png"
                     ]
                 }
             ],
@@ -36,11 +35,10 @@
                 {
                     "variant": "standart",
                     "images": [
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/m/1.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/m/2.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/m/3.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/m/4.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/m/5.jpeg"
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/m/1.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/m/2.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/m/3.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/m/4.jpeg"
                     ]
                 }
             ]
