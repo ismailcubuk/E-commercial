@@ -34,4 +34,4 @@ const MouseSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("Mouse", MouseSchema);
+module.exports = mongoose.model("Mouse", MouseSchema, "mouse");
