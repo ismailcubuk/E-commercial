@@ -78,8 +78,8 @@ const searchMouse = async (req, res) => {
   const { search } = req.query;
   try {
     const title = new RegExp(search, "i");
-    const mice = await Mouse.find({ title });
-    res.status(200).json(mice);
+    const mouse = await Mouse.find({ title });
+    res.status(200).json(mouse);
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
