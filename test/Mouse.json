@@ -1,20 +1,20 @@
 {
-    "title": "Logitech G502",
-    "description": "Logitech G502 Hero",
-    "brand": "Logitech",
+    "title": "Steelseries Rival 5",
+    "description": "Steelseries Rival 5",
+    "brand": "Steelseries",
     "category": "Mouse",
     "color": [
         "standart"
     ],
     "price": {
-        "quantity": 2.509,
+        "quantity": 1.799,
         "currency": "TRY"
     },
     "features": {
-        "DPI": 25.600,
+        "DPI": "18.000",
         "ResponseTime": 1,
         "variant": "Gaming",
-        "connection": "USB 2.0",
+        "connection": "USB",
         "warranty": 24,
         "origin": "China"
     },
@@ -24,10 +24,11 @@
                 {
                     "variant": "standart",
                     "images": [
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/s/1.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/s/2.png",       
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/s/3.png",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/s/4.png"
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/1.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/2.png",    
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/3.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/4.png",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/5.png"
                     ]
                 }
             ],
@@ -35,10 +36,11 @@
                 {
                     "variant": "standart",
                     "images": [
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/m/1.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/m/2.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/m/3.jpeg",
-                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/m/4.jpeg"
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/1.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/2.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/3.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/4.jpeg",
+                        "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/5.jpeg"
                     ]
                 }
             ]
