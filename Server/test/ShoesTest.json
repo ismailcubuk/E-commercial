@@ -1,0 +1,42 @@
+{
+    "title": "Vogue Slipstream",
+    "description": "Vogue Slipstream Woman Shoes",
+    "gender": "woman",
+    "brand": "puma",
+    "category": "shoes",
+    "size": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+    ],
+    "color": [
+        "white"
+    ],
+    "price": {
+        "quantity": 2.600,
+        "currency": "TRY"
+    },
+    "images": {
+        "s": {
+            "white": [
+                "https://umiterit.sirv.com/Product/images/man%20shoes/adidas/lite%20racer/black/m/1.jpeg?w=300&h=300",
+                "https://umiterit.sirv.com/Product/images/man%20shoes/adidas/lite%20racer/black/m/1.jpeg?w=300&h=300",
+                "https://umiterit.sirv.com/Product/images/man%20shoes/adidas/lite%20racer/black/m/1.jpeg?w=300&h=300",
+                "https://umiterit.sirv.com/Product/images/man%20shoes/adidas/lite%20racer/black/m/1.jpeg?w=300&h=300",
+                "https://umiterit.sirv.com/Product/images/man%20shoes/adidas/lite%20racer/black/m/1.jpeg?w=300&h=300"
+            ]
+        },
+        "m": {
+            "white": [
+                "https://umiterit.sirv.com/Product/images/man%20shoes/adidas/lite%20racer/black/m/1.jpeg",
+                "https://umiterit.sirv.com/Product/images/man%20shoes/adidas/lite%20racer/black/m/1.jpeg",
+                "https://umiterit.sirv.com/Product/images/man%20shoes/adidas/lite%20racer/black/m/1.jpeg",
+                "https://umiterit.sirv.com/Product/images/man%20shoes/adidas/lite%20racer/black/m/1.jpeg",
+                "https://umiterit.sirv.com/Product/images/man%20shoes/adidas/lite%20racer/black/m/1.jpeg"
+            ]
+        }
+    }
+}
