@@ -1,0 +1,40 @@
+{
+    "title": "Apple Airpods",
+    "description": "Apple Airpods",
+    "brand": "Apple",
+    "category": "Headphones",
+    "color": [
+        "standart"
+    ],
+    "price": {
+        "quantity": 3.449,
+        "currency": "TRY"
+    },
+    "features": {
+        "usage": "wireless",
+        "WaterResistance": "yes",
+        "connection": "Bluetooth",
+        "microphone": "yes",
+        "warranty": 24,
+        "origin": "China"
+    },
+    "images": [
+        {
+            "variant": "standart",
+            "sizes": {
+                "s": [
+                    "https://umiterit.sirv.com/images/headphones/apple/airpods/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/apple/airpods/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/apple/airpods/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/apple/airpods/4.jpeg?w=300&h=300&format=png"
+                ],
+                "m": [
+                    "https://umiterit.sirv.com/images/headphones/apple/airpods/1.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/apple/airpods/2.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/apple/airpods/3.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/apple/airpods/4.jpeg"
+                ]
+            }
+        }
+    ]
+}

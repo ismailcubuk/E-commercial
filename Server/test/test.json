@@ -1,0 +1,461 @@
+[
+    {
+        "_id": {
+            "$oid": "64d716065c79fea5da7fc4aa"
+        },
+        "title": "Apple Airpods",
+        "description": "Apple Airpods",
+        "brand": "Apple",
+        "category": "Headphones",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 3.449,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wireless",
+            "WaterResistance": "yes",
+            "connection": "Bluetooth",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/s/4.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods/m/4.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d71775dbf65bf5349c05e7"
+        },
+        "title": "Apple Airpods Max",
+        "description": "Apple Airpods Max",
+        "brand": "Apple",
+        "category": "Headphones",
+        "color": [
+            "black",
+            "blue",
+            "green",
+            "pink",
+            "white"
+        ],
+        "price": {
+            "quantity": 20.499,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wireless",
+            "WaterResistance": "yes",
+            "connection": "Bluetooth",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "black",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/black/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/black/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/black/s/3.png"
+                        ]
+                    },
+                    {
+                        "variant": "blue",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/blue/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/blue/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/blue/s/3.png"
+                        ]
+                    },
+                    {
+                        "variant": "green",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/green/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/green/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/green/s/3.png"
+                        ]
+                    },
+                    {
+                        "variant": "pink",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/pink/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/pink/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/pink/s/3.png"
+                        ]
+                    },
+                    {
+                        "variant": "white",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/white/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/white/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/white/s/3.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "black",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/black/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/black/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/black/m/3.jpeg"
+                        ]
+                    },
+                    {
+                        "variant": "blue",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/blue/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/blue/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/blue/m/3.jpeg"
+                        ]
+                    },
+                    {
+                        "variant": "green",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/green/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/green/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/green/m/3.jpeg"
+                        ]
+                    },
+                    {
+                        "variant": "pink",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/pink/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/pink/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/pink/m/3.jpeg"
+                        ]
+                    },
+                    {
+                        "variant": "white",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/white/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/white/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/airpods%20max/white/m/3.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d71853c3ab92fc8aa6d31f"
+        },
+        "title": "Apple Lightning",
+        "description": "Apple Lightning",
+        "brand": "Apple",
+        "category": "Headphones",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 609,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wired",
+            "WaterResistance": "yes",
+            "connection": "Lightning",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/lightning/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/lightning/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/lightning/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/lightning/s/4.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/lightning/s/5.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/lightning/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/lightning/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/lightning/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/lightning/m/4.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/apple/lightning/m/5.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d7192b76f4f9944020dbaf"
+        },
+        "title": "Samsung C&T BE7",
+        "description": "Samsung C&T BE7",
+        "brand": "Samsung",
+        "category": "Headphones",
+        "color": [
+            "blue",
+            "red"
+        ],
+        "price": {
+            "quantity": 406,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wireless",
+            "WaterResistance": "yes",
+            "connection": "Bluetooth",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "blue",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/be7/blue/s/1.png"
+                        ]
+                    },
+                    {
+                        "variant": "red",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/be7/red/s/1.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "blue",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/be7/blue/m/1.jpeg"
+                        ]
+                    },
+                    {
+                        "variant": "red",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/be7/red/m/1.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d71a8249ffd8a53c11120a"
+        },
+        "title": "Samsung C&T",
+        "description": "Samsung C&T",
+        "brand": "Samsung",
+        "category": "Headphones",
+        "color": [
+            "black",
+            "blue"
+        ],
+        "price": {
+            "quantity": 507,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wireless",
+            "WaterResistance": "yes",
+            "connection": "Bluetooth",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "black",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/c%26t/black/s/1.png"
+                        ]
+                    },
+                    {
+                        "variant": "blue",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/c%26t/blue/s/1.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "black",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/c%26t/black/m/1.jpeg"
+                        ]
+                    },
+                    {
+                        "variant": "blue",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/c%26t/blue/m/1.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d71b6f1a88bfa20eb1a3b6"
+        },
+        "title": "Samsung Galaxy Buds2",
+        "description": "Samsung Galaxy Buds2",
+        "brand": "Samsung",
+        "category": "Headphones",
+        "color": [
+            "black",
+            "green",
+            "purple",
+            "white"
+        ],
+        "price": {
+            "quantity": 1.899,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wireless",
+            "WaterResistance": "yes",
+            "connection": "Bluetooth",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "black",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/4.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/5.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/6.png"
+                        ]
+                    },
+                    {
+                        "variant": "green",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/4.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/5.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/6.png"
+                        ]
+                    },
+                    {
+                        "variant": "purple",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/4.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/5.png"
+                        ]
+                    },
+                    {
+                        "variant": "white",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/4.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/5.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/6.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "black",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/4.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/5.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/6.jpeg"
+                        ]
+                    },
+                    {
+                        "variant": "green",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/4.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/5.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/6.jpeg"
+                        ]
+                    },
+                    {
+                        "variant": "purple",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/4.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/5.jpeg"
+                        ]
+                    },
+                    {
+                        "variant": "white",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/4.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/5.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/6.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    }
+]
