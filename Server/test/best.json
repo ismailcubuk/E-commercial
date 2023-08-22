@@ -1,0 +1,26 @@
+{
+    "title": "Sample Product",
+    "description": "This is a sample product",
+    "brand": "Sample Brand",
+    "category": "Sample Category",
+    "color": ["red", "blue"],
+    "price": {
+      "quantity": 99.99,
+      "currency": "USD"
+    },
+    "features": {
+      "feature1": "value1",
+      "feature2": "value2"
+    },
+    "images": [
+      {
+        "variant": "black",
+        "sizes": {
+          "s": ["https://path/to/image1.jpg", "https://path/to/image2.jpg", "https://path/to/image3.jpg"],
+          "m": ["https://path/to/image1.jpeg", "https://path/to/image2.jpeg", "https://path/to/image3.jpeg"]
+        }
+      },
+      // ... other image variants
+    ]
+  }
+  
