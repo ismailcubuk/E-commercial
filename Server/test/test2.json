@@ -1,13 +1,16 @@
 {
-    "title": "Apple Airpods",
-    "description": "Apple Airpods",
-    "brand": "Apple",
+    "title": "Samsung Galaxy Buds2",
+    "description": "Samsung Galaxy Buds2",
+    "brand": "Samsung",
     "category": "Headphones",
     "color": [
-        "standart"
+        "black",
+        "green",
+        "purple",
+        "white"
     ],
     "price": {
-        "quantity": 3.449,
+        "quantity": 1.899,
         "currency": "TRY"
     },
     "features": {
@@ -20,19 +23,88 @@
     },
     "images": [
         {
-            "variant": "standart",
+            "variant": "black",
             "sizes": {
                 "s": [
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods/1.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods/2.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods/3.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods/4.jpeg?w=300&h=300&format=png"
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/black/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/black/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/black/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/black/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/black/5.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/black/6.jpeg?w=300&h=300&format=png"
                 ],
                 "m": [
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods/1.jpeg",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods/2.jpeg",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods/3.jpeg",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods/4.jpeg"
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/black/1.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/black/2.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/black/3.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/black/4.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/black/5.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/black/6.jpeg"
+                    
+                ]
+            }
+        },
+        {
+            "variant": "green",
+            "sizes": {
+                "s": [
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/green/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/green/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/green/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/green/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/green/5.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/green/6.jpeg?w=300&h=300&format=png"
+                ],
+                "m": [
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/green/1.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/green/2.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/green/3.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/green/4.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/green/5.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/green/6.jpeg"
+                    
+                ]
+            }
+        },
+        {
+            "variant": "purple",
+            "sizes": {
+                "s": [
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/purple/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/purple/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/purple/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/purple/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/purple/5.jpeg?w=300&h=300&format=png"
+                ],
+                "m": [
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/purple/1.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/purple/2.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/purple/3.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/purple/4.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/purple/5.jpeg"
+                    
+                ]
+            }
+        },
+        {
+            "variant": "white",
+            "sizes": {
+                "s": [
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/white/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/white/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/white/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/white/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/white/5.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/white/6.jpeg?w=300&h=300&format=png"
+                ],
+                "m": [
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/white/1.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/white/2.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/white/3.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/white/4.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/white/5.jpeg",
+                    "https://umiterit.sirv.com/images/headphones/samsung/galaxy%20buds%202/white/6.jpeg"
+                    
                 ]
             }
         }
