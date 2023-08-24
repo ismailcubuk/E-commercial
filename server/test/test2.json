@@ -1,20 +1,20 @@
 {
-    "title": "Steelseries Nova Pro",
-    "description": "Steelseries Nova Pro",
+    "title": "Steelseries Apex Pro",
+    "description": "Steelseries Apex Pro",
     "brand": "Steelseries",
-    "category": "Headset",
+    "category": "Keyboard",
     "color": [
         "standart"
     ],
     "price": {
-        "quantity": 12.399,
+        "quantity": 6.058,
         "currency": "TRY"
     },
     "features": {
-        "usage": "wireless",
-        "impedance (Ohm)": 36,
-        "connection": "Bluetooth 5.0",
-        "microphone": "yes",
+        "led": "RGB",
+        "variant": "Gaming",
+        "connection": "USB 2.0",
+        "language": "TR",
         "warranty": 24,
         "origin": "China"
     },
@@ -23,16 +23,20 @@
             "variant": "standart",
             "sizes": {
                 "s": [
-                    "https://umiterit.sirv.com/images/headset/steelseries/nova%20pro/1.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/headset/steelseries/nova%20pro/2.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/headset/steelseries/nova%20pro/3.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/headset/steelseries/nova%20pro/4.jpeg?w=300&h=300&format=png"
+                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/5.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/6.jpeg?w=300&h=300&format=png"
                 ],
                 "m": [
-                    "https://umiterit.sirv.com/images/headset/steelseries/nova%20pro/1.jpeg",
-                    "https://umiterit.sirv.com/images/headset/steelseries/nova%20pro/2.jpeg",
-                    "https://umiterit.sirv.com/images/headset/steelseries/nova%20pro/3.jpeg",
-                    "https://umiterit.sirv.com/images/headset/steelseries/nova%20pro/4.jpeg"
+                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/1.jpeg",
+                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/2.jpeg",
+                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/3.jpeg",
+                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/4.jpeg",
+                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/5.jpeg",
+                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/6.jpeg"
                 ]
             }
         }
