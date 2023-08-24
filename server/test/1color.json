@@ -39,51 +39,6 @@
             }
         },
         {
-            "variant": "blue",
-            "sizes": {
-                "s": [
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/blue/1.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/blue/2.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/blue/3.jpeg?w=300&h=300&format=png"
-                ],
-                "m": [
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/blue/1.jpeg",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/blue/2.jpeg",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/blue/3.jpeg"
-                ]
-            }
-        },
-        {
-            "variant": "green",
-            "sizes": {
-                "s": [
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/green/1.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/green/2.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/green/3.jpeg?w=300&h=300&format=png"
-                ],
-                "m": [
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/green/1.jpeg",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/green/2.jpeg",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/green/3.jpeg"
-                ]
-            }
-        },
-        {
-            "variant": "pink",
-            "sizes": {
-                "s": [
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/pink/1.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/pink/2.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/pink/3.jpeg?w=300&h=300&format=png"
-                ],
-                "m": [
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/pink/1.jpeg",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/pink/2.jpeg",
-                    "https://umiterit.sirv.com/images/headphones/apple/airpods%20max/pink/3.jpeg"
-                ]
-            }
-        },
-        {
             "variant": "white",
             "sizes": {
                 "s": [

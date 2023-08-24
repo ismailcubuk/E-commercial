@@ -1,22 +1,23 @@
+[
     {
-        "title": "Samsung Galaxy Buds2",
-        "description": "Samsung Galaxy Buds2",
-        "brand": "Samsung",
-        "category": "Headphones",
+        "_id": {
+            "$oid": "64d70a18f49df57b0debd519"
+        },
+        "title": "Logitech G432",
+        "description": "Logitech G432",
+        "brand": "Logitech",
+        "category": "Headset",
         "color": [
-            "black",
-            "green",
-            "purple",
-            "white"
+            "standart"
         ],
         "price": {
-            "quantity": 1.899,
+            "quantity": 1.989,
             "currency": "TRY"
         },
         "features": {
-            "usage": "wireless",
-            "WaterResistance": "yes",
-            "connection": "Bluetooth",
+            "usage": "wired",
+            "impedance (Ohm)": 39,
+            "connection": "3.5mm Jack",
             "microphone": "yes",
             "warranty": 24,
             "origin": "China"
@@ -25,91 +26,411 @@
             {
                 "s": [
                     {
-                        "variant": "black",
+                        "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/1.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/2.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/3.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/4.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/5.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/s/6.png"
-                        ]
-                    },
-                    {
-                        "variant": "green",
-                        "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/1.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/2.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/3.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/4.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/5.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/s/6.png"
-                        ]
-                    },
-                    {
-                        "variant": "purple",
-                        "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/1.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/2.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/3.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/4.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/s/5.png"
-                        ]
-                    },
-                    {
-                        "variant": "white",
-                        "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/1.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/2.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/3.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/4.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/5.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/s/6.png"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/s/4.png"
                         ]
                     }
                 ],
                 "m": [
                     {
-                        "variant": "black",
+                        "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/1.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/2.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/3.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/4.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/5.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/black/m/6.jpeg"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/m/4.jpeg"
                         ]
-                    },
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d70a9ff49df57b0debd51c"
+        },
+        "title": "Logitech G733",
+        "description": "Logitech G733",
+        "brand": "Logitech",
+        "category": "Headset",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 4.519,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wireless",
+            "impedance (Ohm)": 39,
+            "connection": "USB 2.0",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
                     {
-                        "variant": "green",
+                        "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/1.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/2.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/3.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/4.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/5.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/green/m/6.jpeg"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g733/s/1.png"
                         ]
-                    },
+                    }
+                ],
+                "m": [
                     {
-                        "variant": "purple",
+                        "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/1.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/2.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/3.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/4.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/purple/m/5.jpeg"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g733/m/1.jpeg"
                         ]
-                    },
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d70c0ac555fd6f33625318"
+        },
+        "title": "Logitech Pro",
+        "description": "Logitech Pro",
+        "brand": "Logitech",
+        "category": "Headset",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 3.297,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wired",
+            "impedance (Ohm)": 35,
+            "connection": "3.5mm Jack",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
                     {
-                        "variant": "white",
+                        "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/1.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/2.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/3.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/4.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/5.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headphones/samsung/galaxy%20buds%202/white/m/6.jpeg"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/pro/s/1.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/pro/m/1.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d70fa1ecbb1d32dd3764e4"
+        },
+        "title": "Razer Blackshark V2",
+        "description": "Razer Blackshark V2",
+        "brand": "Razer",
+        "category": "Headset",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 5.299,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wired",
+            "impedance (Ohm)": 32,
+            "connection": "3.5mm Jack",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/blackshark/s/1.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/blackshark/m/1.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d7101aecbb1d32dd3764e7"
+        },
+        "title": "Razer Kaira Pro",
+        "description": "Razer Kaira Pro",
+        "brand": "Razer",
+        "category": "Headset",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 5.819,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wireless",
+            "impedance (Ohm)": 32,
+            "connection": "USB 2.0",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/s/4.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/s/5.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/m/4.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/m/5.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d710a34d53c348c470bcbc"
+        },
+        "title": "Razer Kraken",
+        "description": "Razer Kraken",
+        "brand": "Razer",
+        "category": "Headset",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 3.299,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wired",
+            "impedance (Ohm)": 32,
+            "connection": "USB 2.0",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/s/4.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/s/5.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/m/4.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/m/5.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d711700d7738503f2163a7"
+        },
+        "title": "Steelseries Nova 1",
+        "description": "Steelseries Nova 1",
+        "brand": "Steelseries",
+        "category": "Headset",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 1.729,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wired",
+            "impedance (Ohm)": 36,
+            "connection": "3.5mm Jack",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/s/4.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/m/4.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d711bb48c6248f7012d9ae"
+        },
+        "title": "Steelseries Nova 7",
+        "description": "Steelseries Nova 7",
+        "brand": "Steelseries",
+        "category": "Headset",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 4.899,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wireless",
+            "impedance (Ohm)": 36,
+            "connection": "USB 2.0",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%207/s/1.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%207/m/1.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d712a99e78904d646fef7f"
+        },
+        "title": "Steelseries Nova Pro",
+        "description": "Steelseries Nova Pro",
+        "brand": "Steelseries",
+        "category": "Headset",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 12.399,
+            "currency": "TRY"
+        },
+        "features": {
+            "usage": "wireless",
+            "impedance (Ohm)": 36,
+            "connection": "Bluetooth 5.0",
+            "microphone": "yes",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/s/4.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/m/4.jpeg"
                         ]
                     }
                 ]
