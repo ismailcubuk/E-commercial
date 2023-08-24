@@ -1,20 +1,20 @@
 {
-    "title": "Steelseries Apex Pro",
-    "description": "Steelseries Apex Pro",
+    "title": "Steelseries Rival 5",
+    "description": "Steelseries Rival 5",
     "brand": "Steelseries",
-    "category": "Keyboard",
+    "category": "Mouse",
     "color": [
         "standart"
     ],
     "price": {
-        "quantity": 6.058,
+        "quantity": 1.799,
         "currency": "TRY"
     },
     "features": {
-        "led": "RGB",
+        "DPI": "18.000",
+        "ResponseTime": 1,
         "variant": "Gaming",
-        "connection": "USB 2.0",
-        "language": "TR",
+        "connection": "USB",
         "warranty": 24,
         "origin": "China"
     },
@@ -23,20 +23,18 @@
             "variant": "standart",
             "sizes": {
                 "s": [
-                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/1.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/2.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/3.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/4.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/5.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/6.jpeg?w=300&h=300&format=png"
+                    "https://umiterit.sirv.com/images/mouse/steelseries/rival%205/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/mouse/steelseries/rival%205/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/mouse/steelseries/rival%205/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/mouse/steelseries/rival%205/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/mouse/steelseries/rival%205/5.jpeg?w=300&h=300&format=png"
                 ],
                 "m": [
-                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/1.jpeg",
-                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/2.jpeg",
-                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/3.jpeg",
-                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/4.jpeg",
-                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/5.jpeg",
-                    "https://umiterit.sirv.com/images/keyboard/steelseries/apex%20pro/6.jpeg"
+                    "https://umiterit.sirv.com/images/mouse/steelseries/rival%205/1.jpeg",
+                    "https://umiterit.sirv.com/images/mouse/steelseries/rival%205/2.jpeg",
+                    "https://umiterit.sirv.com/images/mouse/steelseries/rival%205/3.jpeg",
+                    "https://umiterit.sirv.com/images/mouse/steelseries/rival%205/4.jpeg",
+                    "https://umiterit.sirv.com/images/mouse/steelseries/rival%205/5.jpeg"
                 ]
             }
         }
