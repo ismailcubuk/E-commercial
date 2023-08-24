@@ -1,470 +1,472 @@
-[{
-    "_id": {
-      "$oid": "64d9b6164f0652970ff0ab2e"
-    },
-    "title": "Logitech G502",
-    "description": "Logitech G502 Hero",
-    "brand": "Logitech",
-    "category": "Mouse",
-    "color": [
-      "standart"
-    ],
-    "price": {
-      "quantity": 2.509,
-      "currency": "TRY"
-    },
-    "features": {
-      "DPI": "25.600",
-      "ResponseTime": 1,
-      "variant": "Gaming",
-      "connection": "USB",
-      "warranty": 24,
-      "origin": "China"
-    },
-    "images": [
-      {
-        "s": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/s/1.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/s/2.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/s/3.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/s/4.png"
-            ]
-          }
+[
+    {
+        "_id": {
+            "$oid": "64d9b6164f0652970ff0ab2e"
+        },
+        "title": "Logitech G502",
+        "description": "Logitech G502 Hero",
+        "brand": "Logitech",
+        "category": "Mouse",
+        "color": [
+            "standart"
         ],
-        "m": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/m/1.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/m/2.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/m/3.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/m/4.jpeg"
-            ]
-          }
-        ]
-      }
-    ],
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "64d9b6ca1db5c683e6b55fe8"
-    },
-    "title": "Logitech G903",
-    "description": "Logitech G903 Lightspeed Wireless",
-    "brand": "Logitech",
-    "category": "Mouse",
-    "color": [
-      "standart"
-    ],
-    "price": {
-      "quantity": 4.213,
-      "currency": "TRY"
-    },
-    "features": {
-      "DPI": "25.600",
-      "ResponseTime": 1,
-      "variant": "Gaming",
-      "connection": "Wireless",
-      "warranty": 24,
-      "origin": "China"
-    },
-    "images": [
-      {
-        "s": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/s/1.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/s/2.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/s/3.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/s/4.png"
-            ]
-          }
+        "price": {
+            "quantity": 2.509,
+            "currency": "TRY"
+        },
+        "features": {
+            "DPI": "25.600",
+            "ResponseTime": 1,
+            "variant": "Gaming",
+            "connection": "USB",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/s/4.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g502/m/4.jpeg"
+                        ]
+                    }
+                ]
+            }
         ],
-        "m": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/m/1.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/m/2.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/m/3.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/m/4.jpeg"
-            ]
-          }
-        ]
-      }
-    ],
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "64d9b7cfb64191baeb171afb"
+        "__v": 0
     },
-    "title": "Logitech Pro",
-    "description": "Logitech Pro Wireless",
-    "brand": "Logitech",
-    "category": "Mouse",
-    "color": [
-      "black",
-      "white"
-    ],
-    "price": {
-      "quantity": 4.749,
-      "currency": "TRY"
-    },
-    "features": {
-      "DPI": "25.600",
-      "ResponseTime": 1,
-      "variant": "Gaming",
-      "connection": "Wireless",
-      "warranty": 24,
-      "origin": "China"
-    },
-    "images": [
-      {
-        "s": [
-          {
-            "variant": "black",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/black/s/1.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/black/s/2.png"
-            ]
-          },
-          {
-            "variant": "white",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/white/s/1.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/white/s/2.png"
-            ]
-          }
+    {
+        "_id": {
+            "$oid": "64d9b6ca1db5c683e6b55fe8"
+        },
+        "title": "Logitech G903",
+        "description": "Logitech G903 Lightspeed Wireless",
+        "brand": "Logitech",
+        "category": "Mouse",
+        "color": [
+            "standart"
         ],
-        "m": [
-          {
-            "variant": "black",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/black/m/1.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/black/m/2.jpeg"
-            ]
-          },
-          {
-            "variant": "white",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/white/m/1.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/white/m/2.jpeg"
-            ]
-          }
-        ]
-      }
-    ],
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "64d9b89e1cdd295201081de5"
-    },
-    "title": "Razer Basilisk V3 Pro",
-    "description": "Razer Basilisk V3 Pro Wireless",
-    "brand": "Razer",
-    "category": "Mouse",
-    "color": [
-      "standart"
-    ],
-    "price": {
-      "quantity": 3.619,
-      "currency": "TRY"
-    },
-    "features": {
-      "DPI": "30.000",
-      "ResponseTime": 1,
-      "variant": "Gaming",
-      "connection": "Wireless",
-      "warranty": 24,
-      "origin": "China"
-    },
-    "images": [
-      {
-        "s": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/basilisk/s/1.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/basilisk/s/2.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/basilisk/s/3.png"
-            ]
-          }
+        "price": {
+            "quantity": 4.213,
+            "currency": "TRY"
+        },
+        "features": {
+            "DPI": "25.600",
+            "ResponseTime": 1,
+            "variant": "Gaming",
+            "connection": "Wireless",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/s/4.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/g903%20lightspeed/m/4.jpeg"
+                        ]
+                    }
+                ]
+            }
         ],
-        "m": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/basilisk/m/1.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/basilisk/m/2.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/basilisk/m/3.jpeg"
-            ]
-          }
-        ]
-      }
-    ],
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "64d9b917a9291d9bbfa417e6"
+        "__v": 0
     },
-    "title": "Razer Deathadder V3 Pro",
-    "description": "Razer Deathadder V3 Pro Wireless",
-    "brand": "Razer",
-    "category": "Mouse",
-    "color": [
-      "standart"
-    ],
-    "price": {
-      "quantity": 3.346,
-      "currency": "TRY"
-    },
-    "features": {
-      "DPI": "30.000",
-      "ResponseTime": 1,
-      "variant": "Gaming",
-      "connection": "Wireless",
-      "warranty": 24,
-      "origin": "China"
-    },
-    "images": [
-      {
-        "s": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/s/1.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/s/2.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/s/3.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/s/4.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/s/5.png"
-            ]
-          }
+    {
+        "_id": {
+            "$oid": "64d9b7cfb64191baeb171afb"
+        },
+        "title": "Logitech Pro",
+        "description": "Logitech Pro Wireless",
+        "brand": "Logitech",
+        "category": "Mouse",
+        "color": [
+            "black",
+            "white"
         ],
-        "m": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/m/1.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/m/2.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/m/3.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/m/4.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/m/5.jpeg"
-            ]
-          }
-        ]
-      }
-    ],
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "64d9b9823b59388faa33ca81"
-    },
-    "title": "Razer Naga Trinity",
-    "description": "Razer Naga Trinity",
-    "brand": "Razer",
-    "category": "Mouse",
-    "color": [
-      "standart"
-    ],
-    "price": {
-      "quantity": 1.789,
-      "currency": "TRY"
-    },
-    "features": {
-      "DPI": "16.000",
-      "ResponseTime": 1,
-      "variant": "Gaming",
-      "connection": "USB",
-      "warranty": 24,
-      "origin": "China"
-    },
-    "images": [
-      {
-        "s": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/naga/s/1.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/naga/s/2.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/naga/s/3.png"
-            ]
-          }
+        "price": {
+            "quantity": 4.749,
+            "currency": "TRY"
+        },
+        "features": {
+            "DPI": "25.600",
+            "ResponseTime": 1,
+            "variant": "Gaming",
+            "connection": "Wireless",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "black",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/black/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/black/s/2.png"
+                        ]
+                    },
+                    {
+                        "variant": "white",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/white/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/white/s/2.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "black",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/black/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/black/m/2.jpeg"
+                        ]
+                    },
+                    {
+                        "variant": "white",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/white/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/logitech/pro/white/m/2.jpeg"
+                        ]
+                    }
+                ]
+            }
         ],
-        "m": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/naga/m/1.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/naga/m/2.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/naga/m/3.jpeg"
-            ]
-          }
-        ]
-      }
-    ],
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "64d9ba56d63b53bfc37e9202"
+        "__v": 0
     },
-    "title": "Steelseries Aerox 5",
-    "description": "Steelseries Aerox 5 Destiny 2 Limited Edition Wireless",
-    "brand": "Steelseries",
-    "category": "Mouse",
-    "color": [
-      "standart"
-    ],
-    "price": {
-      "quantity": 3.762,
-      "currency": "TRY"
-    },
-    "features": {
-      "DPI": "18.000",
-      "ResponseTime": 1,
-      "variant": "Gaming",
-      "connection": "Wireless",
-      "warranty": 24,
-      "origin": "China"
-    },
-    "images": [
-      {
-        "s": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/aerox%205/s/1.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/aerox%205/s/2.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/aerox%205/s/3.png"
-            ]
-          }
+    {
+        "_id": {
+            "$oid": "64d9b89e1cdd295201081de5"
+        },
+        "title": "Razer Basilisk V3 Pro",
+        "description": "Razer Basilisk V3 Pro Wireless",
+        "brand": "Razer",
+        "category": "Mouse",
+        "color": [
+            "standart"
         ],
-        "m": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/aerox%205/m/1.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/aerox%205/m/2.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/aerox%205/m/3.jpeg"
-            ]
-          }
-        ]
-      }
-    ],
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "64d9bd8b0338cbcef4ee924d"
-    },
-    "title": "Steelseries Rival 3",
-    "description": "Steelseries Rival 3",
-    "brand": "Steelseries",
-    "category": "Mouse",
-    "color": [
-      "standart"
-    ],
-    "price": {
-      "quantity": 769,
-      "currency": "TRY"
-    },
-    "features": {
-      "DPI": "8.500",
-      "ResponseTime": 1,
-      "variant": "Gaming",
-      "connection": "USB",
-      "warranty": 24,
-      "origin": "China"
-    },
-    "images": [
-      {
-        "s": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/s/1.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/s/2.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/s/3.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/s/4.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/s/5.png"
-            ]
-          }
+        "price": {
+            "quantity": 3.619,
+            "currency": "TRY"
+        },
+        "features": {
+            "DPI": "30.000",
+            "ResponseTime": 1,
+            "variant": "Gaming",
+            "connection": "Wireless",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/basilisk/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/basilisk/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/basilisk/s/3.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/basilisk/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/basilisk/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/basilisk/m/3.jpeg"
+                        ]
+                    }
+                ]
+            }
         ],
-        "m": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/m/1.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/m/2.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/m/3.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/m/4.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/m/5.jpeg"
-            ]
-          }
-        ]
-      }
-    ],
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "64d9be80bafc33342b78c958"
+        "__v": 0
     },
-    "title": "Steelseries Rival 5",
-    "description": "Steelseries Rival 5",
-    "brand": "Steelseries",
-    "category": "Mouse",
-    "color": [
-      "standart"
-    ],
-    "price": {
-      "quantity": 1.799,
-      "currency": "TRY"
-    },
-    "features": {
-      "DPI": "18.000",
-      "ResponseTime": 1,
-      "variant": "Gaming",
-      "connection": "USB",
-      "warranty": 24,
-      "origin": "China"
-    },
-    "images": [
-      {
-        "s": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/1.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/2.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/3.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/4.png",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/5.png"
-            ]
-          }
+    {
+        "_id": {
+            "$oid": "64d9b917a9291d9bbfa417e6"
+        },
+        "title": "Razer Deathadder V3 Pro",
+        "description": "Razer Deathadder V3 Pro Wireless",
+        "brand": "Razer",
+        "category": "Mouse",
+        "color": [
+            "standart"
         ],
-        "m": [
-          {
-            "variant": "standart",
-            "images": [
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/1.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/2.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/3.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/4.jpeg",
-              "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/5.jpeg"
-            ]
-          }
-        ]
-      }
-    ],
-    "__v": 0
-  }]
+        "price": {
+            "quantity": 3.346,
+            "currency": "TRY"
+        },
+        "features": {
+            "DPI": "30.000",
+            "ResponseTime": 1,
+            "variant": "Gaming",
+            "connection": "Wireless",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/s/4.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/s/5.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/m/4.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/deathadder/m/5.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d9b9823b59388faa33ca81"
+        },
+        "title": "Razer Naga Trinity",
+        "description": "Razer Naga Trinity",
+        "brand": "Razer",
+        "category": "Mouse",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 1.789,
+            "currency": "TRY"
+        },
+        "features": {
+            "DPI": "16.000",
+            "ResponseTime": 1,
+            "variant": "Gaming",
+            "connection": "USB",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/naga/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/naga/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/naga/s/3.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/naga/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/naga/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/razer/naga/m/3.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d9ba56d63b53bfc37e9202"
+        },
+        "title": "Steelseries Aerox 5",
+        "description": "Steelseries Aerox 5 Destiny 2 Limited Edition Wireless",
+        "brand": "Steelseries",
+        "category": "Mouse",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 3.762,
+            "currency": "TRY"
+        },
+        "features": {
+            "DPI": "18.000",
+            "ResponseTime": 1,
+            "variant": "Gaming",
+            "connection": "Wireless",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/aerox%205/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/aerox%205/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/aerox%205/s/3.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/aerox%205/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/aerox%205/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/aerox%205/m/3.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d9bd8b0338cbcef4ee924d"
+        },
+        "title": "Steelseries Rival 3",
+        "description": "Steelseries Rival 3",
+        "brand": "Steelseries",
+        "category": "Mouse",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 769,
+            "currency": "TRY"
+        },
+        "features": {
+            "DPI": "8.500",
+            "ResponseTime": 1,
+            "variant": "Gaming",
+            "connection": "USB",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/s/4.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/s/5.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/m/4.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%203/m/5.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d9be80bafc33342b78c958"
+        },
+        "title": "Steelseries Rival 5",
+        "description": "Steelseries Rival 5",
+        "brand": "Steelseries",
+        "category": "Mouse",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 1.799,
+            "currency": "TRY"
+        },
+        "features": {
+            "DPI": "18.000",
+            "ResponseTime": 1,
+            "variant": "Gaming",
+            "connection": "USB",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/4.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/s/5.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/4.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/mouse/steelseries/rival%205/m/5.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    }
+]
