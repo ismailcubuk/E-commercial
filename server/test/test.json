@@ -1,24 +1,24 @@
 [
     {
         "_id": {
-            "$oid": "64d70a18f49df57b0debd519"
+            "$oid": "64d71db1e85c7a5a064efd9e"
         },
-        "title": "Logitech G432",
-        "description": "Logitech G432",
+        "title": "Logitech G213 Prodigy",
+        "description": "Logitech G213 Prodigy",
         "brand": "Logitech",
-        "category": "Headset",
+        "category": "Keyboard",
         "color": [
             "standart"
         ],
         "price": {
-            "quantity": 1.989,
+            "quantity": 1.249,
             "currency": "TRY"
         },
         "features": {
-            "usage": "wired",
-            "impedance (Ohm)": 39,
-            "connection": "3.5mm Jack",
-            "microphone": "yes",
+            "led": "RGB",
+            "variant": "Gaming",
+            "connection": "USB 2.0",
+            "language": "TR",
             "warranty": 24,
             "origin": "China"
         },
@@ -28,10 +28,9 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/s/1.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/s/2.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/s/3.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/s/4.png"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g213/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g213/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g213/s/3.png"
                         ]
                     }
                 ],
@@ -39,10 +38,9 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/m/1.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/m/2.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/m/3.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g432/m/4.jpeg"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g213/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g213/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g213/m/3.jpeg"
                         ]
                     }
                 ]
@@ -52,24 +50,24 @@
     },
     {
         "_id": {
-            "$oid": "64d70a9ff49df57b0debd51c"
+            "$oid": "64d71dfb913e56c8e5597686"
         },
-        "title": "Logitech G733",
-        "description": "Logitech G733",
+        "title": "Logitech G513 Carbon",
+        "description": "Logitech G513 Carbon",
         "brand": "Logitech",
-        "category": "Headset",
+        "category": "Keyboard",
         "color": [
             "standart"
         ],
         "price": {
-            "quantity": 4.519,
+            "quantity": 3.569,
             "currency": "TRY"
         },
         "features": {
-            "usage": "wireless",
-            "impedance (Ohm)": 39,
+            "led": "RGB",
+            "variant": "Gaming",
             "connection": "USB 2.0",
-            "microphone": "yes",
+            "language": "TR",
             "warranty": 24,
             "origin": "China"
         },
@@ -79,7 +77,8 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g733/s/1.png"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g513/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g513/s/2.png"
                         ]
                     }
                 ],
@@ -87,7 +86,8 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/g733/m/1.jpeg"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g513/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g513/m/2.jpeg"
                         ]
                     }
                 ]
@@ -97,24 +97,24 @@
     },
     {
         "_id": {
-            "$oid": "64d70c0ac555fd6f33625318"
+            "$oid": "64d71e6845413a64998233da"
         },
-        "title": "Logitech Pro",
-        "description": "Logitech Pro",
+        "title": "Logitech G915",
+        "description": "Logitech G915",
         "brand": "Logitech",
-        "category": "Headset",
+        "category": "Keyboard",
         "color": [
             "standart"
         ],
         "price": {
-            "quantity": 3.297,
+            "quantity": 6.029,
             "currency": "TRY"
         },
         "features": {
-            "usage": "wired",
-            "impedance (Ohm)": 35,
-            "connection": "3.5mm Jack",
-            "microphone": "yes",
+            "led": "RGB",
+            "variant": "Gaming",
+            "connection": "wireless",
+            "language": "TR",
             "warranty": 24,
             "origin": "China"
         },
@@ -124,7 +124,10 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/pro/s/1.png"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g915/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g915/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g915/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g915/s/4.png"
                         ]
                     }
                 ],
@@ -132,7 +135,10 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/logitech/pro/m/1.jpeg"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g915/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g915/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g915/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/logitech/g915/m/4.jpeg"
                         ]
                     }
                 ]
@@ -142,24 +148,24 @@
     },
     {
         "_id": {
-            "$oid": "64d70fa1ecbb1d32dd3764e4"
+            "$oid": "64d71edc075c721106506261"
         },
-        "title": "Razer Blackshark V2",
-        "description": "Razer Blackshark V2",
+        "title": "Razer Blackwidow v3",
+        "description": "Razer Blackwidow v3",
         "brand": "Razer",
-        "category": "Headset",
+        "category": "Keyboard",
         "color": [
             "standart"
         ],
         "price": {
-            "quantity": 5.299,
+            "quantity": 2.669,
             "currency": "TRY"
         },
         "features": {
-            "usage": "wired",
-            "impedance (Ohm)": 32,
-            "connection": "3.5mm Jack",
-            "microphone": "yes",
+            "led": "RGB",
+            "variant": "Gaming",
+            "connection": "USB 2.0",
+            "language": "TR",
             "warranty": 24,
             "origin": "China"
         },
@@ -169,7 +175,10 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/blackshark/s/1.png"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v3/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v3/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v3/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v3/s/4.png"
                         ]
                     }
                 ],
@@ -177,7 +186,10 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/blackshark/m/1.jpeg"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v3/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v3/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v3/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v3/m/4.jpeg"
                         ]
                     }
                 ]
@@ -187,24 +199,24 @@
     },
     {
         "_id": {
-            "$oid": "64d7101aecbb1d32dd3764e7"
+            "$oid": "64d71fa9c1a08309322e150d"
         },
-        "title": "Razer Kaira Pro",
-        "description": "Razer Kaira Pro",
+        "title": "Razer Blackwidow v4 Pro",
+        "description": "Razer Blackwidow v4 Pro",
         "brand": "Razer",
-        "category": "Headset",
+        "category": "Keyboard",
         "color": [
             "standart"
         ],
         "price": {
-            "quantity": 5.819,
+            "quantity": 6.69,
             "currency": "TRY"
         },
         "features": {
-            "usage": "wireless",
-            "impedance (Ohm)": 32,
+            "led": "RGB",
+            "variant": "Gaming",
             "connection": "USB 2.0",
-            "microphone": "yes",
+            "language": "TR",
             "warranty": 24,
             "origin": "China"
         },
@@ -214,11 +226,11 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/s/1.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/s/2.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/s/3.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/s/4.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/s/5.png"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/s/4.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/s/5.png"
                         ]
                     }
                 ],
@@ -226,11 +238,11 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/m/1.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/m/2.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/m/3.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/m/4.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kaira/m/5.jpeg"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/m/4.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/blackwidow%20v4/m/5.jpeg"
                         ]
                     }
                 ]
@@ -240,24 +252,24 @@
     },
     {
         "_id": {
-            "$oid": "64d710a34d53c348c470bcbc"
+            "$oid": "64d72140d19557439dad755f"
         },
-        "title": "Razer Kraken",
-        "description": "Razer Kraken",
+        "title": "Razer Oranta V3",
+        "description": "Razer Oranta V3",
         "brand": "Razer",
-        "category": "Headset",
+        "category": "Keyboard",
         "color": [
             "standart"
         ],
         "price": {
-            "quantity": 3.299,
+            "quantity": 927,
             "currency": "TRY"
         },
         "features": {
-            "usage": "wired",
-            "impedance (Ohm)": 32,
+            "led": "RGB",
+            "variant": "Gaming",
             "connection": "USB 2.0",
-            "microphone": "yes",
+            "language": "TR",
             "warranty": 24,
             "origin": "China"
         },
@@ -267,11 +279,7 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/s/1.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/s/2.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/s/3.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/s/4.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/s/5.png"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/ornata%20v3/s/1.png"
                         ]
                     }
                 ],
@@ -279,11 +287,7 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/m/1.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/m/2.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/m/3.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/m/4.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/razer/kraken/m/5.jpeg"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/razer/ornata%20v3/m/1.jpeg"
                         ]
                     }
                 ]
@@ -293,75 +297,24 @@
     },
     {
         "_id": {
-            "$oid": "64d711700d7738503f2163a7"
+            "$oid": "64d72551bdcf51e3bfc4fc00"
         },
-        "title": "Steelseries Nova 1",
-        "description": "Steelseries Nova 1",
+        "title": "Steelseries Apex 5",
+        "description": "Steelseries Apex 5",
         "brand": "Steelseries",
-        "category": "Headset",
+        "category": "Keyboard",
         "color": [
             "standart"
         ],
         "price": {
-            "quantity": 1.729,
+            "quantity": 3.499,
             "currency": "TRY"
         },
         "features": {
-            "usage": "wired",
-            "impedance (Ohm)": 36,
-            "connection": "3.5mm Jack",
-            "microphone": "yes",
-            "warranty": 24,
-            "origin": "China"
-        },
-        "images": [
-            {
-                "s": [
-                    {
-                        "variant": "standart",
-                        "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/s/1.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/s/2.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/s/3.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/s/4.png"
-                        ]
-                    }
-                ],
-                "m": [
-                    {
-                        "variant": "standart",
-                        "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/m/1.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/m/2.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/m/3.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%201/m/4.jpeg"
-                        ]
-                    }
-                ]
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64d711bb48c6248f7012d9ae"
-        },
-        "title": "Steelseries Nova 7",
-        "description": "Steelseries Nova 7",
-        "brand": "Steelseries",
-        "category": "Headset",
-        "color": [
-            "standart"
-        ],
-        "price": {
-            "quantity": 4.899,
-            "currency": "TRY"
-        },
-        "features": {
-            "usage": "wireless",
-            "impedance (Ohm)": 36,
+            "led": "RGB",
+            "variant": "Gaming",
             "connection": "USB 2.0",
-            "microphone": "yes",
+            "language": "TR",
             "warranty": 24,
             "origin": "China"
         },
@@ -371,7 +324,9 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%207/s/1.png"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%205/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%205/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%205/s/3.png"
                         ]
                     }
                 ],
@@ -379,7 +334,9 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%207/m/1.jpeg"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%205/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%205/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%205/m/3.jpeg"
                         ]
                     }
                 ]
@@ -389,24 +346,24 @@
     },
     {
         "_id": {
-            "$oid": "64d712a99e78904d646fef7f"
+            "$oid": "64d72641bdcf51e3bfc4fc03"
         },
-        "title": "Steelseries Nova Pro",
-        "description": "Steelseries Nova Pro",
+        "title": "Steelseries Apex 7",
+        "description": "Steelseries Apex 7",
         "brand": "Steelseries",
-        "category": "Headset",
+        "category": "Keyboard",
         "color": [
             "standart"
         ],
         "price": {
-            "quantity": 12.399,
+            "quantity": 4.999,
             "currency": "TRY"
         },
         "features": {
-            "usage": "wireless",
-            "impedance (Ohm)": 36,
-            "connection": "Bluetooth 5.0",
-            "microphone": "yes",
+            "led": "RGB",
+            "variant": "Gaming",
+            "connection": "USB 2.0",
+            "language": "TR",
             "warranty": 24,
             "origin": "China"
         },
@@ -416,10 +373,10 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/s/1.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/s/2.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/s/3.png",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/s/4.png"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/s/4.png"
                         ]
                     }
                 ],
@@ -427,10 +384,65 @@
                     {
                         "variant": "standart",
                         "images": [
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/m/1.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/m/2.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/m/3.jpeg",
-                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/headset/steelseries/nova%20pro/m/4.jpeg"
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%207/m/4.jpeg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d7286fee0804f3873f47a8"
+        },
+        "title": "Steelseries Apex Pro",
+        "description": "Steelseries Apex Pro",
+        "brand": "Steelseries",
+        "category": "Keyboard",
+        "color": [
+            "standart"
+        ],
+        "price": {
+            "quantity": 6.058,
+            "currency": "TRY"
+        },
+        "features": {
+            "led": "RGB",
+            "variant": "Gaming",
+            "connection": "USB 2.0",
+            "language": "TR",
+            "warranty": 24,
+            "origin": "China"
+        },
+        "images": [
+            {
+                "s": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%20pro/s/1.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%20pro/s/2.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%20pro/s/3.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%20pro/s/4.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%20pro/s/5.png",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%20pro/s/6.png"
+                        ]
+                    }
+                ],
+                "m": [
+                    {
+                        "variant": "standart",
+                        "images": [
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%20pro/m/1.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%20pro/m/2.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%20pro/m/3.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%20pro/m/4.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%20pro/m/5.jpeg",
+                            "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/keyboard/steelseries/apex%20pro/m/6.jpeg"
                         ]
                     }
                 ]
