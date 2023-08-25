@@ -1,51 +1,41 @@
 {
-    "title": "Samsung Galaxy Z Fold 4",
-    "description": "Samsung Galaxy Z Fold 4",
-    "brand": "SAMSUNG",
-    "category": "Phone",
-    "color": [
-        "white",
-        "black"
+    "title": "Vogue Slipstream",
+    "description": "Vogue Slipstream Woman Shoes",
+    "gender": "woman",
+    "brand": "puma",
+    "category": "shoes",
+    "size": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
     ],
-    "memory": [
-        256
+    "color": [
+        "white"
     ],
     "price": {
-        "quantity": 38.499,
+        "quantity": 2.6,
         "currency": "TRY"
-    },
-    "features": {
-        "ProcessorSpeed": 3.32,
-        "NumberofProcessors": 8,
-        "display": 6.2,
-        "processor": "Qualcomm SM8475",
-        "ram": 12,
-        "camera": 50
     },
     "images": [
         {
             "variant": "white",
             "sizes": {
                 "s": [
-                    "https://umiterit.sirv.com/images/phone/samsung/samsung%20galaxy%20z%20fold%204/white/1.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/phone/samsung/samsung%20galaxy%20z%20fold%204/white/2.jpeg?w=300&h=300&format=png"
+                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/5.jpeg?w=300&h=300&format=png"
                 ],
                 "m": [
-                    "https://umiterit.sirv.com/images/phone/samsung/samsung%20galaxy%20z%20fold%204/white/1.jpeg",
-                    "https://umiterit.sirv.com/images/phone/samsung/samsung%20galaxy%20z%20fold%204/white/2.jpeg"
-                ]
-            }
-        },
-        {
-            "variant": "black",
-            "sizes": {
-                "s": [
-                    "https://umiterit.sirv.com/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/1.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/2.jpeg?w=300&h=300&format=png"
-                ],
-                "m": [
-                    "https://umiterit.sirv.com/images/phone/samsung/samsung%20galaxy%20z%20fold%204/black/1.jpeg",
-                    "https://umiterit.sirv.com/images/phone/samsung/samsung%20galaxy%20z%20fold%204/black/2.jpeg"
+                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/1.jpeg",
+                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/2.jpeg",
+                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/3.jpeg",
+                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/4.jpeg",
+                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/5.jpeg"
                 ]
             }
         }
