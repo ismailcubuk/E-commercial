@@ -1,987 +1,827 @@
 [
     {
         "_id": {
-            "$oid": "64cfbce6449b973b2ed280d7"
+            "$oid": "64d32a9c1c38842df4788600"
         },
-        "title": "iPhone 12 64 GB",
-        "description": "iPhone 12 64 GB",
-        "brand": "Apple",
-        "category": "Phone",
+        "title": "Lite Racer 3.0",
+        "description": "Lite Racer 3.0 Man Shoes",
+        "gender": "man",
+        "brand": "adidas",
+        "category": "shoes",
+        "size": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
         "color": [
-            "white",
-            "red",
-            "blue",
-            "purple",
             "black",
-            "green"
-        ],
-        "memory": [
-            64,
-            128,
-            256
-        ],
-        "price": {
-            "quantity": 26.999,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": null,
-            "NumberofProcessors": 6,
-            "display": 6.1,
-            "processor": "A14 Bionic",
-            "ram": 4,
-            "camera": 12
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/s/3.png"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/s/3.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/s/3.png"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/s/3.png"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/s/3.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/s/3.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/m/3.jpeg"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/m/3.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/m/3.jpeg"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/m/3.jpeg"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/m/3.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/m/3.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfbd46449b973b2ed280d9"
-        },
-        "title": "iPhone 12 128 GB",
-        "description": "iPhone 12 128 GB",
-        "brand": "Apple",
-        "category": "Phone",
-        "color": [
-            "white",
-            "red",
-            "blue",
-            "purple",
-            "black",
-            "green"
-        ],
-        "memory": [
-            64,
-            128,
-            256
-        ],
-        "price": {
-            "quantity": 28.399,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": null,
-            "NumberofProcessors": 6,
-            "display": 6.1,
-            "processor": "A14 Bionic",
-            "ram": 4,
-            "camera": 12
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/s/3.png"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/s/3.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/s/3.png"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/s/3.png"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/s/3.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/s/3.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/m/3.jpeg"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/m/3.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/m/3.jpeg"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/m/3.jpeg"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/m/3.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/m/3.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfbd96449b973b2ed280dc"
-        },
-        "title": "iPhone 12 256 GB",
-        "description": "iPhone 12 256 GB",
-        "brand": "Apple",
-        "category": "Phone",
-        "color": [
-            "white",
-            "red",
-            "blue",
-            "purple",
-            "black",
-            "green"
-        ],
-        "memory": [
-            64,
-            128,
-            256
-        ],
-        "price": {
-            "quantity": 31.199,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": null,
-            "NumberofProcessors": 6,
-            "display": 6.1,
-            "processor": "A14 Bionic",
-            "ram": 4,
-            "camera": 12
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/s/3.png"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/s/3.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/s/3.png"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/s/3.png"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/s/3.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/s/3.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/black/m/3.jpeg"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/blue/m/3.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/green/m/3.jpeg"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/purple/m/3.jpeg"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/red/m/3.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2012/white/m/3.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfbe8d449b973b2ed280df"
-        },
-        "title": "iPhone 13 128 GB",
-        "description": "iPhone 13 128 GB",
-        "brand": "Apple",
-        "category": "Phone",
-        "color": [
-            "white",
-            "red",
-            "blue",
-            "black",
-            "green"
-        ],
-        "memory": [
-            128,
-            256,
-            512
-        ],
-        "price": {
-            "quantity": 29.999,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": null,
-            "NumberofProcessors": 6,
-            "display": 6.1,
-            "processor": "A15 Bionic",
-            "ram": 6,
-            "camera": 12
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/s/4.png"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/s/4.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/s/4.png"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/s/4.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/s/4.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/m/4.jpeg"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/m/4.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/m/4.jpeg"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/m/4.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/m/4.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfbed6449b973b2ed280e2"
-        },
-        "title": "iPhone 13 256 GB",
-        "description": "iPhone 13 256 GB",
-        "brand": "Apple",
-        "category": "Phone",
-        "color": [
-            "white",
-            "red",
-            "blue",
-            "black",
-            "green"
-        ],
-        "memory": [
-            128,
-            256,
-            512
-        ],
-        "price": {
-            "quantity": 32.799,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": null,
-            "NumberofProcessors": 6,
-            "display": 6.1,
-            "processor": "A15 Bionic",
-            "ram": 6,
-            "camera": 12
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/s/4.png"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/s/4.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/s/4.png"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/s/4.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/s/4.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/m/4.jpeg"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/m/4.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/m/4.jpeg"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/m/4.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/m/4.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfbf87449b973b2ed280e5"
-        },
-        "title": "iPhone 13 512 GB",
-        "description": "iPhone 13 512 GB",
-        "brand": "Apple",
-        "category": "Phone",
-        "color": [
-            "white",
-            "red",
-            "blue",
-            "black",
-            "green"
-        ],
-        "memory": [
-            128,
-            256,
-            512
-        ],
-        "price": {
-            "quantity": 38.399,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": null,
-            "NumberofProcessors": 6,
-            "display": 6.1,
-            "processor": "A15 Bionic",
-            "ram": 6,
-            "camera": 12
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/s/4.png"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/s/4.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/s/4.png"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/s/4.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/s/4.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/black/m/4.jpeg"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/blue/m/4.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/green/m/4.jpeg"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/red/m/4.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2013/white/m/4.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfc220449b973b2ed280e8"
-        },
-        "title": "iPhone 14 Pro 128 GB",
-        "description": "iPhone 14 Pro 128 GB",
-        "brand": "Apple",
-        "category": "Phone",
-        "color": [
-            "white",
-            "purple",
-            "black"
-        ],
-        "memory": [
-            128,
-            256,
-            512
-        ],
-        "price": {
-            "quantity": 42.999,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": null,
-            "NumberofProcessors": 6,
-            "display": 6.1,
-            "processor": "A16 Bionic",
-            "ram": 6,
-            "camera": 48
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/s/4.png"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/s/4.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/s/4.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/m/4.jpeg"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/m/4.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/m/4.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfc2a8449b973b2ed280eb"
-        },
-        "title": "iPhone 14 Pro 256 GB",
-        "description": "iPhone 14 Pro 256 GB",
-        "brand": "Apple",
-        "category": "Phone",
-        "color": [
-            "white",
-            "purple",
-            "black"
-        ],
-        "memory": [
-            128,
-            256,
-            512
-        ],
-        "price": {
-            "quantity": 45.799,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": null,
-            "NumberofProcessors": 6,
-            "display": 6.1,
-            "processor": "A16 Bionic",
-            "ram": 6,
-            "camera": 48
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/s/4.png"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/s/4.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/s/4.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/m/4.jpeg"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/m/4.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/m/4.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfc310449b973b2ed280ee"
-        },
-        "title": "iPhone 14 Pro 512 GB",
-        "description": "iPhone 14 Pro 512 GB",
-        "brand": "Apple",
-        "category": "Phone",
-        "color": [
-            "white",
-            "purple",
-            "black"
-        ],
-        "memory": [
-            128,
-            256,
-            512
-        ],
-        "price": {
-            "quantity": 54.399,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": null,
-            "NumberofProcessors": 6,
-            "display": 6.1,
-            "processor": "A16 Bionic",
-            "ram": 6,
-            "camera": 48
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/s/4.png"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/s/4.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/s/4.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/black/m/4.jpeg"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/purple/m/4.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/iphone/iphone%2014%20pro/white/m/4.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfc498c283b5e13b4a466f"
-        },
-        "title": "XİAOMİ POCO X4 GT 8GB/256GB",
-        "description": "XİAOMİ POCO X4 GT 8GB/256GB",
-        "brand": "XIAOMI",
-        "category": "Phone",
-        "color": [
-            "white",
-            "black"
-        ],
-        "memory": [
-            256
-        ],
-        "price": {
-            "quantity": 14.999,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": 2.73,
-            "NumberofProcessors": 8,
-            "display": 6.6,
-            "processor": "ARM Cortex-A78",
-            "ram": 8,
-            "camera": 64
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/black/s/3.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/white/s/3.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/black/m/3.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x4%20gt/white/m/3.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfc610c283b5e13b4a4673"
-        },
-        "title": "XİAOMİ POCO X5 8GB/256GB",
-        "description": "XİAOMİ POCO X5 8GB/256GB",
-        "brand": "XIAOMI",
-        "category": "Phone",
-        "color": [
-            "black"
-        ],
-        "memory": [
-            256
-        ],
-        "price": {
-            "quantity": 12.999,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": 2.2,
-            "NumberofProcessors": 8,
-            "display": 6.67,
-            "processor": "ARM Cortex-A78",
-            "ram": 8,
-            "camera": 48
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x5/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x5/black/s/2.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x5/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20poco%20x5/black/m/2.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfc8c4c283b5e13b4a4677"
-        },
-        "title": "Xiaomi Redmi Note 12 6GB/128GB",
-        "description": "Xiaomi Redmi Note 12 6GB/128GB",
-        "brand": "XIAOMI",
-        "category": "Phone",
-        "color": [
+            "black / white",
             "grey",
+            "white / blue"
+        ],
+        "price": {
+            "quantity": 1.699,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black/s/5.png"
+                ],
+                "black-white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black-white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black-white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black-white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black-white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black-white/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black-white/s/6.png"
+                ],
+                "grey": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/grey/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/grey/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/grey/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/grey/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/grey/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/grey/s/6.png"
+                ],
+                "white-blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/white-blue/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/white-blue/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/white-blue/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/white-blue/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/white-blue/s/5.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black/m/5.jpeg"
+                ],
+                "black-white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black-white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black-white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black-white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black-white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black-white/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/black-white/m/6.jpeg"
+                ],
+                "grey": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/grey/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/grey/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/grey/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/grey/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/grey/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/grey/m/6.jpeg"
+                ],
+                "white-blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/white-blue/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/white-blue/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/white-blue/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/white-blue/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/lite%20racer/white-blue/m/5.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d32cfb827cb03c7346a0ea"
+        },
+        "title": "Runfalcon 3",
+        "description": "Runfalcon 3 Man Shoes",
+        "gender": "man",
+        "brand": "adidas",
+        "category": "shoes",
+        "size": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "color": [
+            "white",
+            "white / black"
+        ],
+        "price": {
+            "quantity": 1.199,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white/s/5.png"
+                ],
+                "white-black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white-black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white-black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white-black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white-black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white-black/s/5.png"
+                ]
+            },
+            "m": {
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white/m/5.jpeg"
+                ],
+                "white-black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white-black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white-black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white-black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white-black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/runfalcon%203/white-black/m/5.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d33085a5504f6f015689ed"
+        },
+        "title": "Vs Pace",
+        "description": "Vs Pace Man Shoes",
+        "gender": "man",
+        "brand": "adidas",
+        "category": "shoes",
+        "size": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "color": [
+            "black",
+            "blue",
+            "grey",
+            "white"
+        ],
+        "price": {
+            "quantity": 1.859,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/black/s/5.png"
+                ],
+                "blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/blue/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/blue/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/blue/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/blue/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/blue/s/5.png"
+                ],
+                "grey": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/grey/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/grey/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/grey/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/grey/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/grey/s/5.png"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/white/s/4.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/black/m/5.jpeg"
+                ],
+                "blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/blue/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/blue/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/blue/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/blue/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/blue/m/5.jpeg"
+                ],
+                "grey": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/grey/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/grey/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/grey/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/grey/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/grey/m/5.jpeg"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/adidas/vs%20pace/white/m/4.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d3372cb908a7933f6e12a2"
+        },
+        "title": "Nike Air Monarch IV",
+        "description": "Nike Air Monarch IV Man Shoes",
+        "gender": "man",
+        "brand": "nike",
+        "category": "shoes",
+        "size": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "color": [
+            "black",
+            "black / white",
+            "white"
+        ],
+        "price": {
+            "quantity": 2.299,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black/s/6.png"
+                ],
+                "black-white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black-white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black-white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black-white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black-white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black-white/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black-white/s/6.png"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/white/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/white/s/6.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black/m/6.jpeg"
+                ],
+                "black-white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black-white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black-white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black-white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black-white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black-white/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/black-white/m/6.jpeg"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/white/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/air%20monarch/white/m/6.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d3380524242c88466aae53"
+        },
+        "title": "Nike Air Force",
+        "description": "Nike Air Force Man Shoes",
+        "gender": "man",
+        "brand": "nike",
+        "category": "shoes",
+        "size": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "color": [
+            "black",
+            "blue",
+            "white"
+        ],
+        "price": {
+            "quantity": 3.599,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/black/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/black/s/6.png"
+                ],
+                "blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/blue/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/blue/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/blue/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/blue/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/blue/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/blue/s/6.png"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/white/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/white/s/6.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/black/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/black/m/6.jpeg"
+                ],
+                "blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/blue/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/blue/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/blue/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/blue/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/blue/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/blue/m/6.jpeg"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/white/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/airforce/white/m/6.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d339006433cb80306dbe04"
+        },
+        "title": "Jordan Series ES",
+        "description": "Jordan Series ES Man Shoes",
+        "gender": "man",
+        "brand": "nike",
+        "category": "shoes",
+        "size": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "color": [
+            "brown",
+            "purple",
+            "white",
+            "yellow"
+        ],
+        "price": {
+            "quantity": 2.399,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "brown": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/brown/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/brown/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/brown/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/brown/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/brown/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/brown/s/6.png"
+                ],
+                "purple": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/purple/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/purple/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/purple/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/purple/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/purple/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/purple/s/6.png"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/white/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/white/s/6.png"
+                ],
+                "yellow": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/yellow/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/yellow/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/yellow/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/yellow/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/yellow/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/yellow/s/6.png"
+                ]
+            },
+            "m": {
+                "brown": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/brown/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/brown/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/brown/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/brown/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/brown/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/brown/m/6.jpeg"
+                ],
+                "purple": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/purple/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/purple/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/purple/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/purple/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/purple/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/purple/m/6.jpeg"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/white/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/white/m/6.jpeg"
+                ],
+                "yellow": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/yellow/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/yellow/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/yellow/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/yellow/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/yellow/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/nike/jordan/yellow/m/6.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d33b620f28396edc2208a1"
+        },
+        "title": "Ca Pro Classic",
+        "description": "Ca Pro Classic Man Shoes",
+        "gender": "man",
+        "brand": "puma",
+        "category": "shoes",
+        "size": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "color": [
+            "black",
+            "white",
+            "white / red"
+        ],
+        "price": {
+            "quantity": 3.1,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/black/s/5.png"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white/s/5.png"
+                ],
+                "white-red": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white%20-%20red/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white%20-%20red/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white%20-%20red/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white%20-%20red/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white%20-%20red/s/5.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/black/m/5.jpeg"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white/m/5.jpeg"
+                ],
+                "white-red": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white%20-%20red/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white%20-%20red/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white%20-%20red/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white%20-%20red/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/ca%20pro/white%20-%20red/m/5.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d33c21a5a499f589e34258"
+        },
+        "title": "Foreverrun Nitro",
+        "description": "Foreverrun Nitro Man Shoes",
+        "gender": "man",
+        "brand": "puma",
+        "category": "shoes",
+        "size": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "color": [
+            "black",
+            "orange"
+        ],
+        "price": {
+            "quantity": 6,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/black/s/5.png"
+                ],
+                "orange": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/orange/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/orange/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/orange/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/orange/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/orange/s/5.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/black/m/5.jpeg"
+                ],
+                "orange": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/orange/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/orange/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/orange/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/orange/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/foreverrun%20nitro/orange/m/5.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d33d93eaae7e8edb82c265"
+        },
+        "title": "Runtamed",
+        "description": "Runtamed Man Shoes",
+        "gender": "man",
+        "brand": "puma",
+        "category": "shoes",
+        "size": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "color": [
+            "white"
+        ],
+        "price": {
+            "quantity": 3,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/runtamed/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/runtamed/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/runtamed/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/runtamed/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/runtamed/s/5.png"
+                ]
+            },
+            "m": {
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/runtamed/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/runtamed/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/runtamed/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/runtamed/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20shoes/puma/runtamed/m/5.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d494864238c6a2fbe1a560"
+        },
+        "title": "Campus OOS",
+        "description": "Campus OOS Woman Shoes",
+        "gender": "woman",
+        "brand": "adidas",
+        "category": "shoes",
+        "size": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
+        "color": [
+            "black",
             "green",
-            "blue"
-        ],
-        "memory": [
-            256
+            "pink"
         ],
         "price": {
-            "quantity": 8.849,
+            "quantity": 3.079,
             "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": 2,
-            "NumberofProcessors": 8,
-            "display": 6.67,
-            "processor": "Snapdragon 685",
-            "ram": 8,
-            "camera": 50
         },
         "images": {
             "s": {
-                "grey": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/grey/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/grey/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/grey/s/3.png"
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/black/s/5.png"
                 ],
+                "green": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/green/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/green/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/green/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/green/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/green/s/5.png"
+                ],
+                "pink": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/pink/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/pink/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/pink/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/pink/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/pink/s/5.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/black/m/5.jpeg"
+                ],
+                "green": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/green/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/green/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/green/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/green/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/green/m/5.jpeg"
+                ],
+                "pink": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/pink/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/pink/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/pink/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/pink/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/campus/pink/m/5.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d495144238c6a2fbe1a563"
+        },
+        "title": "Samba",
+        "description": "Samba Woman Shoes",
+        "gender": "woman",
+        "brand": "adidas",
+        "category": "shoes",
+        "size": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
+        "color": [
+            "blue",
+            "white"
+        ],
+        "price": {
+            "quantity": 3.729,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
                 "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/blue/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/blue/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/blue/s/3.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/blue/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/blue/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/blue/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/blue/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/blue/s/5.png"
                 ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/green/s/3.png"
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/white/s/5.png"
                 ]
             },
             "m": {
-                "grey": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/grey/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/grey/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/grey/m/3.jpeg"
-                ],
                 "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/blue/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/blue/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/blue/m/3.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/blue/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/blue/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/blue/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/blue/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/blue/m/5.jpeg"
                 ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/xiaomi/xiaomi%20redmi%20note%2012/green/m/3.jpeg"
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/samba/white/m/5.jpeg"
                 ]
             }
         },
@@ -989,79 +829,58 @@
     },
     {
         "_id": {
-            "$oid": "64cfce51c283b5e13b4a467a"
+            "$oid": "64d495fca2474c55ad82220e"
         },
-        "title": "Samsung Galaxy S22 Ultra 128 GB",
-        "description": "Samsung Galaxy S22 Ultra 128 GB",
-        "brand": "SAMSUNG",
-        "category": "Phone",
-        "color": [
-            "white",
-            "black",
-            "green"
+        "title": "Strutter",
+        "description": "Strutter Woman Shoes",
+        "gender": "woman",
+        "brand": "adidas",
+        "category": "shoes",
+        "size": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
         ],
-        "memory": [
-            128,
-            256,
-            512
+        "color": [
+            "purple",
+            "quartz"
         ],
         "price": {
-            "quantity": 39.749,
+            "quantity": 1.629,
             "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": 3,
-            "NumberofProcessors": 8,
-            "display": 6.8,
-            "processor": "Qualcomm SM8450",
-            "ram": 8,
-            "camera": 108
         },
         "images": {
             "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/5.png"
+                "purple": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/purple/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/purple/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/purple/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/purple/s/4.png"
                 ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/5.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/5.png"
+                "quartz": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/quartz/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/quartz/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/quartz/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/quartz/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/quartz/s/5.png"
                 ]
             },
             "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/5.jpeg"
+                "purple": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/purple/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/purple/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/purple/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/purple/m/4.jpeg"
                 ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/5.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/5.jpeg"
+                "quartz": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/quartz/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/quartz/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/quartz/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/quartz/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/adidas/strutter/quartz/m/5.jpeg"
                 ]
             }
         },
@@ -1069,79 +888,64 @@
     },
     {
         "_id": {
-            "$oid": "64cfcf98c283b5e13b4a467d"
+            "$oid": "64d4975d5dd1245f5ecf6032"
         },
-        "title": "Samsung Galaxy S22 Ultra 256 GB",
-        "description": "Samsung Galaxy S22 Ultra 256 GB",
-        "brand": "SAMSUNG",
-        "category": "Phone",
+        "title": "Air Force 1",
+        "description": "Air Force 1 Woman Shoes",
+        "gender": "woman",
+        "brand": "nike",
+        "category": "shoes",
+        "size": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
         "color": [
             "white",
-            "black",
-            "green"
-        ],
-        "memory": [
-            128,
-            256,
-            512
+            "yellow"
         ],
         "price": {
-            "quantity": 44.999,
+            "quantity": 3.299,
             "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": 3,
-            "NumberofProcessors": 8,
-            "display": 6.8,
-            "processor": "Qualcomm SM8450",
-            "ram": 8,
-            "camera": 108
         },
         "images": {
             "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/5.png"
-                ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/5.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/white/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/white/s/6.png"
                 ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/5.png"
+                "yellow": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/yellow/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/yellow/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/yellow/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/yellow/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/yellow/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/yellow/s/6.png"
                 ]
             },
             "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/5.jpeg"
-                ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/5.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/white/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/white/m/6.jpeg"
                 ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/5.jpeg"
+                "yellow": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/yellow/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/yellow/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/yellow/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/yellow/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/yellow/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20force%201/yellow/m/5.jpeg"
                 ]
             }
         },
@@ -1149,288 +953,274 @@
     },
     {
         "_id": {
-            "$oid": "64cfd3cbc283b5e13b4a467f"
+            "$oid": "64d497f8eea5de92c42b3699"
         },
-        "title": "Samsung Galaxy S22 Ultra 512 GB",
-        "description": "Samsung Galaxy S22 Ultra 512 GB",
-        "brand": "SAMSUNG",
-        "category": "Phone",
+        "title": "Air Max 95",
+        "description": "Air Max 95 Woman Shoes",
+        "gender": "woman",
+        "brand": "nike",
+        "category": "shoes",
+        "size": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
         "color": [
-            "white",
-            "black",
-            "green"
-        ],
-        "memory": [
-            128,
-            256,
-            512
-        ],
-        "price": {
-            "quantity": 45.999,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": 3,
-            "NumberofProcessors": 8,
-            "display": 6.8,
-            "processor": "Qualcomm SM8450",
-            "ram": 8,
-            "camera": 108
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/s/5.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/s/5.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/s/5.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/black/m/5.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/white/m/5.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s22%20ultra/green/m/5.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfd734c283b5e13b4a4681"
-        },
-        "title": "Samsung Galaxy S23 Ultra 256 GB",
-        "description": "Samsung Galaxy S23 Ultra 256 GB",
-        "brand": "SAMSUNG",
-        "category": "Phone",
-        "color": [
-            "white",
-            "black",
-            "green"
-        ],
-        "memory": [
-            256,
-            512
-        ],
-        "price": {
-            "quantity": 38.499,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": 3.36,
-            "NumberofProcessors": 8,
-            "display": 6.8,
-            "processor": "Qualcomm SM8550",
-            "ram": 8,
-            "camera": 200
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/s/5.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/s/5.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/s/5.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/m/5.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/m/5.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/m/5.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfd7cac283b5e13b4a4683"
-        },
-        "title": "Samsung Galaxy S23 Ultra 512 GB",
-        "description": "Samsung Galaxy S23 Ultra 512 GB",
-        "brand": "SAMSUNG",
-        "category": "Phone",
-        "color": [
-            "white",
-            "black",
-            "green"
-        ],
-        "memory": [
-            256,
-            512
-        ],
-        "price": {
-            "quantity": 41.499,
-            "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": 3.36,
-            "NumberofProcessors": 8,
-            "display": 6.8,
-            "processor": "Qualcomm SM8550",
-            "ram": 8,
-            "camera": 200
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/s/5.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/s/5.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/s/5.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/black/m/5.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/white/m/5.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20s23%20ultra/green/m/5.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64cfd938b574dc2a314608c4"
-        },
-        "title": "Samsung Galaxy Z Fold 4",
-        "description": "Samsung Galaxy Z Fold 4",
-        "brand": "SAMSUNG",
-        "category": "Phone",
-        "color": [
-            "white",
             "black"
         ],
-        "memory": [
-            256
-        ],
         "price": {
-            "quantity": 38.499,
+            "quantity": 3.899,
             "currency": "TRY"
-        },
-        "features": {
-            "ProcessorSpeed": 3.32,
-            "NumberofProcessors": 8,
-            "display": 6.2,
-            "processor": "Qualcomm SM8475",
-            "ram": 12,
-            "camera": 50
         },
         "images": {
             "s": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20z%20fold%204/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20z%20fold%204/black/s/2.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20z%20fold%204/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20z%20fold%204/white/s/2.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20max%2095/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20max%2095/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20max%2095/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20max%2095/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20max%2095/s/5.png"
                 ]
             },
             "m": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20z%20fold%204/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20z%20fold%204/black/m/2.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20max%2095/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20max%2095/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20max%2095/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20max%2095/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/air%20max%2095/m/5.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d49879e82d3ae9c9a8013f"
+        },
+        "title": "Tc 799",
+        "description": "Tc 799 Woman Shoes",
+        "gender": "woman",
+        "brand": "nike",
+        "category": "shoes",
+        "size": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
+        "color": [
+            "white"
+        ],
+        "price": {
+            "quantity": 3.599,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/tc%207900/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/tc%207900/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/tc%207900/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/tc%207900/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/tc%207900/s/5.png"
+                ]
+            },
+            "m": {
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/tc%207900/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/tc%207900/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/tc%207900/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/tc%207900/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/nike/tc%207900/m/5.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d49a6684bf242bde9b372a"
+        },
+        "title": "Teveris Nitro",
+        "description": "Teveris Nitro Woman Shoes",
+        "gender": "woman",
+        "brand": "puma",
+        "category": "shoes",
+        "size": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
+        "color": [
+            "black",
+            "grey",
+            "white"
+        ],
+        "price": {
+            "quantity": 3.5,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/black/s/5.png"
+                ],
+                "grey": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/grey/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/grey/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/grey/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/grey/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/grey/s/5.png"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20z%20fold%204/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/phone/samsung/samsung%20galaxy%20z%20fold%204/white/m/2.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/white/s/5.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/black/m/5.jpeg"
+                ],
+                "grey": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/grey/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/grey/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/grey/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/grey/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/grey/m/5.jpeg"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/nitro/white/m/5.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d49e2731a413a0f3e568ca"
+        },
+        "title": "Ca Pro Mix Sneaker",
+        "description": "Ca Pro Mix Sneaker Woman Shoes",
+        "gender": "woman",
+        "brand": "puma",
+        "category": "shoes",
+        "size": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
+        "color": [
+            "white / blue",
+            "white / green"
+        ],
+        "price": {
+            "quantity": 1.625,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "white-blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20blue/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20blue/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20blue/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20blue/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20blue/s/5.png"
+                ],
+                "white-green": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20green/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20green/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20green/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20green/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20green/s/5.png"
+                ]
+            },
+            "m": {
+                "white-blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20blue/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20blue/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20blue/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20blue/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20blue/m/5.jpeg"
+                ],
+                "white-20green": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20green/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20green/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20green/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20green/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/ca%20pro%20deri/white%20-%20green/m/5.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d49ef680902264d381fc0b"
+        },
+        "title": "Vogue Slipstream",
+        "description": "Vogue Slipstream Woman Shoes",
+        "gender": "woman",
+        "brand": "puma",
+        "category": "shoes",
+        "size": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
+        "color": [
+            "white"
+        ],
+        "price": {
+            "quantity": 2.6,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/vogue/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/vogue/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/vogue/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/vogue/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/vogue/s/5.png"
+                ]
+            },
+            "m": {
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/vogue/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/vogue/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/vogue/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/vogue/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20shoes/puma/vogue/m/5.jpeg"
                 ]
             }
         },
