@@ -1,324 +1,213 @@
 [
     {
         "_id": {
-            "$oid": "64d5a3dadb04ef0b827ba2ec"
+            "$oid": "64d5bd4f5c0eda2040f256ff"
         },
-        "title": "City Escape",
-        "description": "City Escape Man T-shirt",
-        "gender": "man",
+        "title": "Adventure",
+        "description": "Adventure Man Tracksuit",
         "brand": "adidas",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
-        "color": [
-            "black",
-            "green",
-            "red"
-        ],
-        "price": {
-            "quantity": 879,
-            "currency": "TRY"
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/black/s/4.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/green/s/4.png"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/red/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/red/s/4.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/black/m/4.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/green/m/4.jpeg"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/red/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/city%20escape/red/m/4.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64d5a57f65f2145f3e7685d1"
-        },
-        "title": "Essentials Single Jersey",
-        "description": "Essentials Single Jersey Man T-shirt",
-        "gender": "man",
-        "brand": "adidas",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
-        "color": [
-            "black",
-            "blue",
-            "grey",
-            "red",
-            "white"
-        ],
-        "price": {
-            "quantity": 749,
-            "currency": "TRY"
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/black/s/4.png"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/blue/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/blue/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/blue/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/blue/s/4.png"
-                ],
-                "grey": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/grey/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/grey/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/grey/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/grey/s/4.png"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/red/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/red/s/4.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/white/s/4.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/black/m/4.jpeg"
-                ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/blue/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/blue/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/blue/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/blue/m/4.jpeg"
-                ],
-                "grey": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/grey/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/grey/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/grey/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/grey/m/4.jpeg"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/red/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/red/m/4.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/essentials/white/m/4.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64d5a5eef2056b8cba510ba3"
-        },
-        "title": "Train Essentials Seasonal",
-        "description": "Train Essentials Seasonal Man T-shirt",
-        "gender": "man",
-        "brand": "adidas",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
+        "category": "tracksuit",
         "color": [
             "black",
             "blue",
             "white"
         ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
         "price": {
-            "quantity": 749,
+            "quantity": 1.879,
             "currency": "TRY"
         },
         "images": {
             "s": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/black/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/black/s/4.png"
                 ],
                 "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/blue/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/blue/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/blue/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/blue/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/blue/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/blue/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/blue/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/blue/s/4.png"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/white/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/white/s/4.png"
                 ]
             },
             "m": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/black/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/black/m/4.jpeg"
                 ],
                 "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/blue/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/blue/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/blue/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/blue/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/blue/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/blue/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/blue/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/blue/m/4.jpeg"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/adidas/training/white/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/adventure/white/m/4.jpeg"
                 ]
             }
         },
-        "__v": 0
+        "__v": 0,
+        "gender": "man"
     },
     {
         "_id": {
-            "$oid": "64d5a6cb028cdeb99c0d6882"
+            "$oid": "64d5bdb55c0eda2040f25702"
+        },
+        "title": "Aeroready",
+        "description": "Aeroready Man Tracksuit",
+        "brand": "adidas",
+        "category": "tracksuit",
+        "color": [
+            "black",
+            "blue",
+            "grey"
+        ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
+        "price": {
+            "quantity": 1.379,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/black/s/4.png"
+                ],
+                "blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/blue/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/blue/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/blue/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/blue/s/4.png"
+                ],
+                "grey": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/grey/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/grey/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/grey/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/grey/s/4.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/black/m/4.jpeg"
+                ],
+                "blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/blue/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/blue/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/blue/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/blue/m/4.jpeg"
+                ],
+                "grey": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/grey/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/grey/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/grey/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/aeroready/grey/m/4.jpeg"
+                ]
+            }
+        },
+        "__v": 0,
+        "gender": "man"
+    },
+    {
+        "_id": {
+            "$oid": "64d5be145c0eda2040f25705"
+        },
+        "title": "Yoga Base Training",
+        "description": "Yoga Base Training Man Tracksuit",
+        "brand": "adidas",
+        "category": "tracksuit",
+        "color": [
+            "black",
+            "orange"
+        ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
+        "price": {
+            "quantity": 1.379,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/black/s/4.png"
+                ],
+                "orange": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/orange/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/orange/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/orange/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/orange/s/4.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/black/m/4.jpeg"
+                ],
+                "orange": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/orange/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/orange/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/orange/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/adidas/yoga%20base/orange/m/4.jpeg"
+                ]
+            }
+        },
+        "__v": 0,
+        "gender": "man"
+    },
+    {
+        "_id": {
+            "$oid": "64d5bec3582ad594b65fa68c"
         },
         "title": "Jordan Dri-FIT Sport",
-        "description": "Jordan Dri-FIT Sport Man T-shirt",
-        "gender": "man",
+        "description": "Jordan Dri-FIT Sport Man Tracksuit",
         "brand": "nike",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
+        "category": "tracksuit",
         "color": [
             "black",
-            "purple",
-            "red",
             "white"
         ],
-        "price": {
-            "quantity": 1.049,
-            "currency": "TRY"
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/black/s/3.png"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/purple/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/purple/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/purple/s/3.png"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/red/s/3.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/white/s/3.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/black/m/3.jpeg"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/purple/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/purple/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/purple/m/3.jpeg"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/red/m/3.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/jordan/white/m/3.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64d5a7c410457201ffdb0496"
-        },
-        "title": "Max90",
-        "description": "Max90 Man T-shirt",
-        "gender": "man",
-        "brand": "nike",
-        "category": "tshirt",
         "size": [
             "xs",
             "s",
@@ -326,504 +215,6 @@
             "l",
             "xl",
             "xxl"
-        ],
-        "color": [
-            "black",
-            "green",
-            "white"
-        ],
-        "price": {
-            "quantity": 659,
-            "currency": "TRY"
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/black/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/black/s/5.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/green/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/green/s/5.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/white/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/white/s/5.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/black/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/black/m/5.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/green/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/green/m/5.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/white/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/max90/white/m/5.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64d5a84f6cfb49dfec47a5ea"
-        },
-        "title": "Sportswear",
-        "description": "Sportswear Man T-shirt",
-        "gender": "man",
-        "brand": "nike",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
-        "color": [
-            "black",
-            "orange",
-            "white"
-        ],
-        "price": {
-            "quantity": 699,
-            "currency": "TRY"
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/black/s/4.png"
-                ],
-                "orange": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/orange/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/orange/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/orange/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/orange/s/4.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/white/s/4.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/black/m/4.jpeg"
-                ],
-                "orange": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/orange/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/orange/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/orange/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/orange/m/4.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/nike/sportswear/white/m/4.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64d5a940065f79645d53c28d"
-        },
-        "title": "Classics Logo",
-        "description": "Classics Logo Man T-shirt",
-        "gender": "man",
-        "brand": "puma",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
-        "color": [
-            "black",
-            "red",
-            "white"
-        ],
-        "price": {
-            "quantity": 699,
-            "currency": "TRY"
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/s/7.png"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/red/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/red/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/red/s/5.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/s/7.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/black/m/7.jpeg"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/red/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/red/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/red/m/5.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/classic/white/m/7.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64d5a9f3065f79645d53c28f"
-        },
-        "title": "8enjamins",
-        "description": "8enjamins Man T-shirt",
-        "gender": "man",
-        "brand": "puma",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
-        "color": [
-            "black",
-            "purple",
-            "white"
-        ],
-        "price": {
-            "quantity": 999,
-            "currency": "TRY"
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/s/6.png"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/s/7.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/s/7.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/black/m/6.jpeg"
-                ],
-                "purple": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/purple/m/7.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/8enjamin/white/m/7.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64d5ab91dec00f16805e753d"
-        },
-        "title": "Evostripe",
-        "description": "Evostripe Man T-shirt",
-        "gender": "man",
-        "brand": "puma",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
-        "color": [
-            "black",
-            "grey",
-            "green",
-            "white"
-        ],
-        "price": {
-            "quantity": 749,
-            "currency": "TRY"
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/s/7.png"
-                ],
-                "grey": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/s/7.png"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/s/7.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/s/7.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/black/m/7.jpeg"
-                ],
-                "grey": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/grey/m/7.jpeg"
-                ],
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/green/m/7.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20t%20%C5%9Fhirt/puma/evostripe/white/m/7.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64d5acd87acaecfa3fa4eebe"
-        },
-        "title": "Adicolor",
-        "description": "Adicolor Woman T-shirt",
-        "gender": "woman",
-        "brand": "adidas",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
-        "color": [
-            "green",
-            "red",
-            "white"
-        ],
-        "price": {
-            "quantity": 879,
-            "currency": "TRY"
-        },
-        "images": {
-            "s": {
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/green/s/4.png"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/red/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/red/s/4.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/white/s/4.png"
-                ]
-            },
-            "m": {
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/green/m/4.jpeg"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/red/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/red/m/4.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/adicolor/white/m/4.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64d5ad7c96e2ae854ce86cd5"
-        },
-        "title": "Own The Run",
-        "description": "Own The Run Woman T-shirt",
-        "gender": "woman",
-        "brand": "adidas",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
-        "color": [
-            "black",
-            "pink",
-            "white"
         ],
         "price": {
             "quantity": 1.249,
@@ -832,56 +223,52 @@
         "images": {
             "s": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/black/s/4.png"
-                ],
-                "pink": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/pink/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/pink/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/pink/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/pink/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/black/s/4.png"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/white/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/white/s/5.png"
                 ]
             },
             "m": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/black/m/4.jpeg"
-                ],
-                "pink": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/pink/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/pink/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/pink/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/pink/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/black/m/4.jpeg"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/own%20the%20run/white/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/jordan/white/m/5.jpeg"
                 ]
             }
         },
-        "__v": 0
+        "__v": 0,
+        "gender": "man"
     },
     {
         "_id": {
-            "$oid": "64d5adc5799e2b6a66a0452c"
+            "$oid": "64d5c08fa9641a5bc4b7088d"
         },
-        "title": "Terrex",
-        "description": "Terrex Woman T-shirt",
-        "gender": "woman",
-        "brand": "adidas",
-        "category": "tshirt",
+        "title": "Jordan Flight MVP",
+        "description": "Jordan Flight MVP Man Tracksuit",
+        "brand": "nike",
+        "category": "tracksuit",
+        "color": [
+            "black",
+            "blue",
+            "grey",
+            "white"
+        ],
         "size": [
             "xs",
             "s",
@@ -890,55 +277,87 @@
             "xl",
             "xxl"
         ],
-        "color": [
-            "black",
-            "white"
-        ],
         "price": {
-            "quantity": 1.089,
+            "quantity": 1.799,
             "currency": "TRY"
         },
         "images": {
             "s": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/black/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/black/s/5.png"
+                ],
+                "blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/blue/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/blue/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/blue/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/blue/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/blue/s/5.png"
+                ],
+                "grey": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/grey/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/grey/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/grey/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/grey/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/grey/s/5.png"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/white/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/white/s/5.png"
                 ]
             },
             "m": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/black/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/black/m/5.jpeg"
+                ],
+                "blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/blue/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/blue/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/blue/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/blue/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/blue/m/5.jpeg"
+                ],
+                "grey": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/grey/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/grey/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/grey/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/grey/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/grey/m/5.jpeg"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/adidas/terrex/white/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/flight/white/m/5.jpeg"
                 ]
             }
         },
-        "__v": 0
+        "__v": 0,
+        "gender": "man"
     },
     {
         "_id": {
-            "$oid": "64d5ae79ffe8bb65652ccf9f"
+            "$oid": "64d5c1195beef11b53f43f91"
         },
-        "title": "Sportswear Essential",
-        "description": "Sportswear Essential Woman T-shirt",
-        "gender": "woman",
+        "title": "Academy",
+        "description": "Academy Man Tracksuit",
         "brand": "nike",
-        "category": "tshirt",
+        "category": "tracksuit",
+        "color": [
+            "black",
+            "blue"
+        ],
         "size": [
             "xs",
             "s",
@@ -947,54 +366,306 @@
             "xl",
             "xxl"
         ],
+        "price": {
+            "quantity": 1.349,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/black/s/5.png"
+                ],
+                "blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/blue/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/blue/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/blue/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/blue/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/blue/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/blue/s/6.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/black/m/5.jpeg"
+                ],
+                "blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/blue/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/blue/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/blue/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/blue/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/blue/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/nike/academy/blue/m/6.jpeg"
+                ]
+            }
+        },
+        "__v": 0,
+        "gender": "man"
+    },
+    {
+        "_id": {
+            "$oid": "64d5c279d9af4c7227cc0f53"
+        },
+        "title": "Evostripe",
+        "description": "Evostripe Man Tracksuit",
+        "brand": "puma",
+        "category": "tracksuit",
         "color": [
             "black",
             "grey",
             "white"
         ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
         "price": {
-            "quantity": 999,
+            "quantity": 1.4,
             "currency": "TRY"
         },
         "images": {
             "s": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/black/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/s/7.png"
                 ],
                 "grey": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/grey/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/grey/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/grey/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/grey/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/s/7.png"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/white/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/s/7.png"
                 ]
             },
             "m": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/black/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/black/m/7.jpeg"
                 ],
                 "grey": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/grey/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/grey/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/grey/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/grey/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/grey/m/7.jpeg"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/essential/white/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/evostripe/white/m/7.jpeg"
+                ]
+            }
+        },
+        "__v": 0,
+        "gender": "man"
+    },
+    {
+        "_id": {
+            "$oid": "64d5c304d9af4c7227cc0f55"
+        },
+        "title": "Scuderia Ferrari Race",
+        "description": "Scuderia Ferrari Race Man Tracksuit",
+        "brand": "puma",
+        "category": "tracksuit",
+        "color": [
+            "black"
+        ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
+        "price": {
+            "quantity": 2.4,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/s/7.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/ferrari/m/7.jpeg"
+                ]
+            }
+        },
+        "__v": 0,
+        "gender": "man"
+    },
+    {
+        "_id": {
+            "$oid": "64d5c435302b2d78214dfc6a"
+        },
+        "title": "T7 Iconic",
+        "description": "T7 Iconic Man Tracksuit",
+        "brand": "puma",
+        "category": "tracksuit",
+        "color": [
+            "granola",
+            "green"
+        ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
+        "price": {
+            "quantity": 1.9,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "granola": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/s/7.png"
+                ],
+                "green": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/green/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/green/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/green/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/green/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/green/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/green/s/6.png"
+                ]
+            },
+            "m": {
+                "granola": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/granola/m/7.jpeg"
+                ],
+                "green": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/green/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/green/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/green/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/green/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/green/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/man%20tracksuit/puma/t7/green/m/6.jpeg"
+                ]
+            }
+        },
+        "__v": 0,
+        "gender": "man"
+    },
+    {
+        "_id": {
+            "$oid": "64d5c6121a8e78d3aa8e02b9"
+        },
+        "title": "Allover",
+        "description": "Allover Woman Tracksuit",
+        "gender": "woman",
+        "brand": "adidas",
+        "category": "tracksuit",
+        "color": [
+            "black",
+            "blue"
+        ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
+        "price": {
+            "quantity": 1.499,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/black/s/4.png"
+                ],
+                "blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/blue/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/blue/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/blue/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/blue/s/4.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/black/m/4.jpeg"
+                ],
+                "blue": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/blue/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/blue/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/blue/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/allover/blue/m/4.jpeg"
                 ]
             }
         },
@@ -1002,141 +673,446 @@
     },
     {
         "_id": {
-            "$oid": "64d5af4f69c19647e859fa70"
+            "$oid": "64d5c982976a12dd61aba624"
+        },
+        "title": "Future Icons 3",
+        "description": "Future Icons 3 Woman Tracksuit",
+        "gender": "woman",
+        "brand": "adidas",
+        "category": "tracksuit",
+        "color": [
+            "black",
+            "green",
+            "pink",
+            "white"
+        ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
+        "price": {
+            "quantity": 1.379,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/black/s/4.png"
+                ],
+                "green": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/green/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/green/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/green/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/green/s/4.png"
+                ],
+                "pink": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/pink/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/pink/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/pink/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/pink/s/4.png"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/white/s/4.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/black/m/4.jpeg"
+                ],
+                "green": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/green/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/green/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/green/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/green/m/4.jpeg"
+                ],
+                "pink": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/pink/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/pink/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/pink/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/pink/m/4.jpeg"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/future%20icons/white/m/4.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d5ca1b976a12dd61aba627"
+        },
+        "title": "W Val",
+        "description": "W Val Woman Tracksuit",
+        "gender": "woman",
+        "brand": "adidas",
+        "category": "tracksuit",
+        "color": [
+            "grey",
+            "pink"
+        ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
+        "price": {
+            "quantity": 1.749,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "grey": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/grey/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/grey/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/grey/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/grey/s/4.png"
+                ],
+                "pink": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/pink/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/pink/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/pink/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/pink/s/4.png"
+                ]
+            },
+            "m": {
+                "grey": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/grey/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/grey/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/grey/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/grey/m/4.jpeg"
+                ],
+                "pink": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/pink/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/pink/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/pink/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/adidas/val/pink/m/4.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d5caf9c54a5753e9809a07"
+        },
+        "title": "Club Fleece",
+        "description": "Club Fleece Woman Tracksuit",
+        "gender": "woman",
+        "brand": "nike",
+        "category": "tracksuit",
+        "color": [
+            "black",
+            "white"
+        ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
+        "price": {
+            "quantity": 1.649,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/black/s/5.png"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/white/s/4.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/black/m/5.jpeg"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/club%20fleece/white/m/4.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d5cc56db050b35fd1f0825"
+        },
+        "title": "Phoenix",
+        "description": "Phoenix Woman Tracksuit",
+        "gender": "woman",
+        "brand": "nike",
+        "category": "tracksuit",
+        "color": [
+            "black",
+            "green",
+            "orange",
+            "pink"
+        ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
+        "price": {
+            "quantity": 1.799,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/s/7.png"
+                ],
+                "green": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/s/7.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/s/8.png"
+                ],
+                "orange": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/s/7.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/s/8.png"
+                ],
+                "pink": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/s/7.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/s/8.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/black/m/7.jpeg"
+                ],
+                "green": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/m/7.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/green/m/8.jpeg"
+                ],
+                "orange": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/m/7.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/orange/m/8.jpeg"
+                ],
+                "pink": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/m/7.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/phoenix/pink/m/8.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d5cd554a8c6fbecfabcc86"
         },
         "title": "Sportswear",
-        "description": "Sportswear Woman T-shirt",
+        "description": "Sportswear Woman Tracksuit",
         "gender": "woman",
         "brand": "nike",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
+        "category": "tracksuit",
         "color": [
             "black",
-            "white"
-        ],
-        "price": {
-            "quantity": 859,
-            "currency": "TRY"
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/black/s/4.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/white/s/4.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/black/m/4.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/sportswear/white/m/4.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64d5b0456bd3445ce333961b"
-        },
-        "title": "Jordan Flight",
-        "description": "Jordan Flight Woman T-shirt",
-        "gender": "woman",
-        "brand": "nike",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
-        "color": [
-            "black",
-            "blue",
+            "green",
+            "orange",
+            "pink",
             "red",
             "white"
         ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
         "price": {
-            "quantity": 1.049,
+            "quantity": 1.549,
             "currency": "TRY"
         },
         "images": {
             "s": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/black/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/black/s/5.png"
                 ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/blue/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/blue/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/blue/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/blue/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/blue/s/5.png"
+                "green": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/s/7.png"
+                ],
+                "orange": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/s/7.png"
+                ],
+                "pink": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/s/7.png"
                 ],
                 "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/red/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/red/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/red/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/red/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/red/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/red/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/red/s/5.png"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/white/s/4.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/white/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/white/s/6.png"
                 ]
             },
             "m": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/black/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/black/m/5.jpeg"
                 ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/blue/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/blue/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/blue/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/blue/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/blue/m/5.jpeg"
+                "green": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/green/m/7.jpeg"
+                ],
+                "orange": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/orange/m/7.jpeg"
+                ],
+                "pink": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/pink/m/7.jpeg"
                 ],
                 "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/red/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/red/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/red/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/red/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/red/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/red/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/red/m/5.jpeg"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/nike/jordan/white/m/4.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/white/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/nike/sportswear/white/m/6.jpeg"
                 ]
             }
         },
@@ -1144,101 +1120,105 @@
     },
     {
         "_id": {
-            "$oid": "64d5b10a9aa0d9ae09189646"
+            "$oid": "64d5d00f4a8c6fbecfabcc8b"
+        },
+        "title": "Classic",
+        "description": "Classic Woman Tracksuit",
+        "gender": "woman",
+        "brand": "puma",
+        "category": "tracksuit",
+        "color": [
+            "black",
+            "purple",
+            "white"
+        ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
+        "price": {
+            "quantity": 1.359,
+            "currency": "TRY"
+        },
+        "images": {
+            "s": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/s/7.png"
+                ],
+                "purple": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/purple/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/purple/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/purple/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/purple/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/purple/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/purple/s/6.png"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/s/7.png"
+                ]
+            },
+            "m": {
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/black/m/7.jpeg"
+                ],
+                "purple": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/purple/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/purple/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/purple/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/purple/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/purple/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/purple/m/6.jpeg"
+                ],
+                "white": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/classic/white/m/7.jpeg"
+                ]
+            }
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "64d5d1b4a8c4c21b7ab15f85"
         },
         "title": "Evostripe",
-        "description": "Evostripe Woman T-shirt",
+        "description": "Evostripe Woman Tracksuit",
         "gender": "woman",
         "brand": "puma",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
+        "category": "tracksuit",
         "color": [
             "black",
+            "granola",
             "red",
             "white"
         ],
-        "price": {
-            "quantity": 749,
-            "currency": "TRY"
-        },
-        "images": {
-            "s": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/s/7.png"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/s/7.png"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/s/7.png"
-                ]
-            },
-            "m": {
-                "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/black/m/7.jpeg"
-                ],
-                "red": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/red/m/7.jpeg"
-                ],
-                "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/evostripe/white/m/7.jpeg"
-                ]
-            }
-        },
-        "__v": 0
-    },
-    {
-        "_id": {
-            "$oid": "64d5b1ba9aa0d9ae09189648"
-        },
-        "title": "Ribbed V-Neck",
-        "description": "Ribbed V-Neck Woman T-shirt",
-        "gender": "woman",
-        "brand": "puma",
-        "category": "tshirt",
         "size": [
             "xs",
             "s",
@@ -1247,53 +1227,85 @@
             "xl",
             "xxl"
         ],
-        "color": [
-            "green",
-            "white"
-        ],
         "price": {
-            "quantity": 1.3,
+            "quantity": 1.105,
             "currency": "TRY"
         },
         "images": {
             "s": {
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/s/7.png"
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/s/7.png"
+                ],
+                "granola": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/s/7.png"
+                ],
+                "red": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/s/7.png"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/s/7.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/s/7.png"
                 ]
             },
             "m": {
-                "green": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/green/m/7.jpeg"
+                "black": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/black/m/7.jpeg"
+                ],
+                "granola": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/granola/m/7.jpeg"
+                ],
+                "red": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/red/m/7.jpeg"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/ribbed%20v-neck/white/m/7.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/evostripe/white/m/7.jpeg"
                 ]
             }
         },
@@ -1301,87 +1313,87 @@
     },
     {
         "_id": {
-            "$oid": "64d5b25f9e43d41cb609c248"
+            "$oid": "64d5d24d056f1aca4499c717"
         },
-        "title": "Modern Sports",
-        "description": "Modern Sports Woman T-shirt",
+        "title": "Infuse",
+        "description": "Infuse Woman Tracksuit",
         "gender": "woman",
         "brand": "puma",
-        "category": "tshirt",
-        "size": [
-            "xs",
-            "s",
-            "m",
-            "l",
-            "xl",
-            "xxl"
-        ],
+        "category": "tracksuit",
         "color": [
             "black",
-            "blue",
+            "orange",
             "white"
         ],
+        "size": [
+            "xs",
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
         "price": {
-            "quantity": 499,
+            "quantity": 1.799,
             "currency": "TRY"
         },
         "images": {
             "s": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/s/7.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/s/7.png"
                 ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/s/7.png"
+                "orange": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/s/7.png"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/s/1.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/s/2.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/s/3.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/s/4.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/s/5.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/s/6.png",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/s/7.png"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/s/1.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/s/2.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/s/3.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/s/4.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/s/5.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/s/6.png",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/s/7.png"
                 ]
             },
             "m": {
                 "black": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/black/m/7.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/black/m/7.jpeg"
                 ],
-                "blue": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/blue/m/7.jpeg"
+                "orange": [
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/orange/m/7.jpeg"
                 ],
                 "white": [
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/m/1.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/m/2.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/m/3.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/m/4.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/m/5.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/m/6.jpeg",
-                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20t%20shirt/puma/sports/white/m/7.jpeg"
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/m/1.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/m/2.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/m/3.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/m/4.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/m/5.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/m/6.jpeg",
+                    "https://raw.githubusercontent.com/ismailcubuk/E-commercial/main/images/woman%20tracksuit/puma/infuse/white/m/7.jpeg"
                 ]
             }
         },

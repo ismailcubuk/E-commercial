@@ -1,41 +1,93 @@
 {
-    "title": "Vogue Slipstream",
-    "description": "Vogue Slipstream Woman Shoes",
+    "title": "Modern Sports",
+    "description": "Modern Sports Woman T-shirt",
     "gender": "woman",
     "brand": "puma",
-    "category": "shoes",
+    "category": "tshirt",
     "size": [
-        35,
-        36,
-        37,
-        38,
-        39,
-        40
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "xxl"
     ],
     "color": [
+        "black",
+        "blue",
         "white"
     ],
     "price": {
-        "quantity": 2.6,
+        "quantity": 499,
         "currency": "TRY"
     },
     "images": [
         {
+            "variant": "black",
+            "sizes": {
+                "s": [
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/5.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/6.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/7.jpeg?w=300&h=300&format=png"
+                ],
+                "m": [
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/1.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/2.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/3.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/4.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/5.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/6.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/7.jpeg"
+                ]
+            }
+        },
+        {
+            "variant": "blue",
+            "sizes": {
+                "s": [
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/5.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/6.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/7.jpeg?w=300&h=300&format=png"
+                ],
+                "m": [
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/1.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/2.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/3.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/4.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/5.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/6.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/7.jpeg"
+                ]
+            }
+        },
+        {
             "variant": "white",
             "sizes": {
                 "s": [
-                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/1.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/2.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/3.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/4.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/5.jpeg?w=300&h=300&format=png"
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/5.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/6.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/7.jpeg?w=300&h=300&format=png"
                 ],
                 "m": [
-                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/1.jpeg",
-                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/2.jpeg",
-                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/3.jpeg",
-                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/4.jpeg",
-                    "https://umiterit.sirv.com/images/shoes/woman/puma/vogue/5.jpeg"
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/1.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/2.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/3.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/4.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/5.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/6.jpeg",
+                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/7.jpeg"
                 ]
             }
         }
