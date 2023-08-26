@@ -1,9 +1,14 @@
 {
-    "title": "Modern Sports",
-    "description": "Modern Sports Woman T-shirt",
+    "title": "Infuse",
+    "description": "Infuse Woman Tracksuit",
     "gender": "woman",
     "brand": "puma",
-    "category": "tshirt",
+    "category": "tracksuit",
+    "color": [
+        "black",
+        "orange",
+        "white"
+    ],
     "size": [
         "xs",
         "s",
@@ -12,13 +17,8 @@
         "xl",
         "xxl"
     ],
-    "color": [
-        "black",
-        "blue",
-        "white"
-    ],
     "price": {
-        "quantity": 499,
+        "quantity": 1.799,
         "currency": "TRY"
     },
     "images": [
@@ -26,45 +26,45 @@
             "variant": "black",
             "sizes": {
                 "s": [
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/1.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/2.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/3.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/4.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/5.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/6.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/7.jpeg?w=300&h=300&format=png"
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/5.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/6.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/7.jpeg?w=300&h=300&format=png"
                 ],
                 "m": [
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/1.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/2.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/3.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/4.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/5.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/6.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/black/7.jpeg"
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/1.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/2.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/3.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/4.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/5.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/6.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/black/7.jpeg"
                 ]
             }
         },
         {
-            "variant": "blue",
+            "variant": "orange",
             "sizes": {
                 "s": [
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/1.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/2.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/3.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/4.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/5.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/6.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/7.jpeg?w=300&h=300&format=png"
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/5.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/6.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/7.jpeg?w=300&h=300&format=png"
                 ],
                 "m": [
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/1.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/2.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/3.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/4.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/5.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/6.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/blue/7.jpeg"
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/1.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/2.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/3.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/4.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/5.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/6.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/orange/7.jpeg"
                 ]
             }
         },
@@ -72,22 +72,22 @@
             "variant": "white",
             "sizes": {
                 "s": [
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/1.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/2.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/3.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/4.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/5.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/6.jpeg?w=300&h=300&format=png",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/7.jpeg?w=300&h=300&format=png"
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/3.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/4.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/5.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/6.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/7.jpeg?w=300&h=300&format=png"
                 ],
                 "m": [
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/1.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/2.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/3.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/4.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/5.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/6.jpeg",
-                    "https://umiterit.sirv.com/images/t%20shirt/woman/puma/sports/white/7.jpeg"
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/1.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/2.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/3.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/4.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/5.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/6.jpeg",
+                    "https://umiterit.sirv.com/images/tracksuit/woman/puma/infuse/white/7.jpeg"
                 ]
             }
         }
