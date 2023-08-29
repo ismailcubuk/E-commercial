@@ -20,76 +20,91 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
+    "Headphones",
+    "Headset",
+    "Keyboard",
+    "Mouse",
+    "Phone",
+    "Shoes",
+    "Tracksuit",
+    "Tshirt",
+    "Watch",
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} >
-      <NavbarContent>
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
-        />
-        <NavbarBrand className="mr-4">
-          <Image
-            src={ShantyIcon}
-            alt="My Image"
-            width={36}
-            height={36}
+    <div>
+      <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="2xl" className="bg-white" >
+        <NavbarContent>
+          <NavbarMenuToggle
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+            className="sm:hidden"
           />
-          <p className="hidden sm:block font-bold text-inherit pl-2">SHANTY</p>
-        </NavbarBrand>
-      </NavbarContent>
-
-      <NavbarContent className="hidden sm:flex gap-4" justify="center" >
-        <Input
-          classNames={{
-            base: "max-w-full sm:max-w-[10rem] h-10",
-            mainWrapper: "h-full",
-            input: "text-small",
-            inputWrapper: "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20",
-          }}
-          placeholder="Type to search..."
-          size="sm"
-          startContent={<SearchIcon size={18} width={undefined} height={undefined} />}
-          type="search"
-        />
-      </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
-          </Button>
-        </NavbarItem>
-      </NavbarContent>
-      <NavbarMenu>
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
-              color={
-                index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
-              }
-              className="w-full"
-              href="#"
-              size="lg"
-            >
-              {item}
-            </Link>
-          </NavbarMenuItem>
-        ))}
-      </NavbarMenu>
-    </Navbar>
+          <NavbarBrand className="mr-4">
+            <Image
+              src={ShantyIcon}
+              alt="My Image"
+              width={36}
+              height={36}
+            />
+            <p className="hidden sm:block font-bold font-serif text-inherit mx-2 text-shanty text-xl">SHANTY</p>
+          </NavbarBrand>
+        </NavbarContent>
+        <NavbarContent className="hidden sm:flex gap-4 w-full border-2 border-red-400" justify="center" >
+          <Input
+            classNames={{
+              base: "max-w-full sm:max-w-[25rem] h-10",
+              mainWrapper: "h-full",
+              input: "text-small",
+              inputWrapper: "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20",
+            }}
+            placeholder="Type to search..."
+            size="sm"
+            startContent={<SearchIcon size={18} width={undefined} height={undefined} />}
+            type="search"
+          />
+        </NavbarContent>
+        <NavbarContent justify="end">
+          <NavbarItem className="hidden lg:flex">
+            <Link href="#">Login</Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Button as={Link} color="primary" href="#" variant="flat">
+              Sign Up
+            </Button>
+          </NavbarItem>
+        </NavbarContent>
+        <NavbarMenu>
+          {menuItems.map((item, index) => (
+            <NavbarMenuItem key={`${item}-${index}`}>
+              <Link
+                color={
+                  index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
+                }
+                className="w-full"
+                href="#"
+                size="lg"
+              >
+                {item}
+              </Link>
+            </NavbarMenuItem>
+          ))}
+        </NavbarMenu>
+      </Navbar>
+      <Navbar className="hidden sm:flex border-t-2 bg-mySecond "  height={"full"}>
+        <NavbarContent justify="center" className="w-full">
+          <NavbarItem className="w-full flex justify-between  ">
+            {menuItems.map((item, index) => (
+              <Link
+                href="#"
+                key={`${item}-${index}`}
+                className=" text-black flex-1 flex justify-center items-center px-4 "
+              >
+                {item}
+              </Link>
+            ))}
+          </NavbarItem>
+        </NavbarContent>
+      </Navbar>
+    </div>
   );
 }
