@@ -18,7 +18,9 @@ import {
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
+  function generateItemUrl(item) {
+    return `${item.toLowerCase()}`;
+  }
   const menuItems = [
     "Headphones",
     "Headset",
@@ -37,7 +39,7 @@ export default function App() {
         <NavbarContent>
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-            className="sm:hidden"
+            className="sm:hidden text-black"
           />
           <NavbarBrand className="mr-4">
             <Image
@@ -46,10 +48,10 @@ export default function App() {
               width={36}
               height={36}
             />
-            <p className="hidden sm:block font-bold font-serif text-inherit mx-2 text-shanty text-xl">SHANTY</p>
+            <p className="hidden sm:block font-bold font-serif text-inherit mx-2 text-shanty text-xl cursor-default">SHANTY</p>
           </NavbarBrand>
         </NavbarContent>
-        <NavbarContent className="hidden sm:flex gap-4 w-full border-2 border-red-400" justify="center" >
+        <NavbarContent className="hidden sm:flex gap-4 w-full border-2 border-none" justify="center" >
           <Input
             classNames={{
               base: "max-w-full sm:max-w-[25rem] h-10",
@@ -64,8 +66,10 @@ export default function App() {
           />
         </NavbarContent>
         <NavbarContent justify="end">
-          <NavbarItem className="hidden lg:flex">
-            <Link href="#">Login</Link>
+          <NavbarItem >
+            <Button as={Link} color="primary" href="#" variant="flat">
+              Sign Up
+            </Button>
           </NavbarItem>
           <NavbarItem>
             <Button as={Link} color="primary" href="#" variant="flat">
@@ -73,7 +77,7 @@ export default function App() {
             </Button>
           </NavbarItem>
         </NavbarContent>
-        <NavbarMenu>
+        <NavbarMenu >
           {menuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
@@ -81,7 +85,7 @@ export default function App() {
                   index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
                 }
                 className="w-full"
-                href="#"
+                href={generateItemUrl(item)}
                 size="lg"
               >
                 {item}
@@ -90,14 +94,15 @@ export default function App() {
           ))}
         </NavbarMenu>
       </Navbar>
-      <Navbar className="hidden sm:flex border-t-2 bg-mySecond "  height={"full"}>
+      <Navbar className="hidden sm:flex border-t-2 bg-mySecond " height={"full"}>
         <NavbarContent justify="center" className="w-full">
           <NavbarItem className="w-full flex justify-between  ">
             {menuItems.map((item, index) => (
               <Link
-                href="#"
+                href={generateItemUrl(item)}
                 key={`${item}-${index}`}
-                className=" text-black flex-1 flex justify-center items-center px-4 "
+                className=" text-black flex-1 flex justify-center items-center px-4 font-semibold"
+                underline="hover"
               >
                 {item}
               </Link>
