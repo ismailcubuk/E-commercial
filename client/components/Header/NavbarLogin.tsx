@@ -1,6 +1,7 @@
 import React from "react";
 import Image from 'next/image';
-
+import PersonIcon from '@mui/icons-material/Person';
+import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 import { SearchIcon } from "./SearchIcon.jsx";
 import ShantyIcon from "./shanty.png";
 import {
@@ -13,7 +14,9 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  Input
+  Input,
+  Badge,
+  Avatar
 } from "@nextui-org/react";
 
 export default function App() {
@@ -67,11 +70,24 @@ export default function App() {
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem >
-            <Button as={Link} color="primary" href="#" variant="solid" className="px-10 font-bold">
-              Sign Up
+            <Button as={Link} color="primary" href="/login" variant="solid" className="px-10 font-bold">
+              <PersonIcon />
+              Login
             </Button>
           </NavbarItem>
         </NavbarContent>
+
+
+        <Badge content="5" color="primary">
+          <Button
+            radius="md"
+            isIconOnly
+          >
+            <LocalGroceryStoreIcon />
+          </Button>
+        </Badge>
+
+
         <NavbarMenu >
           {menuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
