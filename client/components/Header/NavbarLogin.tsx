@@ -41,7 +41,7 @@ export default function App() {
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             className="sm:hidden text-black"
           />
-          <NavbarBrand className="mr-4">
+          <NavbarBrand className="mr-4" as={Link} href="/">
             <Image
               src={ShantyIcon}
               alt="My Image"
