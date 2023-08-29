@@ -41,14 +41,14 @@ export default function App() {
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             className="sm:hidden text-black"
           />
-          <NavbarBrand className="mr-4" as={Link} href="/">
+          <NavbarBrand className="pr-10 w-full" as={Link} href="/">
             <Image
               src={ShantyIcon}
               alt="My Image"
               width={36}
               height={36}
             />
-            <p className="hidden sm:block font-bold font-serif text-inherit mx-2 text-shanty text-xl cursor-default">SHANTY</p>
+            <p className="hidden sm:block font-bold font-serif text-inherit  text-shanty text-xl cursor-default">SHANTY</p>
           </NavbarBrand>
         </NavbarContent>
         <NavbarContent className="hidden sm:flex gap-4 w-full border-2 border-none" justify="center" >
@@ -67,12 +67,7 @@ export default function App() {
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem >
-            <Button as={Link} color="primary" href="#" variant="flat">
-              Sign Up
-            </Button>
-          </NavbarItem>
-          <NavbarItem>
-            <Button as={Link} color="primary" href="#" variant="flat">
+            <Button as={Link} color="primary" href="#" variant="solid" className="px-10 font-bold">
               Sign Up
             </Button>
           </NavbarItem>
@@ -101,7 +96,7 @@ export default function App() {
               <Link
                 href={generateItemUrl(item)}
                 key={`${item}-${index}`}
-                className=" text-black flex-1 flex justify-center items-center px-4 font-semibold"
+                className=" text-black flex-1 flex justify-center items-center px-4 py-1 font-semibold "
                 underline="hover"
               >
                 {item}
