@@ -2,7 +2,7 @@ import React from "react";
 import Image from 'next/image';
 import ShantyIcon from "./shanty.png";
 import { useSelector, useDispatch } from 'react-redux';
-import { toggleMenu } from '../../app/GlobalRedux/Features/toggleMenu/actions';
+import { toggleMenu } from '../../redux/Features/ToggleMenu/action';
 
 import Search from '@/components/Header/Search'
 import Login from '@/components/Header/Login'
@@ -18,9 +18,11 @@ import {
   NavbarMenu,
   NavbarMenuItem,
 } from "@nextui-org/react";
+import { RootState } from "@/redux/types";
 
 export default function App() {
-  function generateItemUrl(item) {
+
+  function generateItemUrl(item: string) {
     return `${item.toLowerCase()}`;
   }
   const menuItems = [
@@ -34,7 +36,7 @@ export default function App() {
     "Tshirt",
     "Watch",
   ];
-  const isMenuOpen = useSelector((state) => state.isMenuOpen);
+  const isMenuOpen = useSelector((state: RootState) => state.toggleMenu?.isMenuOpen);
   const dispatch = useDispatch();
   const handleBrandClick = () => {
     dispatch(toggleMenu());
