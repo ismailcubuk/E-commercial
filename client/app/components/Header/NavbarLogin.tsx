@@ -1,10 +1,12 @@
 import React from "react";
 import Image from 'next/image';
 import ShantyIcon from "./shanty.png";
+import { useSelector, useDispatch } from 'react-redux';
+import { toggleMenu } from '../../GlobalRedux/Features/toggleMenu/actions';
 
-import Search from '@/components/Header/Search'
-import Login from '@/components/Header/Login'
-import ShoppingCartBadge from '@/components/Header/ShoppingCartBadge'
+import Search from '@/app/components/Header/Search'
+import Login from '@/app/components/Header/Login'
+import ShoppingCartBadge from '@/app/components/Header/ShoppingCartBadge'
 
 import {
   Navbar,
@@ -18,7 +20,6 @@ import {
 } from "@nextui-org/react";
 
 export default function App() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   function generateItemUrl(item) {
     return `${item.toLowerCase()}`;
   }
@@ -33,10 +34,14 @@ export default function App() {
     "Tshirt",
     "Watch",
   ];
-
+  const isMenuOpen = useSelector((state) => state.isMenuOpen);
+  const dispatch = useDispatch();
+  const handleBrandClick = () => {
+    dispatch(toggleMenu());
+  };
   return (
     <div>
-      <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="2xl" className="bg-white" >
+      <Navbar onMenuOpenChange={handleBrandClick} maxWidth="2xl" className="bg-white" >
         <NavbarContent>
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}

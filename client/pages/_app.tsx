@@ -1,11 +1,14 @@
 import '@/styles/globals.css'
-import NavbarLogin from '@/components/Header/NavbarLogin'
-
 import type { AppProps } from 'next/app'
+import { Provider } from 'react-redux'
+import store from '../app/GlobalRedux/store'
+import NavbarLogin from '@/app/components/Header/NavbarLogin'
 
 export default function App({ Component, pageProps }: AppProps) {
   return <>
-    <NavbarLogin />
-    <Component {...pageProps} />
+    <Provider store={store}>
+      <NavbarLogin />
+      <Component {...pageProps} />
+    </Provider>
   </>
 }
