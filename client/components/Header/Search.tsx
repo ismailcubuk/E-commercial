@@ -1,10 +1,10 @@
 import React from 'react'
-import { SearchIcon } from "./SearchIcon.jsx";
+import { SearchIcon } from "../../public/images/header/SearchIcon";
 
 import {
     NavbarContent,
     Input,
-  } from "@nextui-org/react";
+} from "@nextui-org/react";
 
 export default function Search() {
     return (

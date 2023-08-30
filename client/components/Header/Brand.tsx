@@ -5,7 +5,7 @@ import {
     Link,
     NavbarMenuToggle,
 } from "@nextui-org/react";
-import ShantyIcon from "./shanty.png";
+import ShantyIcon from "../../public/images/header/shanty.png";
 import Image from 'next/image';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/redux/types';
