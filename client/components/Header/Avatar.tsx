@@ -14,7 +14,6 @@ export default function ShoppingCartBadge() {
       key: "Orders",
       label: "Orders",
       route: "/Orders"
-
     },
     {
       key: "Favorite",
