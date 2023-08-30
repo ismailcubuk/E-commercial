@@ -49,9 +49,14 @@ export default function ShoppingCartBadge() {
     <Dropdown>
       <Badge content="5" color="primary">
         <DropdownTrigger>
-          <Button radius="md" isIconOnly variant="bordered" color='primary'>
+          <Button
+            radius="md"
+            isIconOnly
+            variant="bordered"
+            color='primary'
+            aria-label="Open user menu"
+          >
             <Avatar src={avatarImage} radius='md' isBordered />
-
           </Button>
         </DropdownTrigger>
       </Badge>
