@@ -2,11 +2,11 @@ import React from "react";
 import Image from 'next/image';
 import ShantyIcon from "./shanty.png";
 import { useSelector, useDispatch } from 'react-redux';
-import { toggleMenu } from '../../GlobalRedux/Features/toggleMenu/actions';
+import { toggleMenu } from '../../app/GlobalRedux/Features/toggleMenu/actions';
 
-import Search from '@/app/components/Header/Search'
-import Login from '@/app/components/Header/Login'
-import ShoppingCartBadge from '@/app/components/Header/ShoppingCartBadge'
+import Search from '@/components/Header/Search'
+import Login from '@/components/Header/Login'
+import ShoppingCartBadge from '@/components/Header/ShoppingCartBadge'
 
 import {
   Navbar,
