@@ -1,22 +1,20 @@
 import React from "react";
 import Image from 'next/image';
-import PersonIcon from '@mui/icons-material/Person';
-import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
-import { SearchIcon } from "./SearchIcon.jsx";
 import ShantyIcon from "./shanty.png";
+
+import Search from '@/components/Header/Search'
+import Login from '@/components/Header/Login'
+import ShoppingCartBadge from '@/components/Header/ShoppingCartBadge'
+
 import {
   Navbar,
   NavbarBrand,
   NavbarContent,
   NavbarItem,
   Link,
-  Button,
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  Input,
-  Badge,
-  Avatar
 } from "@nextui-org/react";
 
 export default function App() {
@@ -54,38 +52,13 @@ export default function App() {
             <p className="hidden sm:block font-bold font-serif text-inherit  text-shanty text-xl cursor-default">SHANTY</p>
           </NavbarBrand>
         </NavbarContent>
-        <NavbarContent className="hidden sm:flex gap-4 w-full border-2 border-none" justify="center" >
-          <Input
-            classNames={{
-              base: "max-w-full sm:max-w-[25rem] h-10",
-              mainWrapper: "h-full",
-              input: "text-small",
-              inputWrapper: "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20",
-            }}
-            placeholder="Type to search..."
-            size="sm"
-            startContent={<SearchIcon size={18} width={undefined} height={undefined} />}
-            type="search"
-          />
-        </NavbarContent>
-        <NavbarContent justify="end">
-          <NavbarItem >
-            <Button as={Link} color="primary" href="/login" variant="solid" className="px-10 font-bold">
-              <PersonIcon />
-              Login
-            </Button>
-          </NavbarItem>
-        </NavbarContent>
 
 
-        <Badge content="5" color="primary">
-          <Button
-            radius="md"
-            isIconOnly
-          >
-            <LocalGroceryStoreIcon />
-          </Button>
-        </Badge>
+        <Search />
+        <Login />
+        <ShoppingCartBadge />
+
+
 
 
         <NavbarMenu >
@@ -105,6 +78,7 @@ export default function App() {
           ))}
         </NavbarMenu>
       </Navbar>
+
       <Navbar className="hidden sm:flex border-t-2 bg-mySecond " height={"full"}>
         <NavbarContent justify="center" className="w-full">
           <NavbarItem className="w-full flex justify-between  ">
