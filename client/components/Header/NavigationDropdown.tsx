@@ -18,16 +18,14 @@ const menuItems = [
 export default function NavigationDropdown() {
 
     return (
-        <NavbarMenu >
+        <NavbarMenu className='w-fit max-h-fit border-2 border-red-500'>
             {menuItems.map((item, index) => (
-                <NavbarMenuItem key={`${item}-${index}`}>
+                <NavbarMenuItem className='w-full border-2 rounded-md border-blue-400 hover:bg-grey-200' key={`${item}-${index}` }>
                     <Link
-                        color={
-                            index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
-                        }
-                        className="w-full"
+                        color='foreground'
                         href={generateItemUrl(item)}
                         size="lg"
+                        className='w-full hover:bg-bgmenu'
                     >
                         {item}
                     </Link>
