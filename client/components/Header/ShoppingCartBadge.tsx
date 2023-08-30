@@ -7,7 +7,7 @@ import {
 } from "@nextui-org/react";
 export default function ShoppingCartBadge() {
     return (
-        <Badge content="5" color="primary">
+        <Badge content="5"  color="primary" >
             <Button
                 radius="md"
                 isIconOnly

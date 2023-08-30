@@ -9,6 +9,7 @@ import Brand from '@/components/Header/Brand'
 import ShoppingCartBadge from '@/components/Header/ShoppingCartBadge'
 import Navigation from '@/components/Header/Navigation'
 import NavigationDropdown from '@/components/Header/NavigationDropdown'
+import Avatars from '@/components/Header/Avatar'
 
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
                 <Login />
                 <ShoppingCartBadge />
                 <NavigationDropdown />
+                <Avatars/>
             </Navbar>
             <Navbar className="hidden sm:flex border-t-2 bg-mySecond " height={"full"}>
                 <Navigation />
