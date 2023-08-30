@@ -1,24 +1,20 @@
 import React from "react";
-import Image from 'next/image';
-import ShantyIcon from "./shanty.png";
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { toggleMenu } from '../../redux/Features/ToggleMenu/action';
 
 import Search from '@/components/Header/Search'
 import Login from '@/components/Header/Login'
+import Brand from '@/components/Header/Brand'
 import ShoppingCartBadge from '@/components/Header/ShoppingCartBadge'
 
 import {
   Navbar,
-  NavbarBrand,
   NavbarContent,
   NavbarItem,
   Link,
-  NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
 } from "@nextui-org/react";
-import { RootState } from "@/redux/types";
 
 export default function App() {
 
@@ -36,7 +32,6 @@ export default function App() {
     "Tshirt",
     "Watch",
   ];
-  const isMenuOpen = useSelector((state: RootState) => state.toggleMenu?.isMenuOpen);
   const dispatch = useDispatch();
   const handleBrandClick = () => {
     dispatch(toggleMenu());
@@ -44,29 +39,10 @@ export default function App() {
   return (
     <div>
       <Navbar onMenuOpenChange={handleBrandClick} maxWidth="2xl" className="bg-white" >
-        <NavbarContent>
-          <NavbarMenuToggle
-            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-            className="sm:hidden text-black"
-          />
-          <NavbarBrand className="pr-10 w-full" as={Link} href="/">
-            <Image
-              src={ShantyIcon}
-              alt="My Image"
-              width={36}
-              height={36}
-            />
-            <p className="hidden sm:block font-bold font-serif text-inherit  text-shanty text-xl cursor-default">SHANTY</p>
-          </NavbarBrand>
-        </NavbarContent>
-
-
+        <Brand />
         <Search />
         <Login />
         <ShoppingCartBadge />
-
-
-
 
         <NavbarMenu >
           {menuItems.map((item, index) => (
