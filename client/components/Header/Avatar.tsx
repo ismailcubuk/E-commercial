@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Button, Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from "@nextui-org/react";
+import { Avatar, Button, Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Badge } from "@nextui-org/react";
 import { useRouter } from 'next/router';
 
 export default function ShoppingCartBadge() {
@@ -47,11 +47,14 @@ export default function ShoppingCartBadge() {
 
   return (
     <Dropdown>
-      <DropdownTrigger>
-        <Button radius="md" isIconOnly variant="bordered" color='primary'>
-          <Avatar src={avatarImage} radius='md' isBordered />
-        </Button>
-      </DropdownTrigger>
+      <Badge content="5" color="primary">
+        <DropdownTrigger>
+          <Button radius="md" isIconOnly variant="bordered" color='primary'>
+            <Avatar src={avatarImage} radius='md' isBordered />
+
+          </Button>
+        </DropdownTrigger>
+      </Badge>
       <DropdownMenu className='text-black' >
         {dropdownItems}
       </DropdownMenu>

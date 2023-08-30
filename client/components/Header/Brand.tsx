@@ -25,7 +25,7 @@ export default function Brand() {
                     width={36}
                     height={36}
                 />
-                <p className="hidden sm:block font-bold font-serif text-inherit  text-shanty text-xl cursor-default">SHANTY</p>
+                <p className="hidden sm:block font-bold font-serif text-inherit  text-shanty text-xl cursor-default ml-2">SHANTY</p>
             </NavbarBrand>
         </NavbarContent>
     )
