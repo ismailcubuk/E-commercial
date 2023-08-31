@@ -1,20 +1,9 @@
-import { createStore } from 'redux';
+import { createStore, combineReducers } from 'redux';
+import menuReducer from './Features/ToggleMenu/menuReducer'; // Update the path
 
-const initialState = {
-    isMenuOpen: false,
-};
-
-const rootReducer = (state = initialState, action: { type: any; }) => {
-    switch (action.type) {
-        case 'TOGGLE_MENU':
-            return {
-                ...state,
-                isMenuOpen: !state.isMenuOpen,
-            };
-        default:
-            return state;
-    }
-};
+const rootReducer = combineReducers({
+    toggleMenu: menuReducer,
+});
 
 const store = createStore(rootReducer);
 
