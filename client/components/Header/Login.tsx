@@ -10,7 +10,7 @@ export default function Login() {
     return (
         <NavbarContent justify="end">
             <NavbarItem >
-                <Button as={Link} color="primary" href="/login" variant="solid" className="px-10 font-bold">
+                <Button as={Link} color="primary" href="/signin" variant="solid" className="px-10 font-bold">
                     <PersonIcon />
                     Login
                 </Button>

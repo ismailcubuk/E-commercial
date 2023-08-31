@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    flex-grow: inherit;
+    min-height: 100vh;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    position: relative;
+  }
+  
+  .formContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .inputContainer {
+    margin-bottom: 20px;
+  }
+  
+  .inputContainer input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .checkboxContainer {
+    margin-bottom: 20px;
+  }
+  
+  .checkboxContainer label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkboxContainer input {
+    margin-right: 8px;
+  }
+  
+  .submitButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  .linkContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .linkContainer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .linkContainer a:hover {
+    color: #0056b3;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+  }
+  
