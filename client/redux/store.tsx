@@ -1,5 +1,5 @@
 import { createStore, combineReducers } from 'redux';
-import menuReducer from './Features/ToggleMenu/menuReducer'; // Update the path
+import menuReducer from './Features/ToggleMenu/menuReducer';
 
 const rootReducer = combineReducers({
     toggleMenu: menuReducer,

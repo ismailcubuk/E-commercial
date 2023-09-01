@@ -1,7 +1,7 @@
 import React from 'react'
 import Grid from '@mui/material/Grid';
 
-export default function Background() {
+export default function SignInImage() {
     return (
         <Grid
             item
@@ -9,9 +9,9 @@ export default function Background() {
             sm={4}
             md={7}
             sx={{
-                backgroundImage: 'url(/images/login/login.jpg)',
+                backgroundImage: 'url(/images/login/Signin.gif)',
                 backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
+                backgroundSize: 'contain',
                 backgroundPosition: 'center',
             }}
         />
