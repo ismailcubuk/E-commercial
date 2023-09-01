@@ -8,17 +8,17 @@ export default function ShoppingCartBadge() {
     {
       key: "Account",
       label: "Account",
-      route: "/Account"
+      route: "/profile/Account"
     },
     {
       key: "Orders",
       label: "Orders",
-      route: "/Orders"
+      route: "/profile/Orders"
     },
     {
       key: "Favorite",
       label: "Favorite ",
-      route: "/Favorite"
+      route: "/profile/Favorite"
     },
     {
       key: "Logout",

@@ -5,7 +5,7 @@ import Link from '@mui/material/Link';
 export default function Forgot() {
     return (
         <Grid item xs>
-            <Link href="/forgotpassword" variant="body2">
+            <Link href="/login/forgotpassword" variant="body2">
                 Forgot password?
             </Link>
         </Grid>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { SearchIcon } from "../../public/images/header/SearchIcon";
+import { SearchIcon } from "../Icons/Navbar/SearchIcon";
 
 import {
     NavbarContent,

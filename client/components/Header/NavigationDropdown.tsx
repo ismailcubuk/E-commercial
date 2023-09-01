@@ -2,7 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import { NavbarMenu, NavbarMenuItem } from "@nextui-org/react";
 import { useDispatch} from 'react-redux';
-import { closeMenu } from '../../redux/Features/ToggleMenu/MenuActions'; // Update the path
+import { closeMenu } from '../../redux/Features/ToggleMenu/MenuActions'; 
 
 const menuItems = [
     "Headphones",

@@ -2,11 +2,11 @@ import React from 'react'
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 
-export default function SignInPage() {
+export default function SignUpPage() {
     return (
         <Grid item>
-            <Link href="/signin" variant="body2">
-                Already have an account? Sign in
+            <Link href="/login/signup" variant="body2">
+                Don't have an account? Sign Up
             </Link>
         </Grid>
     )

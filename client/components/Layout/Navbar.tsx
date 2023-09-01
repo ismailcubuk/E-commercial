@@ -8,7 +8,7 @@ import Brand from '@/components/Header/Brand'
 import ShoppingCartBadge from '@/components/Header/ShoppingCartBadge'
 import Navigation from '@/components/Header/Navigation'
 import NavigationDropdown from '@/components/Header/NavigationDropdown'
-import Avatars from '@/components/Header/Avatar'
+import Avatars from '@/components/Icons/Navbar/Avatar'
 
 interface RootState {
     toggleMenu: boolean;
