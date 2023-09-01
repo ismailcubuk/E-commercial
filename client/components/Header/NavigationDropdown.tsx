@@ -21,7 +21,7 @@ export default function NavigationDropdown() {
     const router = useRouter();
 
     const generateItemUrl = (item: string) => {
-        return `/${item.toLowerCase()}`;
+        return `/products/${item.toLowerCase()}`;
     };
     const handleItemClick = (item: string) => {
         const itemUrl = generateItemUrl(item);

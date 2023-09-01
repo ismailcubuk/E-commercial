@@ -20,7 +20,7 @@ export default function Navigation() {
             <NavbarItem className="w-full flex justify-between  ">
                 {menuItems.map((item, index) => (
                     <Link
-                        href={generateItemUrl(item)}
+                        href={`/products/${generateItemUrl(item)}`}
                         key={`${item}-${index}`}
                         className=" text-black flex-1 flex justify-center items-center px-4 py-1 font-semibold "
                         underline="hover"
