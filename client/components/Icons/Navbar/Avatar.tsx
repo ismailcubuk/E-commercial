@@ -8,7 +8,7 @@ export default function ShoppingCartBadge() {
     {
       key: "Account",
       label: "Account",
-      route: "/profile/Account"
+      route: "/profile/profile"
     },
     {
       key: "Orders",

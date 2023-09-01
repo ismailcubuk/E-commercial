@@ -10,7 +10,7 @@ import Typography from '@mui/material/Typography';
 import ProfileNavigation from '@/components/Layout/ProfileNavigation';
 
 
-export default function orders() {
+export default function profile() {
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();

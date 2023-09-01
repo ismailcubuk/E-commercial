@@ -17,7 +17,7 @@ function generateItemUrl(item: string) {
 export default function Navigation() {
     return (
         <NavbarContent justify="center" className="w-full">
-            <NavbarItem className="w-full flex justify-between  ">
+            <NavbarItem className="w-full flex flex-wrap shrink-0 justify-between  ">
                 {menuItems.map((item, index) => (
                     <Link
                         href={`/products/${generateItemUrl(item)}`}
