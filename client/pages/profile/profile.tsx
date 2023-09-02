@@ -1,52 +1,159 @@
-import * as React from 'react';
-import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
-import Box from '@mui/material/Box';
-import Mail from '@/components/Forms/Login/Mail';
-import SignUp from '@/components/Links/Login/SignUpPage';
-import LockIcon from '@/components/Icons/Login/LockIcon';
-import Continue from '@/components/Buttons/Login/Continue';
-import Typography from '@mui/material/Typography';
-import ProfileNavigation from '@/components/Layout/ProfileNavigation';
+import React, { useState } from "react";
+
+import { Listbox, ListboxItem, ListboxSection, Avatar, Badge } from "@nextui-org/react";
+import { Container, Grid, Typography } from "@mui/material";
+import { useRouter } from "next/router";
+import ShoppingBasketOutlinedIcon from "@mui/icons-material/ShoppingBasketOutlined";
+import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
+import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
+import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
+import SupportAgentIcon from "@mui/icons-material/SupportAgent";
+import ListboxWrapper from "../../components/Layout/ListboxWrapper";
+import PhotoCameraOutlinedIcon from '@mui/icons-material/PhotoCameraOutlined';
+import FirstName from "@/components/Forms/Profile/FirstName";
+import SurName from "@/components/Forms/Profile/SurName";
+import Mail from "@/components/Forms/Profile/Mail";
+import Password from "@/components/Forms/Profile/Password";
+import SaveChanges from "@/components/Buttons/Profile/SaveChanges";
+import BackToProfile from "@/components/Buttons/Profile/BackToProfile";
+import EditProfile from "@/components/Buttons/Profile/EditProfile";
+
 
 
 export default function profile() {
 
-  const handleSubmit = (event: React.FormEvent) => {
-    event.preventDefault();
-    const formData = new FormData(event.target as HTMLFormElement);
-    console.log({
-      email: formData.get('email'),
-    });
+  const iconClasses =
+    "text-xl text-default-500 pointer-events-none flex-shrink-0";
+  const router = useRouter();
+  const [selectedItem, setSelectedItem] = useState<null | string>(null);
+  const handleItemClick = (key: string) => {
+    setSelectedItem(key);
+    switch (key) {
+      case "Orders":
+        router.push("/profile/orders");
+        break;
+      case "Wishlist":
+        router.push("/profile/wishlist");
+        break;
+      case "Support":
+        router.push("/profile/support");
+        break;
+      case "Profile":
+        router.push("/profile/profile");
+        break;
+      case "Addresses":
+        router.push("/profile/addresses");
+        break;
+      default:
+        break;
+    }
   };
 
+
+  const avatarImage = "https://i.pravatar.cc/150?u=a042581f4e29026024d";
+
+
   return (
-    <Grid container component="main" className='bg-white text-black justify-center' >
-      <ProfileNavigation/>
-      <Grid item xs={12} sm={7} md={8} xl={9} component={Paper} elevation={6} square>
-        <Box
-          sx={{
-            my: 8,
-            mx: 4,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-          }}
-        >
-          <LockIcon />
-          <Typography component="h1" variant="h5">
-            Forgot Password
-          </Typography>
-          <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1 }} >
-            <div >Enter the email address associated with your account and we'll sen you a link to reset your password.</div>
-            <Mail />
-            <Continue />
-            <Grid container>
-              <SignUp />
+    <Container maxWidth="xl" className=" flex border-2 border-red-500 p-10 ">
+      <ListboxWrapper>
+        <Listbox variant="faded" aria-label="Listbox menu with icons">
+          <ListboxSection title="DASHBOARD" showDivider>
+
+            <ListboxItem
+              key="Orders"
+              onClick={() => handleItemClick("Orders")}
+              isSelected={selectedItem === "Orders"}
+            >
+              <ShoppingBasketOutlinedIcon className={iconClasses} />
+              Orders
+            </ListboxItem>
+
+            <ListboxItem
+              key="Wishlist"
+              onClick={() => handleItemClick("Wishlist")}
+              isSelected={selectedItem === "Wishlist"}
+            >
+              <FavoriteBorderOutlinedIcon className={iconClasses} />
+              Wishlist
+            </ListboxItem>
+
+
+            <ListboxItem
+              key="Support"
+              onClick={() => handleItemClick("Support")}
+              isSelected={selectedItem === "Support"}
+            >
+              <SupportAgentIcon className={iconClasses} />
+              Support
+            </ListboxItem>
+
+          </ListboxSection>
+          <ListboxSection title="ACCOUNT SETTİNGS" showDivider>
+
+            <ListboxItem
+              key="Profile"
+              onClick={() => handleItemClick("Profile")}
+              isSelected={selectedItem === "Profile"}
+            >
+              <PersonOutlineOutlinedIcon className={iconClasses} />
+              Profile info
+            </ListboxItem>
+
+            <ListboxItem
+              key="Addresses"
+              onClick={() => handleItemClick("Addresses")}
+              isSelected={selectedItem === "Addresses"}
+            >
+              <LocationOnOutlinedIcon className={iconClasses} />
+              Addresses
+            </ListboxItem>
+          </ListboxSection>
+        </Listbox>
+      </ListboxWrapper>
+
+      <Grid className="ml-5 px-10 py-10 w-full border-small rounded-small border-default-200 dark:border-default-100">
+        <div className="border-2 mb-5 border-red-400 flex w-full justify-between">
+          <Typography variant="h4">Profile</Typography>
+          {/* <BackToProfile/> */}
+          <EditProfile />
+        </div>
+
+        <div className="flex gap-5 items-center ">
+          <Badge content={<PhotoCameraOutlinedIcon />} className="w-10 h-10" placement="bottom-right" color="default">
+            <Avatar src={avatarImage} radius='md' className="w-20 h-20" />
+          </Badge>
+          <Typography variant="h2"> İsmail çubuk</Typography>
+        </div>
+
+        <Grid container spacing={2} mt={2} mb={4}>
+          {/* İlk grup */}
+          <Grid item xs={12} >
+            <Grid container spacing={2}>
+              <Grid item xs={12} sm={12} md={6}>
+                <FirstName />
+              </Grid>
+              <Grid item xs={12} sm={12} md={6}>
+                <SurName />
+              </Grid>
             </Grid>
-          </Box>
-        </Box>
+          </Grid>
+
+          {/* İkinci grup */}
+          <Grid item xs={12}>
+            <Grid container spacing={2}>
+              <Grid item xs={12} sm={12} md={6}>
+                <Mail />
+              </Grid>
+              <Grid item xs={12} sm={12} md={6}>
+                <Password />
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
+        <SaveChanges />
       </Grid>
-    </Grid>
+
+    </Container>
+
   );
 }
