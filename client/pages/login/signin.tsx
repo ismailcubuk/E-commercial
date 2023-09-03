@@ -5,11 +5,11 @@ import Box from '@mui/material/Box';
 import Mail from '@/components/Forms/Login/Mail';
 import Password from '@/components/Forms/Login/Password';
 import Remember from '@/components/CheckBoxs/Login/Remember';
-import SignIn from '@/components/Buttons/Login/SignInButton';
 import Forgot from '@/components/Links/Login/Forgot';
 import SignUp from '@/components/Links/Login/SignUpPage';
 import LockIcon from '@/components/Icons/Login/LockIcon';
 import Typography from '@mui/material/Typography';
+import CustomWButton from '@/components/Buttons/CustomWButton';
 
 export default function signin() {
 
@@ -54,7 +54,7 @@ export default function signin() {
                     <Mail />
                     <Password />
                     <Remember />
-                    <SignIn />
+                    <CustomWButton>SIGN IN</CustomWButton>
                     <Grid container>
                         <Forgot />
                         <SignUp />

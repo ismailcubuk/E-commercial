@@ -9,8 +9,8 @@ import Policies from '@/components/CheckBoxs/Login/Policies';
 import SignInPage from '@/components/Links/Login/SignInPage';
 import FirstName from '@/components/Forms/Login/FirstName';
 import LastName from '@/components/Forms/Login/LastName';
-import SignUpButton from '@/components/Buttons/Login/SignUpButton';
 import Typography from '@mui/material/Typography';
+import CustomWButton from '@/components/Buttons/CustomWButton';
 
 export default function signup() {
 
@@ -65,7 +65,7 @@ export default function signup() {
                                 <Policies />
                             </Grid>
                         </Grid>
-                        <SignUpButton />
+                        <CustomWButton>SIGN UP</CustomWButton>
                         <Grid container justifyContent="flex-end">
                             <SignInPage />
                         </Grid>

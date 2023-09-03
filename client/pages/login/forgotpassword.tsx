@@ -5,8 +5,8 @@ import Box from '@mui/material/Box';
 import Mail from '@/components/Forms/Login/Mail';
 import SignUp from '@/components/Links/Login/SignUpPage';
 import LockIcon from '@/components/Icons/Login/LockIcon';
-import Continue from '@/components/Buttons/Login/Continue';
 import Typography from '@mui/material/Typography';
+import CustomWButton from '@/components/Buttons/CustomWButton';
 
 
 export default function signin() {
@@ -47,10 +47,16 @@ export default function signin() {
                     <Typography component="h1" variant="h5">
                         Forgot Password
                     </Typography>
-                    <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1 }} >
+                    <Box component="form" noValidate onSubmit={handleSubmit} sx={{
+                        my: 8,
+                        mx: 4,
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                    }} >
                         <div >Enter the email address associated with your account and we'll sen you a link to reset your password.</div>
                         <Mail />
-                        <Continue />
+                        <CustomWButton>CONTINUE</CustomWButton>
                         <Grid container>
                             <SignUp />
                         </Grid>

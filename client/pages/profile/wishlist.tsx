@@ -5,7 +5,7 @@ import AddressesCard from "@/components/Cards/Addresses/AddressesCard";
 import CustomButton from "@/components/Buttons/CustomButton";
 import Paper from '@mui/material/Paper';
 import CustomListProfile from '@/components/List/CustomListProfile'
-export default function orders() {
+export default function wishlist() {
 
   return (
     <Container maxWidth="xl" className="flex pt-10 ">
@@ -29,7 +29,7 @@ export default function orders() {
           <Grid xs={12}>
             <div className="mb-5 flex w-full justify-between items-center ">
               <div className="flex">
-                <LocationOnIcon className="h-10 w-10 text-primary " />
+                <LocationOnIcon className="h-10 w-10 text-primary "/>
                 <Typography variant="h4">My Addresses</Typography>
               </div>
               <CustomButton>Add New Address</CustomButton>

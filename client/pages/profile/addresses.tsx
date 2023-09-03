@@ -5,7 +5,7 @@ import AddressesCard from "@/components/Cards/Addresses/AddressesCard";
 import CustomButton from "@/components/Buttons/CustomButton";
 import Paper from '@mui/material/Paper';
 import CustomListProfile from '@/components/List/CustomListProfile'
-export default function orders() {
+export default function addresses() {
 
   return (
     <Container maxWidth="xl" className="flex pt-10 ">
