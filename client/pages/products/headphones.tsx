@@ -92,7 +92,7 @@ function headphones({ headphonesData }) {
 export async function getServerSideProps() {
   try {
     const headphonesData = await getHeadphonesData();
-    const serializedHeadphonesData = JSON.parse(JSON.stringify(headphonesData)); // JSON serileştirilebilir veriyi kullanma
+    const serializedHeadphonesData = JSON.parse(JSON.stringify(headphonesData)); 
 
     return {
       props: {
