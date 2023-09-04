@@ -34,7 +34,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-, "components/Header/Avatar.jsx", "components/Header/ShoppingCartBadge.jsx"  ],
+, "components/Header/Avatar.jsx", "components/Header/ShoppingCartBadge.jsx", "pages/api/headphones.js"  ],
   "exclude": [
     "node_modules"
   ]
