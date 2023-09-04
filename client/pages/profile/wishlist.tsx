@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Grid, Typography, } from "@mui/material";
 import { LocationOnIcon } from '../../components/Icons/Icons'
-import AddressesCard from "@/components/Cards/Addresses/AddressesCard";
+import AddressesCard from "@/components/Cards/AddressesCard";
 import CustomButton from "@/components/Buttons/CustomButton";
 import Paper from '@mui/material/Paper';
 import CustomListProfile from '@/components/List/CustomListProfile'
