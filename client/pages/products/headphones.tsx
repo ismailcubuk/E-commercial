@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Grid, Paper } from "@mui/material";
-import { getHeadphonesData } from '../../pages/api/mongodb'; 
+import { getHeadphonesData } from '../../pages/api/mongodb';
 
 
 // function headphones() {
@@ -21,12 +21,40 @@ import { getHeadphonesData } from '../../pages/api/mongodb';
 //     </Container>
 //   )
 // }
-function headphones({ headphonesData }) {
+
+type HeadphoneDataType = {
+  _id: string;
+  title: string;
+  description: string;
+  brand: string;
+  category: string;
+  color: string[];
+  price: {
+    quantity: number;
+    currency: string;
+  };
+  features: {
+    usage: string;
+    WaterResistance: string;
+    connection: string;
+    microphone: string;
+    warranty: string;
+    origin: string;
+  };
+  images: {
+    variant: string;
+    sizes: {
+      s: string[];
+    };
+  }[];
+};
+function headphones({ headphonesData }: { headphonesData: HeadphoneDataType[] }) {
+  type MyHeadphoneDataType = {}
   return (
     <div>
       <h1>Headphones List</h1>
       <ul className='flex'>
-        {headphonesData.map((headphone: { _id: React.Key | null | undefined; title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined; description: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined; brand: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined; category: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined; color: any[]; price: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined; }) => (
+        {headphonesData.map((headphone) => (
           <li className='border-2 border-red-500 m-5' key={headphone._id}>
             <div className='border-2'>
               <div>
@@ -42,7 +70,7 @@ function headphones({ headphonesData }) {
                 category : {headphone.category}
               </div>
               <div className='border-2 border-red-500'>
-                {headphone.color.map((colors: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined) => (
+                {headphone.color.map((colors: string) => (
                   <div> variant :  {colors} </div>
                 ))}
               </div>
@@ -71,16 +99,16 @@ function headphones({ headphonesData }) {
               </div>
             </div>
             <div>
-              origin : {headphone.images.map((img) => (
+              origin : {headphone.images.length > 0 && (
                 <div>
-                  <div> {img.variant} </div>
-                  <div> {img.sizes.s.map((imgs) => (
-                    <img
-                      src={imgs}
-                    />
-                  ))} </div>
+                  <div> {headphone.images[0].variant} </div>
+                  <div>
+                    {headphone.images[0].sizes.s.length > 0 && (
+                      <img src={headphone.images[0].sizes.s[0]} />
+                    )}
+                  </div>
                 </div>
-              ))}
+              )}
             </div>
           </li>
         ))}
@@ -92,7 +120,7 @@ function headphones({ headphonesData }) {
 export async function getServerSideProps() {
   try {
     const headphonesData = await getHeadphonesData();
-    const serializedHeadphonesData = JSON.parse(JSON.stringify(headphonesData)); 
+    const serializedHeadphonesData = JSON.parse(JSON.stringify(headphonesData));
 
     return {
       props: {
