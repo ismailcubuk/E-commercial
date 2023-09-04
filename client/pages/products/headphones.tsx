@@ -49,7 +49,6 @@ type HeadphoneDataType = {
   }[];
 };
 function headphones({ headphonesData }: { headphonesData: HeadphoneDataType[] }) {
-  type MyHeadphoneDataType = {}
   return (
     <div>
       <h1>Headphones List</h1>
