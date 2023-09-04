@@ -5,20 +5,20 @@ import { getHeadphonesData } from '../../pages/api/mongodb';
 
 // function headphones() {
 //   return (
-//     <Container maxWidth="xl" className="flex p-10 ">
-//       <Grid container className="flex justify-around border-2">
-//         <Grid xs={12} sm={12} md={2} xl={2} >
-//           <div>FİLTER</div>
-//         </Grid>
-//         <Grid
-//           container xs={12} sm={12} md={8} xl={9} component={Paper} square
-//           className="py-5 px-5 w-full border-small rounded-small border-default-200 ">
-//           <Grid xs={12}>
-//             <div>MAİN</div>
-//           </Grid>
-//         </Grid>
-//       </Grid>
-//     </Container>
+    // <Container maxWidth="xl" className="flex p-10 ">
+    //   <Grid container className="flex justify-around border-2">
+    //     <Grid xs={12} sm={12} md={2} xl={2} >
+    //       <div>FİLTER</div>
+    //     </Grid>
+    //     <Grid
+    //       container xs={12} sm={12} md={8} xl={9} component={Paper} square
+    //       className="py-5 px-5 w-full border-small rounded-small border-default-200 ">
+    //       <Grid xs={12}>
+    //         <div>MAİN</div>
+    //       </Grid>
+    //     </Grid>
+    //   </Grid>
+    // </Container>
 //   )
 // }
 
@@ -50,6 +50,7 @@ type HeadphoneDataType = {
 };
 function headphones({ headphonesData }: { headphonesData: HeadphoneDataType[] }) {
   return (
+    
     <div>
       <h1>Headphones List</h1>
       <ul className='flex'>
@@ -69,7 +70,7 @@ function headphones({ headphonesData }: { headphonesData: HeadphoneDataType[] })
                 category : {headphone.category}
               </div>
               <div className='border-2 border-red-500'>
-                {headphone.color.map((colors: string) => (
+                {headphone.color.map((colors) => (
                   <div> variant :  {colors} </div>
                 ))}
               </div>
