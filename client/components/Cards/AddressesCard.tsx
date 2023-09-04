@@ -1,21 +1,41 @@
 import React from "react";
 import { Accordion, AccordionItem, Input } from "@nextui-org/react";
+import { Grid } from "@mui/material";
+import CustomButton from "../Buttons/CustomButton";
 
 export default function AddressesCard() {
     const address = (
-        <div className="flex">
-            <Input name="location" id="location" variant="bordered" label="Location" placeholder="Enter your location" />
-            <Input name="address" id="address" variant="bordered" label="Address" placeholder="Enter your address" />
-            <Input name="number" id="number" variant="bordered" label="Number" placeholder="Enter your phone number" />
+        <div >
+            <div className="flex gap-5">
+                <Grid sm={4}>
+                    <Input name="location" id="location" variant="bordered" label="Location" placeholder="Enter your location" />
+                </Grid>
+                <Grid sm={4}>
+                    <Input name="address" id="address" variant="bordered" label="Address" placeholder="Enter your address" />
+                </Grid>
+                <Grid sm={4} className="mr-7">
+                    <Input name="number" id="number" variant="bordered" label="Number" placeholder="Enter your phone number" />
+                </Grid>
+            </div>
+            <div className="pt-4 flex justify-end">
+                <CustomButton>Save Changes</CustomButton>
+            </div>
         </div>
     )
 
     const tittle = (
-        <div className="flex flex-row justify-between items-center">
-            <p>office</p>
-            <p>497 Erdman Passage, New Zoietown</p>
-            <p>(213) 840-9416</p>
+        <div className="flex flex-row justify-between items-center w-full">
+            <Grid sm={4} >
+                <p>Office</p>
+            </Grid>
+            <Grid sm={4} className="flex justify-center">
+                <p>497 Erdman Passage, New Zoietown</p>
+            </Grid>
+            <Grid sm={4} className="flex justify-center">
+                <p>(213) 840-9416</p>
+            </Grid>
         </div>
+
     );
     return (
         <div>
