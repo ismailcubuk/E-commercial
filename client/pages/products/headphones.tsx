@@ -1,24 +1,25 @@
 import React from 'react'
-import { Container, Grid, Paper } from "@mui/material";
 import { getHeadphonesData } from '../../pages/api/mongodb';
+import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
+import { Container, Grid } from "@mui/material";
 
 
 // function headphones() {
 //   return (
-    // <Container maxWidth="xl" className="flex p-10 ">
-    //   <Grid container className="flex justify-around border-2">
-    //     <Grid xs={12} sm={12} md={2} xl={2} >
-    //       <div>FİLTER</div>
-    //     </Grid>
-    //     <Grid
-    //       container xs={12} sm={12} md={8} xl={9} component={Paper} square
-    //       className="py-5 px-5 w-full border-small rounded-small border-default-200 ">
-    //       <Grid xs={12}>
-    //         <div>MAİN</div>
-    //       </Grid>
-    //     </Grid>
-    //   </Grid>
-    // </Container>
+// <Container maxWidth="xl" className="flex p-10 ">
+//   <Grid container className="flex justify-around border-2">
+//     <Grid xs={12} sm={12} md={2} xl={2} >
+//       <div>FİLTER</div>
+//     </Grid>
+//     <Grid
+//       container xs={12} sm={12} md={8} xl={9} component={Paper} square
+//       className="py-5 px-5 w-full border-small rounded-small border-default-200 ">
+//       <Grid xs={12}>
+//         <div>MAİN</div>
+//       </Grid>
+//     </Grid>
+//   </Grid>
+// </Container>
 //   )
 // }
 
@@ -50,70 +51,32 @@ type HeadphoneDataType = {
 };
 function headphones({ headphonesData }: { headphonesData: HeadphoneDataType[] }) {
   return (
-    
-    <div>
-      <h1>Headphones List</h1>
-      <ul className='flex'>
+    <Container>
+      <Grid className='flex border-2 border-red-600'>
         {headphonesData.map((headphone) => (
-          <li className='border-2 border-red-500 m-5' key={headphone._id}>
-            <div className='border-2'>
-              <div>
-                title : {headphone.title}
-              </div>
-              <div>
-                description : {headphone.description}
-              </div>
-              <div>
-                brand : {headphone.brand}
-              </div>
-              <div>
-                category : {headphone.category}
-              </div>
-              <div className='border-2 border-red-500'>
-                {headphone.color.map((colors) => (
-                  <div> variant :  {colors} </div>
-                ))}
-              </div>
-            </div>
-            <div>
-              price: {headphone.price.quantity} {headphone.price.currency}
-            </div>
-            <div className='flex flex-col border-2 border-blue-500'>
-              <div>
-                usage : {headphone.features.usage}
-              </div>
-              <div>
-                WaterResistance: {headphone.features.WaterResistance}
-              </div>
-              <div>
-                connection : {headphone.features.connection}
-              </div>
-              <div>
-                microphone : {headphone.features.microphone}
-              </div>
-              <div>
-                warranty : {headphone.features.warranty}
-              </div>
-              <div>
-                origin : {headphone.features.origin}
-              </div>
-            </div>
-            <div>
-              origin : {headphone.images.length > 0 && (
+          <Card shadow="md" key={headphone._id} isPressable onPress={() => console.log("item pressed")}>
+            <CardBody className="overflow-visible p-0">
+              {headphone.images.length > 0 && (
                 <div>
-                  <div> {headphone.images[0].variant} </div>
-                  <div>
-                    {headphone.images[0].sizes.s.length > 0 && (
-                      <img src={headphone.images[0].sizes.s[0]} />
-                    )}
-                  </div>
+                  {headphone.images[0].sizes.s.length > 0 && (
+                    <Image
+                      shadow="sm"
+                      radius="lg"
+                      width="100%"
+                      alt={headphone.title}
+                      src={headphone.images[0].sizes.s[0]} />
+                  )}
                 </div>
               )}
-            </div>
-          </li>
+            </CardBody>
+            <CardFooter className="text-small justify-between">
+              <b>{headphone.title}</b>
+              <p className="text-default-500">{headphone.price.quantity} {headphone.price.currency}</p>
+            </CardFooter>
+          </Card>
         ))}
-      </ul>
-    </div>
+      </Grid>
+    </Container>
   );
 }
 
