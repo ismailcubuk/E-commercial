@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Grid, Paper } from "@mui/material";
-import { getHeadphonesData } from '../../pages/api/mongodb'; // Dosya yolunu projenizin yapısına göre güncelleyin
+import { getHeadphonesData } from '../../pages/api/mongodb'; 
 
 
 // function headphones() {
