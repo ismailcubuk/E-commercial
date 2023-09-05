@@ -14,7 +14,7 @@ interface ProductFilterProps {
 
 function ProductFilter({ variation }: ProductFilterProps) {
     return (
-        <Accordion selectionMode="multiple" variant="splitted" className='border-2 border-blue-500'>
+        <Accordion selectionMode="multiple" variant="splitted">
             {Object.keys(variation.options).map((optionKey) => (
                 <AccordionItem key={optionKey} aria-label={optionKey} title={optionKey}>
                     <CheckboxGroup >

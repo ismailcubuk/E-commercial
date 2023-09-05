@@ -1,7 +1,7 @@
 import React from 'react'
 import { getHeadphonesData } from '../../pages/api/mongodb';
 import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
-import { Container, Grid, Hidden } from "@mui/material";
+import { Container, Grid, Hidden, Paper } from "@mui/material";
 import ProductFilter from '@/components/CheckBoxs/ProductFilter';
 import { variations } from '@/components/variants/data'
 
@@ -35,16 +35,16 @@ type HeadphoneDataType = {
 
 function headphones({ headphonesData }: { headphonesData: HeadphoneDataType[] }) {
   return (
-    <Container maxWidth="xl" className='flex border-2 border-red-600'>
+    <Container maxWidth="xl" className='flex pt-5 mt-10' >
       <Hidden smDown>
-        <Grid container sm={5} md={3} xl={3} className='border-2 border-green-500 w-full'>
+        <Grid container sm={5} md={4} xl={3}  className='w-full h-fit py-4 mr-4'>
           <ProductFilter variation={variations.headphones} />
         </Grid>
       </Hidden>
-      <Grid container xs={12} sm={7} md={9} xl={9} className='border-2 border-green-600'>
+      <Grid container xs={12} sm={7} md={8} xl={9} className='h-fit flex justify-center sm:justify-start'>
         {headphonesData.map((headphone) => (
-          <Grid xs={12} sm={6} md={4} xl={3} className='border-2 h-fit flex justify-center border-blue-600'>
-            <Card shadow="md" key={headphone._id} isPressable onPress={() => console.log("item pressed")}>
+          <Grid container sm={12} md={6} lg={4} xl={3} className='h-fit flex justify-center items-center p-4'>
+            <Card className='h-fit' shadow="md" key={headphone._id} isPressable onPress={() => console.log("item pressed")}>
               <CardBody className="overflow-visible p-0">
                 {headphone.images.length > 0 && (
                   <div>
