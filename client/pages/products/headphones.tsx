@@ -35,7 +35,7 @@ type HeadphoneDataType = {
 
 function headphones({ headphonesData }: { headphonesData: HeadphoneDataType[] }) {
   return (
-    <Container maxWidth="xl" className='flex pt-5 mt-10' >
+    <Container maxWidth="xl" className='flex pt-5' >
       <Hidden smDown>
         <Grid container sm={5} md={4} xl={3}  className='w-full h-fit py-4 mr-4'>
           <ProductFilter variation={variations.headphones} />
