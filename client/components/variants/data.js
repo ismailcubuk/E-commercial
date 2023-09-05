@@ -29,11 +29,11 @@ export const variations = {
     title: "headphones",
     options: {
       Price: [
-        "100-999 TL",
-        "1.000-1.999 TL",
-        "2.000-3.999 TL",
-        "4.000-7.999 TL",
-        "8.000-15.999 TL",
+        "100 - 999 TL",
+        "1.000 - 1.999 TL",
+        "2.000 - 3.999 TL",
+        "4.000 - 7.999 TL",
+        "8.000 - 15.999 TL",
       ],
       Brand: ["Asus", "Razer", "Logitech"],
     },
