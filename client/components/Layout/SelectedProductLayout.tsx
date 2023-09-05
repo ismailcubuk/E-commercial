@@ -43,8 +43,8 @@ function ProductList({ products }: ProductListProps) {
                             )}
                         </CardBody>
                         <CardFooter className="text-small justify-between">
-                            <b>{product.title}</b>
-                            <p className="text-default-500">{product.price.quantity} {product.price.currency}</p>
+                            <b className='w-8/12'>{product.title}</b>
+                            <p className="text-default-500 w-4/12">{product.price.quantity} {product.price.currency}</p>
                         </CardFooter>
                     </Card>
                 </Grid>
