@@ -16,7 +16,7 @@ interface ProductFilterProps {
 function ProductFilter({ variation }: ProductFilterProps) {
     return (
         <Hidden smDown>
-            <Grid container sm={5} md={4} lg={3} xl={3} className='w-full h-fit py-4 mr-4'>
+            <Grid item md={4} lg={3} xl={3} className='w-full h-fit py-4  '>
                 <Accordion selectionMode="multiple" variant="splitted">
                     {Object.keys(variation.options).map((optionKey) => (
                         <AccordionItem key={optionKey} aria-label={optionKey} title={optionKey}>
