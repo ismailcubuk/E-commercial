@@ -5,6 +5,9 @@ import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 interface Product {
     _id: string;
     title: string;
+    gender: string;
+    brand: string;
+    category: string;
     price: {
         quantity: number;
         currency: string;
@@ -15,6 +18,10 @@ interface Product {
             s: string[];
         };
     }[];
+}
+
+function capitalizeFirstLetter(str:any) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
 interface ProductListProps {
@@ -43,8 +50,19 @@ function ProductList({ products }: ProductListProps) {
                             )}
                         </CardBody>
                         <CardFooter className="text-small justify-between">
-                            <b className='w-8/12'>{product.title}</b>
-                            <p className="text-default-500 w-4/12">{product.price.quantity} {product.price.currency}</p>
+                            <div className='flex flex-col w-4/6'>
+                                {(product.category.toLowerCase() === "shoes" || product.category.toLowerCase() === "tracksuit" || product.category.toLowerCase() === "tshirt") &&
+                                    product.brand && product.gender && (
+                                        <div>
+                                            <b className=' mr-2'>{capitalizeFirstLetter(product.brand)}</b>
+                                            <b>{capitalizeFirstLetter(product.gender)}</b>
+                                        </div>
+                                    )}
+                                <b>{product.title}</b>
+                            </div>
+                            <p className="text-default-500 w-2/6">{product.price.quantity} {product.price.currency}</p>
+
+
                         </CardFooter>
                     </Card>
                 </Grid>

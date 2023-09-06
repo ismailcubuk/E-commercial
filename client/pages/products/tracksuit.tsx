@@ -8,6 +8,9 @@ import CustomContainer from '@/components/Container/CustomContainer';
 type TracksuitsDataType = {
   _id: string;
   title: string;
+  gender: string;
+  brand: string;
+  category: string;
   price: {
     quantity: number;
     currency: string;
