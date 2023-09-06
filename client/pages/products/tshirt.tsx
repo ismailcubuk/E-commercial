@@ -32,11 +32,11 @@ function tshirts({ tshirtsData }: { tshirtsData: TshirtsDataType[] }) {
 export async function getServerSideProps() {
   try {
     const tshirtsData = await getTshirtsData();
-    const serializedTshirtssData = JSON.parse(JSON.stringify(tshirtsData));
+    const serializedTshirtsData = JSON.parse(JSON.stringify(tshirtsData));
 
     return {
       props: {
-        tshirtsData: serializedTshirtssData,
+        tshirtsData: serializedTshirtsData,
       },
     };
   } catch (error) {
