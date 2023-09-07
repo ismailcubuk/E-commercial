@@ -12,8 +12,7 @@ import { CustomWButton } from '@/components/CustomButton';
 import FirstName from '@/components/UserProfileFrom/FirstName';
 import LastName from '@/components/UserProfileFrom/LastName';
 
-export default function signup() {
-
+export default function Signup() {
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault();
         const formData = new FormData(event.target as HTMLFormElement);
@@ -24,7 +23,8 @@ export default function signup() {
     };
 
     return (
-        <Grid container component="main" >
+        <Grid container component="main">
+            {/* Left Side */}
             <Grid
                 item
                 xs={false}
@@ -37,6 +37,8 @@ export default function signup() {
                     backgroundPosition: 'center',
                 }}
             />
+
+            {/* Right Side */}
             <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
                 <Box
                     sx={{
@@ -51,6 +53,8 @@ export default function signup() {
                     <Typography component="h1" variant="h5">
                         Sign up
                     </Typography>
+
+                    {/* Signup Form */}
                     <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
                         <Grid container spacing={2}>
                             <Grid item xs={12} sm={6}>
@@ -69,7 +73,11 @@ export default function signup() {
                                 <Policies />
                             </Grid>
                         </Grid>
+
+                        {/* Signup Button */}
                         <CustomWButton>SIGN UP</CustomWButton>
+
+                        {/* Sign In Link */}
                         <Grid container justifyContent="flex-end">
                             <SignInPage />
                         </Grid>

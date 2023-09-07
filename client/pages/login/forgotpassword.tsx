@@ -8,9 +8,7 @@ import LockIcon from '@/components/Icons/Login/LockIcon';
 import Typography from '@mui/material/Typography';
 import { CustomWButton } from '@/components/CustomButton';
 
-
-export default function signin() {
-
+export default function Signin() {
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault();
         const formData = new FormData(event.target as HTMLFormElement);
@@ -21,6 +19,7 @@ export default function signin() {
 
     return (
         <Grid container component="main">
+            {/* Left Side */}
             <Grid
                 item
                 xs={false}
@@ -33,6 +32,8 @@ export default function signin() {
                     backgroundPosition: 'center',
                 }}
             />
+
+            {/* Right Side */}
             <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
                 <Box
                     sx={{
@@ -47,16 +48,21 @@ export default function signin() {
                     <Typography component="h1" variant="h5">
                         Forgot Password
                     </Typography>
+
+                    {/* Forgot Password Form */}
                     <Box component="form" noValidate onSubmit={handleSubmit} sx={{
-                        my: 8,
-                        mx: 4,
+                        my: 2,
                         display: 'flex',
                         flexDirection: 'column',
                         alignItems: 'center',
-                    }} >
-                        <div >Enter the email address associated with your account and we'll sen you a link to reset your password.</div>
+                    }}>
+                        <Typography variant="body1" sx={{ textAlign: 'center', my: 2 }}>
+                            Enter the email address associated with your account, and we'll send you a link to reset your password.
+                        </Typography>
                         <Mail />
                         <CustomWButton>CONTINUE</CustomWButton>
+
+                        {/* Sign Up Link */}
                         <Grid container>
                             <SignUp />
                         </Grid>

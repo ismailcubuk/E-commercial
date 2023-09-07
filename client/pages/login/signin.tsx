@@ -11,8 +11,7 @@ import LockIcon from '@/components/Icons/Login/LockIcon';
 import Typography from '@mui/material/Typography';
 import { CustomWButton } from '@/components/CustomButton';
 
-export default function signin() {
-
+export default function Signin() {
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault();
         const formData = new FormData(event.target as HTMLFormElement);
@@ -23,7 +22,8 @@ export default function signin() {
     };
 
     return (
-        <Grid container >
+        <Grid container>
+            {/* Left Side */}
             <Grid
                 item
                 xs={false}
@@ -36,7 +36,9 @@ export default function signin() {
                     backgroundPosition: 'center',
                 }}
             />
-            <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square >
+
+            {/* Right Side */}
+            <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
                 <Box
                     sx={{
                         my: 8,
@@ -50,11 +52,15 @@ export default function signin() {
                     <Typography component="h1" variant="h5">
                         Sign in
                     </Typography>
+
+                    {/* Sign-in Form */}
                     <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1 }}>
                         <Mail />
                         <Password />
                         <Remember />
                         <CustomWButton>SIGN IN</CustomWButton>
+
+                        {/* Forgot Password and Sign Up Links */}
                         <Grid container>
                             <Forgot />
                             <SignUp />
