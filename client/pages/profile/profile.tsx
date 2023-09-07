@@ -21,20 +21,15 @@ export default function profile() {
   return (
     <Container maxWidth="xl" className="flex p-10 ">
       <Grid container>
-
+        {/* NAVİGATİON */}
         <Navigation />
-
-        <Main>
-          <div className="border-2 mb-5 border-red-400 flex w-full justify-between">
-            <Typography variant="h4">Profile</Typography>
-            {/* <BackToProfile/> */}
-            <CustomButton>EDIT PROFLE</CustomButton>
-          </div>
+        {/* MAİN */}
+        <Main variant="profile">
           <div className="flex gap-5 items-center ">
             <Badge content={<PhotoCameraOutlinedIcon />} className="w-10 h-10" placement="bottom-right" color="default">
               <Avatar src={avatarImage} radius='md' className="w-20 h-20" />
             </Badge>
-            <Typography variant="h2"> İsmail çubuk</Typography>
+            <Typography variant="h4"> İsmail çubuk</Typography>
           </div>
           <Grid container spacing={2} mt={2} mb={4}>
             {/* İlk grup */}

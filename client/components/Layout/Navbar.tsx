@@ -2,12 +2,12 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Navbar } from "@nextui-org/react";
 import { toggleMenu } from '../../redux/Features/ToggleMenu/MenuActions';
 
-import Search from '@/components/Header/Search'
-import Login from '@/components/Header/Login'
-import Brand from '@/components/Header/Brand'
-import ShoppingCartBadge from '@/components/Header/ShoppingCartBadge'
-import Navigation from '@/components/Header/Navigation'
-import NavigationDropdown from '@/components/Header/NavigationDropdown'
+import Search from '@/components/Navbar/Search'
+import Login from '@/components/Navbar/Login'
+import Brand from '@/components/Navbar/Brand'
+import ShoppingCartBadge from '@/components/Navbar/ShoppingCartBadge'
+import Navigation from '@/components/Navbar/Navigation'
+import NavigationDropdown from '@/components/Navbar/NavigationDropdown'
 import Avatars from '@/components/Icons/Navbar/Avatar'
 
 interface RootState {
