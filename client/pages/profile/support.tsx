@@ -4,7 +4,7 @@ import { LocationOnIcon } from '../../components/Icons/Icons'
 import { CustomButton } from "@/components/CustomButton";
 import AddressesCard from "@/components/Cards/AddressesCard";
 import Paper from '@mui/material/Paper';
-import CustomListProfile from '@/components/List/CustomListProfile'
+import CustomListProfile from '@/components/Links/Profile/Navigation'
 export default function support() {
 
     return (

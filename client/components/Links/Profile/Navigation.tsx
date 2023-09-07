@@ -1,39 +1,15 @@
 import React from 'react'
-import { useRouter } from 'next/router';
-import Link from 'next/link';
+import { Link } from "@nextui-org/react";
 import ShoppingBasketOutlinedIcon from "@mui/icons-material/ShoppingBasketOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 
-function CustomListProfile(props: { children: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined; }) {
-
-    const router = useRouter();
-
-    const handleButtonClick = () => {
-        switch (props.children) {
-            case "Orders":
-                router.push("/profile/orders");
-                break;
-            case "Wishlist":
-                router.push("/profile/wishlist");
-                break;
-            case "Support":
-                router.push("/profile/support");
-                break;
-            case 'Addresses':
-                router.push('/profile/addresses');
-                break;
-            case 'Profile':
-                router.push('/profile/profile');
-                break;
-            default:
-                break;
-        }
-    };
+function Navigation(props: { children: string | number }) {
 
     let displayIcon = null;
+    const lowerCaseText = String(props.children).toLowerCase();
 
     switch (props.children) {
         case 'Orders':
@@ -56,8 +32,8 @@ function CustomListProfile(props: { children: string | number | boolean | React.
             break;
     }
     return (
-        <Link className="w-full border-l-4 border-white px-1 py-2 hover:border-l-4  hover:border-primary hover:text-primary justify-between flex" onClick={handleButtonClick} href={`${props.children}`}>
-            <div>
+        <Link className="w-full border-l-4 border-white px-1 py-2 hover:border-l-4  hover:border-primary hover:text-primary  justify-between flex text-black" href={`/profile/${lowerCaseText}`}>
+            <div className='text-large flex items-center'>
                 {displayIcon}
                 {props.children}
             </div>
@@ -68,4 +44,4 @@ function CustomListProfile(props: { children: string | number | boolean | React.
     )
 }
 
-export default CustomListProfile
+export default Navigation

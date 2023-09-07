@@ -3,7 +3,7 @@ import { Container, Grid, Typography, } from "@mui/material";
 import { LocationOnIcon } from '../../components/Icons/Icons'
 import { CustomButton } from "@/components/CustomButton";
 import Paper from '@mui/material/Paper';
-import CustomListProfile from '@/components/List/CustomListProfile'
+import CustomListProfile from '@/components/Links/Profile/Navigation'
 import OrdersCard from "@/components/Cards/OrdersCard";
 export default function orders() {
 
