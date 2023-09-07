@@ -1,20 +1,15 @@
 import React from "react";
 import { Container, Grid, Paper, Typography } from "@mui/material";
 import { CustomButton } from "@/components/CustomButton";
-import FirstName from "@/components/Forms/Profile/FirstName";
-import SurName from "@/components/Forms/Profile/SurName";
-import Mail from "@/components/Forms/Profile/Mail";
-import Password from "@/components/Forms/Profile/Password";
 import Navigation from "@/components/Layout/Profile/Navigation";
 import Main from "@/components/Layout/Profile/Main";
 import UserProfile from "@/components/UserProfile";
+import FirstName from "@/components/UserProfileFrom/FirstName";
+import LastName from "@/components/UserProfileFrom/LastName";
+import Mail from "@/components/UserProfileFrom/Mail";
+import Password from "@/components/UserProfileFrom/Password";
 
 export default function profile() {
-
-  const iconClasses =
-    "text-xl text-default-500 pointer-events-none flex-shrink-0";
-
-
 
   return (
     <Container maxWidth="xl" className="flex p-10 ">
@@ -33,7 +28,7 @@ export default function profile() {
                   <FirstName />
                 </Grid>
                 <Grid item xs={12} sm={12} md={6}>
-                  <SurName />
+                  <LastName />
                 </Grid>
               </Grid>
             </Grid>

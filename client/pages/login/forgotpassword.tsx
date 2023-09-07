@@ -2,7 +2,7 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
-import Mail from '@/components/Forms/Login/Mail';
+import Mail from '@/components/UserProfileFrom/Mail';
 import SignUp from '@/components/Links/Login/SignUpPage';
 import LockIcon from '@/components/Icons/Login/LockIcon';
 import Typography from '@mui/material/Typography';
