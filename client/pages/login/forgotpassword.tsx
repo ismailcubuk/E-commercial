@@ -6,7 +6,7 @@ import Mail from '@/components/Forms/Login/Mail';
 import SignUp from '@/components/Links/Login/SignUpPage';
 import LockIcon from '@/components/Icons/Login/LockIcon';
 import Typography from '@mui/material/Typography';
-import CustomWButton from '@/components/Buttons/CustomWButton';
+import { CustomWButton } from '@/components/CustomButton';
 
 
 export default function signin() {

@@ -1,26 +1,11 @@
 import React from 'react'
 import { getKeyboardsData } from '../api/keyboards';
-import ProductFilter from '@/components/Layout/ProductFilter';
+import ProductFilter from '@/components/Layout/Product/Filter';
 import { variations } from '@/components/variants/data'
-import ProductList from '@/components/Layout/SelectedProductLayout';
+import ProductList from '@/components/Layout/Product/ProductMain';
 import CustomContainer from '@/components/Container/CustomContainer';
 
-type KeyboardDataType = {
-  _id: string;
-  title: string;
-  price: {
-    quantity: number;
-    currency: string;
-  };
-  images: {
-    variant: string;
-    sizes: {
-      s: string[];
-    };
-  }[];
-};
-
-function keyboards({ keyboardsData }: { keyboardsData: KeyboardDataType[] }) {
+function keyboards({ keyboardsData }: any) {
   return (
     <CustomContainer>
       <ProductFilter variation={variations.keyboards} />

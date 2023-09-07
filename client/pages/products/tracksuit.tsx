@@ -1,29 +1,11 @@
 import React from 'react'
 import { getTracksuitsData } from '../api/tracksuits';
-import ProductFilter from '@/components/Layout/ProductFilter';
+import ProductFilter from '@/components/Layout/Product/Filter';
 import { variations } from '@/components/variants/data'
-import ProductList from '@/components/Layout/SelectedProductLayout';
+import ProductList from '@/components/Layout/Product/ProductMain';
 import CustomContainer from '@/components/Container/CustomContainer';
 
-type TracksuitsDataType = {
-  _id: string;
-  title: string;
-  gender: string;
-  brand: string;
-  category: string;
-  price: {
-    quantity: number;
-    currency: string;
-  };
-  images: {
-    variant: string;
-    sizes: {
-      s: string[];
-    };
-  }[];
-};
-
-function tracksuits({ tracksuitsData }: { tracksuitsData: TracksuitsDataType[] }) {
+function tracksuits({ tracksuitsData }: any) {
   return (
     <CustomContainer>
       <ProductFilter variation={variations.tracksuits} />

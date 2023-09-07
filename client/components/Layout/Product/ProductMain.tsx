@@ -20,14 +20,14 @@ interface Product {
     }[];
 }
 
-function capitalizeFirstLetter(str:any) {
+function capitalizeFirstLetter(str: any) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
 interface ProductListProps {
     products: Product[];
 }
-function ProductList({ products }: ProductListProps) {
+function ProductMain({ products }: ProductListProps) {
     return (
         <Grid item xs={12} sm={7} md={8} lg={9} xl={9} className='flex flex-wrap justify-center sm:justify-start' >
             {products.map((product) => (
@@ -68,4 +68,4 @@ function ProductList({ products }: ProductListProps) {
     );
 }
 
-export default ProductList;
+export default ProductMain;

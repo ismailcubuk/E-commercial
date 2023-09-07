@@ -1,29 +1,11 @@
 import React from 'react'
 import { getShoesData } from '../api/shoes';
-import ProductFilter from '@/components/Layout/ProductFilter';
+import ProductFilter from '@/components/Layout/Product/Filter';
 import { variations } from '@/components/variants/data'
-import ProductList from '@/components/Layout/SelectedProductLayout';
+import ProductList from '@/components/Layout/Product/ProductMain';
 import CustomContainer from '@/components/Container/CustomContainer';
 
-type ShoesDataType = {
-  _id: string;
-  title: string;
-  gender: string;
-  brand: string;
-  category: string;
-  price: {
-    quantity: number;
-    currency: string;
-  };
-  images: {
-    variant: string;
-    sizes: {
-      s: string[];
-    };
-  }[];
-};
-
-function shoes({ shoesData }: { shoesData: ShoesDataType[] }) {
+function shoes({ shoesData }: any) {
   return (
     <CustomContainer>
       <ProductFilter variation={variations.shoes} />

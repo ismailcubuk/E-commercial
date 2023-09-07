@@ -1,20 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 
-import { Listbox, ListboxItem, ListboxSection, Avatar, Badge } from "@nextui-org/react";
+import {Avatar, Badge } from "@nextui-org/react";
 import { Container, Grid, Paper, Typography } from "@mui/material";
-import { useRouter } from "next/router";
-import ShoppingBasketOutlinedIcon from "@mui/icons-material/ShoppingBasketOutlined";
-import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
-import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
-import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
-import SupportAgentIcon from "@mui/icons-material/SupportAgent";
-import ListboxWrapper from "../../components/Layout/ListboxWrapper";
+import { CustomButton } from "@/components/CustomButton";
 import PhotoCameraOutlinedIcon from '@mui/icons-material/PhotoCameraOutlined';
 import FirstName from "@/components/Forms/Profile/FirstName";
 import SurName from "@/components/Forms/Profile/SurName";
 import Mail from "@/components/Forms/Profile/Mail";
 import Password from "@/components/Forms/Profile/Password";
-import CustomButton from "@/components/Buttons/CustomButton";
 import CustomListProfile from "@/components/List/CustomListProfile";
 
 

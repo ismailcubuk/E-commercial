@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
-import CustomButton from "../Buttons/CustomButton";
+import CustomButton from "../CustomButton";
 import { Container, Grid, Typography, } from "@mui/material";
 
 export default function OrdersCard() {

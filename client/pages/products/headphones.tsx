@@ -1,26 +1,11 @@
 import React from 'react'
 import { getHeadphonesData } from '../api/headphones';
-import ProductFilter from '@/components/Layout/ProductFilter';
+import ProductFilter from '@/components/Layout/Product/Filter';
 import { variations } from '@/components/variants/data'
-import ProductList from '@/components/Layout/SelectedProductLayout';
+import ProductList from '@/components/Layout/Product/ProductMain';
 import CustomContainer from '@/components/Container/CustomContainer';
 
-type HeadphoneDataType = {
-  _id: string;
-  title: string;
-  price: {
-    quantity: number;
-    currency: string;
-  };
-  images: {
-    variant: string;
-    sizes: {
-      s: string[];
-    };
-  }[];
-};
-
-function headphones({ headphonesData }: { headphonesData: HeadphoneDataType[] }) {
+function headphones({ headphonesData }: any) {
   return (
     <CustomContainer>
       <ProductFilter variation={variations.headphones} />

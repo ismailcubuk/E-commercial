@@ -10,7 +10,7 @@ import SignInPage from '@/components/Links/Login/SignInPage';
 import FirstName from '@/components/Forms/Login/FirstName';
 import LastName from '@/components/Forms/Login/LastName';
 import Typography from '@mui/material/Typography';
-import CustomWButton from '@/components/Buttons/CustomWButton';
+import { CustomWButton } from '@/components/CustomButton';
 
 export default function signup() {
 

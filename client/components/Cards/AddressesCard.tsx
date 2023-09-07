@@ -1,7 +1,7 @@
 import React from "react";
 import { Accordion, AccordionItem, Input } from "@nextui-org/react";
 import { Grid } from "@mui/material";
-import CustomButton from "../Buttons/CustomButton";
+import { CustomButton } from "@/components/CustomButton";
 
 export default function AddressesCard() {
     const address = (
