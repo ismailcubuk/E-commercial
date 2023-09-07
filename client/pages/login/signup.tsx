@@ -3,14 +3,14 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import LockIcon from '@/components/Icons/Login/LockIcon';
-import Mail from '@/components/Forms/Login/Mail';
-import Password from '@/components/Forms/Login/Password';
+import Mail from '@/components/UserProfileFrom/Mail';
+import Password from '@/components/UserProfileFrom/Password';
 import Policies from '@/components/CheckBoxs/Login/Policies';
 import SignInPage from '@/components/Links/Login/SignInPage';
-import FirstName from '@/components/Forms/Login/FirstName';
-import LastName from '@/components/Forms/Login/LastName';
 import Typography from '@mui/material/Typography';
 import { CustomWButton } from '@/components/CustomButton';
+import FirstName from '@/components/UserProfileFrom/FirstName';
+import LastName from '@/components/UserProfileFrom/LastName';
 
 export default function signup() {
 
@@ -53,8 +53,12 @@ export default function signup() {
                     </Typography>
                     <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
                         <Grid container spacing={2}>
-                            <FirstName />
-                            <LastName />
+                            <Grid item xs={12} sm={6}>
+                                <FirstName />
+                            </Grid>
+                            <Grid item xs={12} sm={6}>
+                                <LastName />
+                            </Grid>
                             <Grid item xs={12}>
                                 <Mail />
                             </Grid>
