@@ -24,7 +24,7 @@ export default function signup() {
     };
 
     return (
-        <Grid container component="main" className='bg-white' >
+        <Grid container component="main" >
             <Grid
                 item
                 xs={false}
