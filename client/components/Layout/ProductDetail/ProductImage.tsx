@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Grid, IconButton, Typography } from '@mui/material';
-import { Card, CardBody, Image, Button, CardHeader, Divider, CardFooter } from "@nextui-org/react";
+import React, { useState, useEffect } from 'react';
+import { Grid, IconButton, SvgIcon, Typography } from '@mui/material';
+import { Card, CardBody, Image, Button, CardHeader, CardFooter } from "@nextui-org/react";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 export default function ProductImage({ product }: any) {
@@ -24,21 +24,44 @@ export default function ProductImage({ product }: any) {
     useEffect(() => {
         const itemsToShow = 4;
         const minBefore = Math.max(0, selectedImageIndex - (itemsToShow - 1));
-        if (selectedImageIndex === 0) {
-            setBefore(selectedImageIndex);
-            setAfter(selectedImageIndex + 4);
-        } else if (selectedImageIndex + 1 === imagesPerPage) {
-            setBefore(minBefore);
-            setAfter(selectedImageIndex + 1);
-        } else if (selectedImageIndex === 1) {
-            setBefore(selectedImageIndex - 1);
-            setAfter(selectedImageIndex + 3);
-        } else {
-            setBefore(selectedImageIndex - 2);
-            setAfter(selectedImageIndex + 2);
+
+        switch (selectedImageIndex) {
+            case 0:
+                setBefore(selectedImageIndex);
+                setAfter(selectedImageIndex + 4);
+                break;
+            case imagesPerPage - 1:
+                setBefore(minBefore);
+                setAfter(selectedImageIndex + 1);
+                break;
+            case 1:
+                setBefore(selectedImageIndex - 1);
+                setAfter(selectedImageIndex + 3);
+                break;
+            default:
+                setBefore(selectedImageIndex - 2);
+                setAfter(selectedImageIndex + 2);
+                break;
         }
     }, [selectedImageIndex, imagesPerPage]);
 
+    function renderFeature(featureName: string, label: string, unit: string) {
+        const value = product.features[featureName];
+        if (value !== undefined) {
+            return <div className='w-full xl:w-3/6 '>
+                <Card className='flex flex-row justify-between m-1 p-3'>
+                    <div>
+                        {label}:
+                    </div>
+                    <div>
+                        {value}{unit}
+                    </div>
+                </Card>
+            </div>;
+        } else {
+            return null;
+        }
+    }
 
     return (
         <div className='gap-6 flex w-full h-full'>
@@ -49,7 +72,6 @@ export default function ProductImage({ product }: any) {
                             <Grid item md={8}>
                                 {product.images[selectedColorIndex].sizes.s[selectedImageIndex].length > 0 && (
                                     <Image
-                                        shadow="sm"
                                         alt={product.title}
                                         src={product.images[selectedColorIndex].sizes.m[selectedImageIndex]}
                                     />
@@ -57,7 +79,7 @@ export default function ProductImage({ product }: any) {
                             </Grid>
                         )}
                     </CardHeader>
-                    <CardBody className='flex flex-row border-t-2 w-full justify-around'>
+                    <CardBody className=' border-t-2'>
                         {product.images.length > 0 && (
                             <Grid className="flex w-full justify-around">
                                 <IconButton onClick={() => setSelectedImageIndex(selectedImageIndex - 1)} disabled={selectedImageIndex === 0}>
@@ -98,26 +120,49 @@ export default function ProductImage({ product }: any) {
 
             {/* main */}
             <Grid item sm={12} md={5} className='w-full'>
-
-                <Card className='h-full p-5'>
-                    <CardHeader className='border-b-2'>
+                <Card className='py-3'>
+                    <CardHeader className='border-b-4 gap-4  px-10'>
+                        <Image
+                            src="/images/logo/apple.png"
+                            alt="Apple Logo"
+                            width={36}
+                            height={36}
+                        />
                         <Typography variant="h4">{product.title} </Typography>
                     </CardHeader>
-                    <CardBody>
-
+                    <CardBody className='gap-4 '>
 
                         {product.features && (
-                            <Card className="border-2">
+                            <Card >
                                 <CardHeader>Features</CardHeader>
-                                <CardBody className="flex flex-row border-t-2 w-full gap-4 flex-wrap">
-                                    <div>
-                                        <div>Processor Speed: {product.features.ProcessorSpeed || product.features.led} </div>
-                                        <div>Number of Processors: {product.features.NumberofProcessors}</div>
-                                        <div>Display: {product.features.display} inches</div>
-                                        <div>Processor: {product.features.processor}</div>
-                                        <div>RAM: {product.features.ram} GB</div>
-                                        <div>Camera: {product.features.camera} MP</div>
-                                    </div>
+                                <CardBody className="border-t-1 flex flex-row flex-wrap">
+                                    {renderFeature("ProcessorSpeed", "Processor Speed", "")}
+                                    {renderFeature("led", "LED", "")}
+                                    {renderFeature("DPI", "DPI", "")}
+                                    {renderFeature("usage", "Usage", "")}
+                                    {renderFeature("weight", "Weight", "")}
+
+                                    {renderFeature("NumberofProcessors", "Number of Processors", "")}
+                                    {renderFeature("variant", "Variant", "")}
+                                    {renderFeature("WaterResistance", "Water Resistance", "")}
+                                    {renderFeature("impedance", "Impedance (Ohm)", "")}
+                                    {renderFeature("screenSize", "Screen Size", "")}
+
+                                    {renderFeature("display", "Display", " inches")}
+                                    {renderFeature("connection", "Connection", "")}
+                                    {renderFeature("batery", "Battery", "")}
+
+                                    {renderFeature("processor", "Processor", "")}
+                                    {renderFeature("language", "Language", "")}
+                                    {renderFeature("ResponseTime", "Response Time", "")}
+                                    {renderFeature("microphone", "Microphone", "")}
+                                    {renderFeature("memory", "Memory", "")}
+
+                                    {renderFeature("ram", "RAM", " GB")}
+                                    {renderFeature("warranty", "Warranty", "")}
+
+                                    {renderFeature("camera", "Camera", " MP")}
+                                    {renderFeature("origin", "Origin", "")}
                                 </CardBody>
                             </Card>
                         )}
@@ -125,17 +170,15 @@ export default function ProductImage({ product }: any) {
 
 
                         <div>
-                            <Typography variant="h6"> Brand : {product.brand} </Typography>
-                            <Typography variant="h6"> {product.price.quantity} {product.price.currency} </Typography>
                             {product.color && product.color.length > 0 && (
                                 <Card >
                                     <CardHeader>COLORS</CardHeader>
-                                    <CardBody className='flex flex-row border-t-2  w-full gap-4 flex-wrap' >
+                                    <CardBody className='flex flex-row border-t-1  w-full gap-4 flex-wrap' >
                                         {product.color.map((color: string, index: number) => (
                                             <Button
                                                 variant="bordered"
                                                 key={index}
-                                                className="w-10 h-10 border-4"
+                                                className="w-10 h-10 "
                                                 onClick={() => handleColorClick(index)}
                                                 style={{ backgroundColor: color }} />
                                         ))}
@@ -148,9 +191,9 @@ export default function ProductImage({ product }: any) {
 
                         <div>
                             {product.memory && product.memory.length > 0 && (
-                                <Card className="border-2">
+                                <Card className="">
                                     <CardHeader>MEMORY</CardHeader>
-                                    <CardBody className="flex flex-row border-t-2  w-full gap-4 flex-wrap">
+                                    <CardBody className="flex flex-row border-t-1  w-full gap-4 flex-wrap">
                                         {product.memory.map((memory: string, index: number) => (
                                             <Button variant="bordered" key={index}> {memory} GB </Button>
                                         ))}
@@ -160,9 +203,10 @@ export default function ProductImage({ product }: any) {
                             )}
                         </div>
 
+                        <Typography variant="h6"> {product.price.quantity} {product.price.currency} </Typography>
 
                     </CardBody>
-                    <CardFooter className='border-t-2'>
+                    <CardFooter className='border-t-4'>
                         <div className="w-full flex justify-between">
                             <div className="flex w-3/6">
                                 <Button color="primary" className="w-full">Add Basket</Button>

@@ -12,7 +12,7 @@ function ProductDetail({ product }) {
 
   return (
     <CustomContainer>
-      <Grid container className="border-2 flex border-red-500 w-full h-full">
+      <Grid container className="flex w-full h-full">
         <ProductImage product={product} />
         {/* <ProductMain product={product} /> */}
       </Grid>
