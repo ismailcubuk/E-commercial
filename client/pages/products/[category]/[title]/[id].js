@@ -1,25 +1,30 @@
 import React from "react";
 import { getProductDetails } from "../../../api/productDetail";
+import ProductMain from "@/components/Layout/ProductDetail/ProductMain";
+import ProductImage from "@/components/Layout/ProductDetail/ProductImage";
+import CustomContainer from "@/components/Container/CustomContainer";
+import { Grid } from '@mui/material'
 
 function ProductDetail({ product }) {
   if (!product) {
     return <p>Ürün bulunamadı.</p>;
   }
-  console.log(product);
+
   return (
-    <div>
-      <h2>Ürün Detay Sayfası</h2>
-      <p>Ürün Adı: {product.title}</p>
-      <p>Ürün Fiyatı: {product.category}</p>
-    </div>
+    <CustomContainer>
+      <Grid className="border-2 flex border-red-500 w-full h-full">
+        <ProductImage product={product} />
+        <ProductMain product={product} />
+      </Grid>
+    </CustomContainer>
   );
 }
 
 export default ProductDetail;
 export async function getServerSideProps(context) {
-  const { category, id } = context.params; 
+  const { category, id } = context.params;
 
-  let newCategory = category
+  let newCategory = category;
 
   switch (newCategory) {
     case "mouse":

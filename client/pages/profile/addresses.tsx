@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid, Typography, } from "@mui/material";
+import { Container, Grid, } from "@mui/material";
 import AddressesCard from "@/components/Cards/AddressesCard";
 import Navigation from "@/components/Layout/Profile/Navigation";
 import Main from "@/components/Layout/Profile/Main";
