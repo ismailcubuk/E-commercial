@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Grid, IconButton, Typography } from '@mui/material';
-import { Card, CardBody, Image, Button } from "@nextui-org/react";
+import { Card, CardBody, Image, Button, CardHeader, Divider, CardFooter } from "@nextui-org/react";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 export default function ProductImage({ product }: any) {
@@ -41,101 +41,144 @@ export default function ProductImage({ product }: any) {
 
 
     return (
-        <div className='border-2 flex border-red-500 w-full h-full'>
-            <Grid item sm={12} md={7} className='w-full flex flex-col border-4 border-blue-500 items-center'>
-                {product.images.length > 0 && (
-                    <Grid item md={10} className='border-4 border-red-500 mb-5'>
-                        {product.images[selectedColorIndex].sizes.s[selectedImageIndex].length > 0 && (
-                            <Image
-                                shadow="sm"
-                                alt={product.title}
-                                src={product.images[selectedColorIndex].sizes.m[selectedImageIndex]}
-                            />
-                        )}
-                    </Grid>
-                )}
-                {product.images.length > 0 && (
-                    <Grid className="flex w-full justify-around">
-                        <IconButton onClick={() => setSelectedImageIndex(selectedImageIndex - 1)} disabled={selectedImageIndex === 0}>
-                            <ArrowBackIcon />
-                        </IconButton>
-                        {product.images[selectedColorIndex].sizes.s.slice(before, after).map((imageUrl: string | undefined, index: number) => (
-                            <Card
-                                key={selectedImageIndex + index}
-                                isPressable
-                                onPress={() => handleImageClick(before + index)}
-                                style={{ cursor: 'pointer' }}
-                            >
-                                <CardBody className="overflow-visible p-0">
+        <div className='gap-6 flex w-full h-full'>
+            <Grid item sm={12} md={7} >
+                <Card>
+                    <CardHeader className='flex justify-center'>
+                        {product.images.length > 0 && (
+                            <Grid item md={8}>
+                                {product.images[selectedColorIndex].sizes.s[selectedImageIndex].length > 0 && (
                                     <Image
                                         shadow="sm"
-                                        radius="lg"
-                                        width="100%"
-                                        className="w-full object-cover sm:h-[80px] md:h-[100px] xl:h-[140px]"
-                                        key={before + index}
                                         alt={product.title}
-                                        src={imageUrl}
+                                        src={product.images[selectedColorIndex].sizes.m[selectedImageIndex]}
                                     />
-                                </CardBody>
-                            </Card>
-                        ))}
-                        <IconButton onClick={() => setSelectedImageIndex(selectedImageIndex + 1)} disabled={selectedImageIndex === imagesPerPage - 1}>
-                            <ArrowForwardIcon />
-                        </IconButton>
-                    </Grid>
-                )}
+                                )}
+                            </Grid>
+                        )}
+                    </CardHeader>
+                    <CardBody className='flex flex-row border-t-2 w-full justify-around'>
+                        {product.images.length > 0 && (
+                            <Grid className="flex w-full justify-around">
+                                <IconButton onClick={() => setSelectedImageIndex(selectedImageIndex - 1)} disabled={selectedImageIndex === 0}>
+                                    <ArrowBackIcon />
+                                </IconButton>
+                                {product.images[selectedColorIndex].sizes.s.slice(before, after).map((imageUrl: string | undefined, index: number) => (
+                                    <Card
+                                        key={selectedImageIndex + index}
+                                        isPressable
+                                        onPress={() => handleImageClick(before + index)}
+                                        style={{ cursor: 'pointer' }}
+                                    >
+                                        <CardBody className="overflow-visible p-0">
+                                            <Image
+                                                shadow="sm"
+                                                radius="lg"
+                                                width="100%"
+                                                className="w-full object-cover sm:h-[80px] md:h-[100px] xl:h-[140px]"
+                                                key={before + index}
+                                                alt={product.title}
+                                                src={imageUrl}
+                                            />
+                                        </CardBody>
+                                    </Card>
+                                ))}
+                                <IconButton onClick={() => setSelectedImageIndex(selectedImageIndex + 1)} disabled={selectedImageIndex === imagesPerPage - 1}>
+                                    <ArrowForwardIcon />
+                                </IconButton>
+                            </Grid>
+                        )}
+                    </CardBody>
+                </Card>
+
+
             </Grid>
 
 
 
             {/* main */}
+            <Grid item sm={12} md={5} className='w-full'>
 
-            <Grid item sm={12} md={5} className='w-full border-2 p-5'>
-                <Typography variant="h4">{product.description} </Typography>
-                <Typography variant="h6"> Brand : {product.brand} </Typography>
-                <Typography variant="h6"> {product.price.quantity} {product.price.currency} </Typography>
+                <Card className='h-full p-5'>
+                    <CardHeader className='border-b-2'>
+                        <Typography variant="h4">{product.title} </Typography>
+                    </CardHeader>
+                    <CardBody>
 
 
-                <div>
-                    {product.color && product.color.length > 0 && (
-                        <div className="w-3/6 justify-between flex items-center flex-wrap gap-2">
-                            {product.color.map((color: string, index: number) => (
-                                <Button
-                                    variant="bordered"
-                                    key={index}
-                                    className="w-10 h-10 border-4"
-                                    onClick={() => handleColorClick(index)}
-                                    style={{ backgroundColor: color }} > {index} </Button>
-                            ))}
+                        {product.features && (
+                            <Card className="border-2">
+                                <CardHeader>Features</CardHeader>
+                                <CardBody className="flex flex-row border-t-2 w-full gap-4 flex-wrap">
+                                    <div>
+                                        <div>Processor Speed: {product.features.ProcessorSpeed || product.features.led} </div>
+                                        <div>Number of Processors: {product.features.NumberofProcessors}</div>
+                                        <div>Display: {product.features.display} inches</div>
+                                        <div>Processor: {product.features.processor}</div>
+                                        <div>RAM: {product.features.ram} GB</div>
+                                        <div>Camera: {product.features.camera} MP</div>
+                                    </div>
+                                </CardBody>
+                            </Card>
+                        )}
+
+
+
+                        <div>
+                            <Typography variant="h6"> Brand : {product.brand} </Typography>
+                            <Typography variant="h6"> {product.price.quantity} {product.price.currency} </Typography>
+                            {product.color && product.color.length > 0 && (
+                                <Card >
+                                    <CardHeader>COLORS</CardHeader>
+                                    <CardBody className='flex flex-row border-t-2  w-full gap-4 flex-wrap' >
+                                        {product.color.map((color: string, index: number) => (
+                                            <Button
+                                                variant="bordered"
+                                                key={index}
+                                                className="w-10 h-10 border-4"
+                                                onClick={() => handleColorClick(index)}
+                                                style={{ backgroundColor: color }} />
+                                        ))}
+                                    </CardBody>
+                                </Card>
+
+                            )}
                         </div>
-                    )}
-                </div>
 
 
-                <div>
-                    {product.memory && product.memory.length > 0 && (
-                        <div className="border-2">
-                            <Typography variant="h6">Memory</Typography>
-                            <div className="w-3/6 justify-between flex items-center">
+                        <div>
+                            {product.memory && product.memory.length > 0 && (
+                                <Card className="border-2">
+                                    <CardHeader>MEMORY</CardHeader>
+                                    <CardBody className="flex flex-row border-t-2  w-full gap-4 flex-wrap">
+                                        {product.memory.map((memory: string, index: number) => (
+                                            <Button variant="bordered" key={index}> {memory} GB </Button>
+                                        ))}
+                                    </CardBody>
 
-                                {product.memory.map((memory: string, index: number) => (
-                                    <Button variant="bordered" key={index}> {memory} </Button>
-                                ))}
+                                </Card>
+                            )}
+                        </div>
+
+
+                    </CardBody>
+                    <CardFooter className='border-t-2'>
+                        <div className="w-full flex justify-between">
+                            <div className="flex w-3/6">
+                                <Button color="primary" className="w-full">Add Basket</Button>
                             </div>
-
+                            <div className="flex w-2/6">
+                                <Button color="primary" className="w-full">A</Button>
+                            </div>
                         </div>
-                    )}
-                </div>
-
-                <div className="w-full flex justify-between">
-                    <div className="flex w-3/6">
-                        <Button color="primary" className="w-full">Add Basket</Button>
-                    </div>
-                    <div className="flex w-2/6">
-                        <Button color="primary" className="w-full">A</Button>
-                    </div>
-                </div>
+                    </CardFooter>
+                </Card>
             </Grid>
+
         </div>
     )
 }
+
+
+
+
