@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function ProductMain({ product }: any) {
     return (
-        <Grid item md={5} className='w-full border-2 p-5'>
+        <Grid item sm={12} md={5} className='w-full border-2 p-5'>
             <Typography variant="h4">{product.description} </Typography>
             <Typography variant="h6"> Brand : {product.brand} </Typography>
             <Typography variant="h6"> {product.price.quantity} {product.price.currency} </Typography>
