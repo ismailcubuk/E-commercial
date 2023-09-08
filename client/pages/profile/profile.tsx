@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Grid, Paper, Typography } from "@mui/material";
-import { CustomButton } from "@/components/CustomButton";
 import Navigation from "@/components/Layout/Profile/Navigation";
 import Main from "@/components/Layout/Profile/Main";
 import UserProfile from "@/components/UserProfile";
@@ -8,17 +7,15 @@ import FirstName from "@/components/UserProfileFrom/FirstName";
 import LastName from "@/components/UserProfileFrom/LastName";
 import Mail from "@/components/UserProfileFrom/Mail";
 import Password from "@/components/UserProfileFrom/Password";
+import { Button } from "@nextui-org/react";
 
 export default function profile() {
 
   return (
     <Container maxWidth="xl" className="flex p-10 ">
       <Grid container>
-        {/* NAVİGATİON */}
         <Navigation />
-        {/* MAİN */}
         <Main variant="profile">
-          {/* USER PROFİLE */}
           <UserProfile />
           <Grid container spacing={2} mt={2} mb={4}>
             {/* İlk grup */}
@@ -45,7 +42,7 @@ export default function profile() {
               </Grid>
             </Grid>
           </Grid>
-          <CustomButton>SAVE CHANGES</CustomButton>
+          <Button color="primary">SAVE CHANGES</Button>
         </Main>
       </Grid>
     </Container>
