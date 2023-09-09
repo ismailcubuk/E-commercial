@@ -1,0 +1,147 @@
+{
+    "_id": "64e72cfea885c6bbf3928ba4",
+    "title": "iPhone 12 64 GB",
+    "description": "iPhone 12 64 GB",
+    "brand": "Apple",
+    "category": "Phone",
+    "color": [
+        "white",
+        "red",
+        "blue",
+        "purple",
+        "black",
+        "green"
+    ],
+    "memory": [
+        64,
+        128,
+        256
+    ],
+    "price": {
+        "quantity": 26.999,
+        "currency": "TRY"
+    },
+    "MemoryPrice": [
+        {
+            "memory": 64,
+            "price": {
+                "quantity": 26.999,
+                "currency": "TRY"
+            }
+        },
+        {
+            "memory": 128,
+            "price": {
+                "quantity": 28.999,
+                "currency": "TRY"
+            }
+        },
+        {
+            "memory": 256,
+            "price": {
+                "quantity": 30.999,
+                "currency": "TRY"
+            }
+        }
+    ],
+    "features": {
+        "ProcessorSpeed": null,
+        "NumberofProcessors": 6,
+        "display": 6.1,
+        "processor": "A14 Bionic",
+        "ram": 4,
+        "camera": 12
+    },
+    "images": [
+        {
+            "variant": "white",
+            "sizes": {
+                "s": [
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/white/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/white/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/white/3.jpeg?w=300&h=300&format=png"
+                ],
+                "m": [
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/white/1.jpeg",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/white/2.jpeg",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/white/3.jpeg"
+                ]
+            }
+        },
+        {
+            "variant": "red",
+            "sizes": {
+                "s": [
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/red/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/red/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/red/3.jpeg?w=300&h=300&format=png"
+                ],
+                "m": [
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/red/1.jpeg",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/red/2.jpeg",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/red/3.jpeg"
+                ]
+            }
+        },
+        {
+            "variant": "blue",
+            "sizes": {
+                "s": [
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/blue/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/blue/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/blue/3.jpeg?w=300&h=300&format=png"
+                ],
+                "m": [
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/blue/1.jpeg",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/blue/2.jpeg",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/blue/3.jpeg"
+                ]
+            }
+        },
+        {
+            "variant": "purple",
+            "sizes": {
+                "s": [
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/purple/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/purple/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/purple/3.jpeg?w=300&h=300&format=png"
+                ],
+                "m": [
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/purple/1.jpeg",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/purple/2.jpeg",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/purple/3.jpeg"
+                ]
+            }
+        },
+        {
+            "variant": "black",
+            "sizes": {
+                "s": [
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/black/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/black/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/black/3.jpeg?w=300&h=300&format=png"
+                ],
+                "m": [
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/black/1.jpeg",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/black/2.jpeg",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/black/3.jpeg"
+                ]
+            }
+        },
+        {
+            "variant": "green",
+            "sizes": {
+                "s": [
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/green/1.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/green/2.jpeg?w=300&h=300&format=png",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/green/3.jpeg?w=300&h=300&format=png"
+                ],
+                "m": [
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/green/1.jpeg",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/green/2.jpeg",
+                    "https://umiterit.sirv.com/images/phone/iphone/iphone%2012/green/3.jpeg"
+                ]
+            }
+        }
+    ]
+}

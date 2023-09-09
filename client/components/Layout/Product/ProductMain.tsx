@@ -17,6 +17,7 @@ interface Product {
         variant: string;
         sizes: {
             s: string[];
+            m: string[];
         };
     }[];
 }
@@ -34,7 +35,7 @@ function ProductMain({ products }: ProductListProps) {
             {products.map((product) => (
                 <Grid item sm={12} md={6} lg={4} xl={3} className='h-fit flex justify-center items-center p-4' key={product._id}>
                     <Link href={`/products/${product._id}`} as={`/products/${product.category.toLocaleLowerCase()}/${product.title.toLocaleLowerCase()}/${product._id}`} passHref>
-                        <Card className='h-fit' shadow="md" key={product._id} isPressable onPress={() => console.log("item pressed")}>
+                        <Card className='h-fit' shadow="md" key={product._id} isPressable>
                             <CardBody className="overflow-visible p-0">
                                 {product.images.length > 0 && (
                                     <div>

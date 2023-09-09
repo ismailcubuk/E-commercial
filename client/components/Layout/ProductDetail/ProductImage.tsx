@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Grid, IconButton, SvgIcon, Typography } from '@mui/material';
+import { Grid, IconButton, Typography } from '@mui/material';
 import { Card, CardBody, Image, Button, CardHeader, CardFooter } from "@nextui-org/react";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import Logos from '../../Icons/Logo/Logo'
+
 export default function ProductImage({ product }: any) {
     const [selectedImageIndex, setSelectedImageIndex] = useState<number>(0);
     const [selectedColorIndex, setSelectedColorIndex] = useState<number>(0);
@@ -122,13 +124,8 @@ export default function ProductImage({ product }: any) {
             <Grid item sm={12} md={5} className='w-full'>
                 <Card className='py-3'>
                     <CardHeader className='border-b-4 gap-4  px-10'>
-                        <Image
-                            src="/images/logo/apple.png"
-                            alt="Apple Logo"
-                            width={36}
-                            height={36}
-                        />
-                        <Typography variant="h4">{product.title} </Typography>
+                        <Logos variant={product.brand} />
+                        <Typography variant="h4" className='border-2'>{product.title} </Typography>
                     </CardHeader>
                     <CardBody className='gap-4 '>
 
