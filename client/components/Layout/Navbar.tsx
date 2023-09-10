@@ -1,7 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Navbar } from "@nextui-org/react";
-import { toggleMenu } from '../../redux/Features/ToggleMenu/MenuActions';
-
+import { toggleMenu } from '@/redux/actions/menuActions';
 import Search from '@/components/Navbar/Search'
 import Login from '@/components/Navbar/Login'
 import Brand from '@/components/Navbar/Brand'

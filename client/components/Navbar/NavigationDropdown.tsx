@@ -1,8 +1,8 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { NavbarMenu, NavbarMenuItem } from "@nextui-org/react";
-import { useDispatch} from 'react-redux';
-import { closeMenu } from '../../redux/Features/ToggleMenu/MenuActions'; 
+import { useDispatch } from 'react-redux';
+import { closeMenu } from '@/redux/actions/menuActions';
 
 const menuItems = [
     "Headphones",
@@ -23,12 +23,16 @@ export default function NavigationDropdown() {
     const generateItemUrl = (item: string) => {
         return `/products/${item.toLowerCase()}`;
     };
+
     const handleItemClick = (item: string) => {
         const itemUrl = generateItemUrl(item);
+
+        // Redux eylemini çağırarak menüyü kapatın
         dispatch(closeMenu());
+
+        // Yeni sayfaya yönlendirin
         router.push(itemUrl);
     };
-
 
     return (
         <NavbarMenu className='bg-white border-2' >
@@ -43,5 +47,3 @@ export default function NavigationDropdown() {
         </NavbarMenu>
     );
 }
-
-
