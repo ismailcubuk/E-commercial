@@ -1,20 +1,15 @@
-import { MongoClient } from "mongodb";
+import { getKeyboardsData } from "@/utils/keyboardsData"; 
 
-const MONGO_URI = process.env.MONGO_URI;
-
-export async function getKeyboardsData() {
-  const client = new MongoClient(MONGO_URI);
-
-  try {
-    await client.connect();
-
-    const database = client.db("E-commerce");
-    const collection = database.collection("keyboards");
-
-    const keyboardsData = await collection.find({}).toArray();
-
-    return keyboardsData;
-  } finally {
-    client.close();
+export default async function handler(req, res) {
+  if (req.method === "GET") {
+    try {
+      const keyboardsData = await getKeyboardsData();
+      res.status(200).json(keyboardsData);
+    } catch (error) {
+      console.error("Error fetching keyboards data:", error);
+      res.status(500).json({ error: "An error occurred while fetching data" });
+    }
+  } else {
+    res.status(405).json({ error: "Method not allowed" });
   }
 }

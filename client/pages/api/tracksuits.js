@@ -1,20 +1,17 @@
-import { MongoClient } from "mongodb";
+import { getTracksuitsData } from "@/utils/tracksuitsData";
 
-const MONGO_URI = process.env.MONGO_URI;
-
-export async function getTracksuitsData() {
-  const client = new MongoClient(MONGO_URI);
-
-  try {
-    await client.connect();
-
-    const database = client.db("E-commerce");
-    const collection = database.collection("tracksuits");
-
-    const tracksuitsData = await collection.find({}).toArray();
-
-    return tracksuitsData;
-  } finally {
-    client.close();
+export async function handlerTracksuits(req, res) {
+  if (req.method === "GET") {
+    try {
+      const tracksuitsData = await getTracksuitsData(); 
+      res.status(200).json(tracksuitsData);
+    } catch (error) {
+      console.error("Error fetching tracksuits data:", error);
+      res
+        .status(500)
+        .json({ error: "An error occurred while fetching tracksuits data" });
+    }
+  } else {
+    res.status(405).json({ error: "Method not allowed" });
   }
 }

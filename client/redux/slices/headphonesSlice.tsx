@@ -8,6 +8,7 @@ interface HeadphonesState {
 }
 
 interface Headphone {
+    title: string;
     _id: string;
     name: string;
 }
@@ -22,22 +23,22 @@ const headphonesSlice = createSlice({
     name: "headphones",
     initialState,
     reducers: {
-        fetchDataStart: (state) => {
+        fetchHeadphonesStart: (state) => {
             state.loading = true;
             state.error = null;
         },
-        fetchDataSuccess: (state, action: PayloadAction<Headphone[]>) => {
+        fetchHeadphonesSuccess: (state, action: PayloadAction<Headphone[]>) => {
             state.loading = false;
             state.data = action.payload;
         },
-        fetchDataFailure: (state, action: PayloadAction<string>) => {
+        fetchHeadphonesFailure: (state, action: PayloadAction<string>) => {
             state.loading = false;
             state.error = action.payload;
         },
     },
 });
 
-export const { fetchDataStart, fetchDataSuccess, fetchDataFailure } = headphonesSlice.actions;
+export const { fetchHeadphonesStart, fetchHeadphonesSuccess, fetchHeadphonesFailure } = headphonesSlice.actions;
 
 export const selectHeadphones = (state: RootState) => state.headphones;
 export default headphonesSlice.reducer;

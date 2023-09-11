@@ -1,20 +1,17 @@
-import { MongoClient } from "mongodb";
+import { getWatchesData } from "@/utils/watchesData";
 
-const MONGO_URI = process.env.MONGO_URI;
-
-export async function getWatchesData() {
-  const client = new MongoClient(MONGO_URI);
-
-  try {
-    await client.connect();
-
-    const database = client.db("E-commerce");
-    const collection = database.collection("watches");
-
-    const watchesData = await collection.find({}).toArray();
-
-    return watchesData;
-  } finally {
-    client.close();
+export async function handlerWatches(req, res) {
+  if (req.method === "GET") {
+    try {
+      const watchesData = await getWatchesData(); 
+      res.status(200).json(watchesData);
+    } catch (error) {
+      console.error("Error fetching watches data:", error);
+      res
+        .status(500)
+        .json({ error: "An error occurred while fetching watches data" });
+    }
+  } else {
+    res.status(405).json({ error: "Method not allowed" });
   }
 }
