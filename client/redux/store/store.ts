@@ -9,9 +9,11 @@ import shoesReducer from "../slices/shoesSlice";
 import tracksuitsReducer from "../slices/tracksuitsSlice";
 import tshirtsReducer from "../slices/tshirtsSlice";
 import watchesReducer from "../slices/watchesSlice";
+import alldataReducer from "../slices/alldataSlice";
 
 export const store = configureStore({
   reducer: {
+    alldata: alldataReducer,
     toggleMenu: menuReducer,
     headphones: headphonesReducer,
     headsets: headsetsReducer,

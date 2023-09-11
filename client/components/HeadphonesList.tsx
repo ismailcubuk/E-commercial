@@ -1,15 +1,15 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchHeadsetsData } from "@/redux/actions/headsetsActions";
-import { selectHeadsets } from "@/redux/slices/headsetsSlice";
+import { fetchAllData } from "@/redux/actions/alldataActions";
+import { selectAllData } from "@/redux/slices/alldataSlice";
 import { AppDispatch } from "@/redux/store/store";
 
 const HeadphonesList = () => {
     const dispatch: AppDispatch = useDispatch();
-    const { data, loading, error } = useSelector(selectHeadsets);
+    const { data, loading, error } = useSelector(selectAllData);
 
     useEffect(() => {
-        dispatch(fetchHeadsetsData());
+        dispatch(fetchAllData());
     }, [dispatch]);
 
     if (loading) {
@@ -19,12 +19,11 @@ const HeadphonesList = () => {
     if (error) {
         return <div>Error: {error}</div>;
     }
-
     return (
         <div>
             <h1>Headphones</h1>
             <ul>
-                {data.map((headphone) => (
+                {data?.headsets?.map((headphone:any) => (
                     <li key={headphone._id}>{headphone.title}</li>
                 ))}
             </ul>
