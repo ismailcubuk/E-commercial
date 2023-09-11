@@ -1,8 +1,10 @@
 import React from 'react'
+import HeadphonesList from "@/components/HeadphonesList";
+
 function index() {
   return (
     <div>
-      MAİN
+      <HeadphonesList />
     </div>
   )
 }
