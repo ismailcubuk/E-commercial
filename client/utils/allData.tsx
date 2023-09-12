@@ -39,11 +39,4 @@ export async function getAllData() {
     }
 }
 
-(async () => {
-    try {
-        const data = await getAllData();
-        console.log(data);
-    } catch (error) {
-        console.error("Error:", error);
-    }
-})();
+
