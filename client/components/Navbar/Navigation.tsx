@@ -1,34 +1,40 @@
 import React from 'react'
-import { NavbarContent, NavbarItem, Link, } from "@nextui-org/react";
+import { NavbarContent, NavbarItem } from "@nextui-org/react";
+import { useRouter } from 'next/router';
+
 const menuItems = [
     "Headphones",
-    "Headset",
-    "Keyboard",
+    "Headsets",
+    "Keyboards",
     "Mouse",
-    "Phone",
+    "Phones",
     "Shoes",
-    "Tracksuit",
-    "Tshirt",
-    "Watch",
+    "Tracksuits",
+    "Tshirts",
+    "Watches",
 ];
-function generateItemUrl(item: string) {
-    return `${item.toLowerCase()}`;
-}
+
 export default function Navigation() {
+    const router = useRouter();
+    const generateItemUrl = (item: string) => {
+        return `/products/${item.toLocaleLowerCase()}`
+    }
+
+    const handleItemClick = (item: string) => {
+        const itemUrl = generateItemUrl(item);
+
+        router.push(itemUrl);
+    };
     return (
-        <NavbarContent justify="center" className="w-full">
-            <NavbarItem className="w-full flex flex-wrap shrink-0 justify-between  ">
-                {menuItems.map((item, index) => (
-                    <Link
-                        href={`/products/${generateItemUrl(item)}`}
-                        key={`${item}-${index}`}
-                        className=" text-black flex-1 flex justify-center items-center px-4 py-1 font-semibold "
-                        underline="hover"
-                    >
-                        {item}
-                    </Link>
-                ))}
-            </NavbarItem>
+        <NavbarContent justify="center" className="w-full flex">
+            {menuItems.map((item, index) => (
+                <NavbarItem 
+                className="cursor-pointer hover:text-blue-500 "
+                onClick={() => handleItemClick(item)}
+                key={`${item}-${index}`}>
+                    {item}
+                </NavbarItem>
+            ))}
         </NavbarContent>
     )
 }

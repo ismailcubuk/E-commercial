@@ -4,23 +4,23 @@ import ShantyIcon from "../Icons/Navbar/shanty.png";
 import Image from 'next/image';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '@/redux/types/actionTypes';
-import { toggleMenu } from '@/redux/actions/menuActions'; // Redux eylem yaratıcısını içe aktarın
+import { toggleMenu } from '@/redux/actions/menuActions';
 
 export default function Brand() {
     const isMenuOpen = useSelector((state: RootState) => state.toggleMenu.isMenuOpen);
-    const dispatch = useDispatch(); // Dispatch fonksiyonunu alın
+    const dispatch = useDispatch(); 
 
     const handleToggleMenu = () => {
-        // Redux eylemi çağırarak menüyü açma veya kapatma
+        
         dispatch(toggleMenu());
     };
 
     return (
         <NavbarContent>
             <NavbarMenuToggle
-                aria-label={isMenuOpen ? "Menüyü Kapat" : "Menüyü Aç"}
-                className="sm:hidden text-black"
-                onClick={handleToggleMenu} // Menüyü açma veya kapatma işlevini çağırın
+                aria-label={isMenuOpen ? "close" : "open"}
+                className="md:hidden text-black"
+                onClick={handleToggleMenu}
             />
             <NavbarBrand className="pr-10 w-full" as={Link} href="/">
                 <Image

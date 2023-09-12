@@ -3,17 +3,18 @@ import { useRouter } from 'next/router';
 import { NavbarMenu, NavbarMenuItem } from "@nextui-org/react";
 import { useDispatch } from 'react-redux';
 import { closeMenu } from '@/redux/actions/menuActions';
+import Typography from '@mui/material/Typography';
 
 const menuItems = [
     "Headphones",
-    "Headset",
-    "Keyboard",
+    "Headsets",
+    "Keyboards",
     "Mouse",
-    "Phone",
+    "Phones",
     "Shoes",
-    "Tracksuit",
-    "Tshirt",
-    "Watch",
+    "Tracksuits",
+    "Tshirts",
+    "Watches",
 ];
 
 export default function NavigationDropdown() {
@@ -27,15 +28,14 @@ export default function NavigationDropdown() {
     const handleItemClick = (item: string) => {
         const itemUrl = generateItemUrl(item);
 
-        // Redux eylemini çağırarak menüyü kapatın
         dispatch(closeMenu());
 
-        // Yeni sayfaya yönlendirin
         router.push(itemUrl);
     };
 
     return (
-        <NavbarMenu className='bg-white border-2' >
+        <NavbarMenu className='border-t-4' >
+            <Typography variant='h5' className='border-b-2 w-fit border-black'>CATEGORİES</Typography>
             {menuItems.map((item, index) => (
                 <NavbarMenuItem
                     className='w-full text-black rounded-md cursor-pointer p-2 hover:bg-bgmenu'

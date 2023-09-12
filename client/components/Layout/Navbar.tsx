@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { Navbar } from "@nextui-org/react";
+import { Navbar, NavbarMenuToggle } from "@nextui-org/react";
 import { toggleMenu } from '@/redux/actions/menuActions';
 import Search from '@/components/Navbar/Search'
 import Login from '@/components/Navbar/Login'
@@ -26,8 +26,7 @@ export default function App() {
             <Navbar
                 onMenuOpenChange={handleBrandClick}
                 isMenuOpen={isMenuOpen} maxWidth="2xl"
-                disableAnimation={true}
-                className="bg-white" >
+                disableAnimation={true}>
                 <Brand />
                 <Search />
                 <Login />
@@ -35,7 +34,7 @@ export default function App() {
                 <NavigationDropdown />
                 <Avatars />
             </Navbar>
-            <Navbar className="hidden sm:flex border-t-2 bg-mySecond " height={"full"}>
+            <Navbar className="hidden md:flex border-t-2 bg-mySecond " height={"full"}>
                 <Navigation />
             </Navbar>
         </div>

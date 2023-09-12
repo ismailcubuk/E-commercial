@@ -7,7 +7,7 @@ export const variations = {
       Connection: ["Usb", "Wireless"],
     },
   },
-  headset: {
+  headsets: {
     title: "headset",
     options: {
       Price: ["1.000 - 1.999 TL", "2.000 - 4.999 TL", "5.000 - 15.999 TL"],

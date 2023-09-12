@@ -32,7 +32,7 @@ interface ProductListProps {
 function ProductMain({ products }: ProductListProps) {
     return (
         <Grid item xs={12} sm={7} md={8} lg={9} xl={9} className='flex flex-wrap justify-center sm:justify-start' >
-            {products.map((product) => (
+            {products?.map((product) => (
                 <Grid item sm={12} md={6} lg={4} xl={3} className='h-fit flex justify-center items-center p-4' key={product._id}>
                     <Link href={`/products/${product._id}`} as={`/products/${product.category.toLocaleLowerCase()}/${product.title.toLocaleLowerCase()}/${product._id}`} passHref>
                         <Card className='h-fit' shadow="md" key={product._id} isPressable>

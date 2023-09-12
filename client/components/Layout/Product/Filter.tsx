@@ -14,6 +14,7 @@ interface ProductFilterProps {
 }
 
 function Filter({ variation }: ProductFilterProps) {
+    
     return (
         <Hidden smDown>
             <Grid item md={4} lg={3} xl={3} className='w-full h-fit py-4  '>
