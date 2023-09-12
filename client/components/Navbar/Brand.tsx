@@ -25,7 +25,7 @@ export default function Brand() {
             <NavbarBrand className="pr-10 w-full" as={Link} href="/">
                 <Image
                     src={ShantyIcon}
-                    alt="Benim Resmim"
+                    alt="ShantyLogo"
                     width={36}
                     height={36}
                 />
