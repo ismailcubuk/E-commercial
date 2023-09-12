@@ -7,8 +7,8 @@ import { selectAllData } from "@/redux/slices/alldataSlice";
 import { AppDispatch } from "@/redux/store/store";
 import { useRouter } from "next/router";
 import ProductFilter from '@/components/Layout/Product/Filter';
-import { variations } from '@/components/variants/data'
 import ProductList from '@/components/Layout/Product/ProductMain';
+
 export default function category() {
   const router = useRouter();
   const { category } = router.query;
@@ -26,12 +26,10 @@ export default function category() {
   if (error) {
     return <div>Error: {error}</div>;
   }
-  console.log("data", data);
-  console.log("category", category);
 
   return (
     <CustomContainer>
-      <ProductFilter variation={variations.headphones} />
+      <ProductFilter category={category} />
       <ProductList products={data[category]} />
     </CustomContainer>
   );
