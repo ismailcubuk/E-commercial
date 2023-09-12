@@ -11,7 +11,6 @@ export default function Brand() {
     const dispatch = useDispatch(); 
 
     const handleToggleMenu = () => {
-        
         dispatch(toggleMenu());
     };
 
