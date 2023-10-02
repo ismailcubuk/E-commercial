@@ -6,6 +6,9 @@ import Link from 'next/link';
 interface Product {
     _id: string;
     title: string;
+    variant: string;
+    gb: string;
+    series: number;
     gender: string;
     brand: string;
     category: string;
@@ -29,11 +32,6 @@ function capitalizeFirstLetter(str: any) {
 interface ProductListProps {
     products: Product[];
 }
-function formatProductUrl(category: string, title: string) {
-    const formattedCategory = category.toLowerCase();
-    const formattedTitle = title.toLowerCase().replace(/\s/g, '-');
-    return `/products/${formattedCategory}/${formattedTitle}`;
-}
 
 function ProductMain({ products }: ProductListProps) {
 
@@ -41,7 +39,7 @@ function ProductMain({ products }: ProductListProps) {
         <Grid item xs={12} sm={7} md={8} lg={9} xl={9} className='flex flex-wrap justify-center sm:justify-start' >
             {products?.map((product) => (
                 <Grid item sm={12} md={6} lg={4} xl={3} className='h-fit flex justify-center items-center p-4' key={product._id}>
-                    <Link href={formatProductUrl(product.category, product.title)} passHref>
+                    <Link href={`/products/${product.category}/${product._id}`} passHref>
                         <Card className='h-fit' shadow="md" key={product._id} isPressable>
                             <CardBody className="overflow-visible p-0">
                                 {product.images.length > 0 && (
@@ -67,7 +65,7 @@ function ProductMain({ products }: ProductListProps) {
                                                 <b>{capitalizeFirstLetter(product.gender)}</b>
                                             </div>
                                         )}
-                                    <b>{product.title}</b>
+                                    <b>{product.title} {product.variant} {product.gb}</b>
                                 </div>
                                 <p className="text-default-500 w-2/6">{product.price.quantity} {product.price.currency}</p>
                             </CardFooter>

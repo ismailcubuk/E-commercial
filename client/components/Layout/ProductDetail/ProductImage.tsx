@@ -125,7 +125,7 @@ export default function ProductImage({ product }: any) {
                 <Card className='py-3'>
                     <CardHeader className='border-b-4 gap-4  px-10'>
                         <Logos variant={product.brand} />
-                        <Typography variant="h4" className='border-2'>{product.title} </Typography>
+                        <Typography variant="h4" className='border-2'>{product.title} {product.variant} {product.gb} </Typography>
                     </CardHeader>
                     <CardBody className='gap-4 '>
 

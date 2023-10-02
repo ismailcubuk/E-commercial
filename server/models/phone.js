@@ -6,6 +6,18 @@ const PhoneSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    series: {
+      type: Number,
+      required: false,
+    },
+    gb: {
+      type: String,
+      required: false,
+    },
+    variant: {
+      type :String,
+      required:false
+    },
     description: {
       type: String,
       required: true,
