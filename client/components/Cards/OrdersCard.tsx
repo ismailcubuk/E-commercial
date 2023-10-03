@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
-import CustomButton from "../CustomButton";
+import { Button } from "@nextui-org/react";
 import { Container, Grid, Typography, } from "@mui/material";
 
 export default function OrdersCard() {
@@ -18,7 +18,7 @@ export default function OrdersCard() {
                 <p>Black, L</p>
             </Grid>
             <Grid sm={3} className=" mr-7 flex justify-center">
-                <CustomButton>wiew</CustomButton>
+                <Button color="primary">wiew</Button>
             </Grid>
         </div >
     )

@@ -11,6 +11,7 @@ import Typography from '@mui/material/Typography';
 import { CustomWButton } from '@/components/CustomButton';
 import FirstName from '@/components/UserProfileFrom/FirstName';
 import LastName from '@/components/UserProfileFrom/LastName';
+import Auth from '@/components/Auth/Auth';
 
 export default function Signup() {
     const handleSubmit = (event: React.FormEvent) => {
@@ -55,33 +56,7 @@ export default function Signup() {
                     </Typography>
 
                     {/* Signup Form */}
-                    <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
-                        <Grid container spacing={2}>
-                            <Grid item xs={12} sm={6}>
-                                <FirstName />
-                            </Grid>
-                            <Grid item xs={12} sm={6}>
-                                <LastName />
-                            </Grid>
-                            <Grid item xs={12}>
-                                <Mail />
-                            </Grid>
-                            <Grid item xs={12}>
-                                <Password />
-                            </Grid>
-                            <Grid item xs={12}>
-                                <Policies />
-                            </Grid>
-                        </Grid>
-
-                        {/* Signup Button */}
-                        <CustomWButton>SIGN UP</CustomWButton>
-
-                        {/* Sign In Link */}
-                        <Grid container justifyContent="flex-end">
-                            <SignInPage />
-                        </Grid>
-                    </Box>
+                    <Auth />
                 </Box>
             </Grid>
         </Grid>
