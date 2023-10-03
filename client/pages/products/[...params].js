@@ -5,10 +5,14 @@ import { fetchAllData } from "@/redux/actions/alldataActions";
 import { selectAllData } from "@/redux/slices/alldataSlice";
 import ProductImage from "@/components/Layout/ProductDetail/ProductImage";
 import CustomContainer from "@/components/Container/CustomContainer";
-import { Grid } from '@mui/material'
-export default function ProductPage() {
+import { Grid } from "@mui/material";
+
+const ProductDetail = () => {
   const router = useRouter();
-  const { category, id } = router.query;
+  const { params } = router.query;
+  const category = params ? params[0] : "";
+  const titleVariantGb = params ? params[1] || "" : "";
+  const [title, variant, gb] = titleVariantGb.split("-");
 
   const dispatch = useDispatch();
   const { data, loading, error } = useSelector(selectAllData);
@@ -26,7 +30,8 @@ export default function ProductPage() {
   }
   const lowercaseCategory = category?.toLocaleLowerCase();
   const filteredProduct = data[lowercaseCategory]?.find(
-    (product) => product._id === id
+    (product) =>
+      product.title === title && product.variant === variant && product.gb == gb
   );
 
   if (!filteredProduct) {
@@ -34,10 +39,17 @@ export default function ProductPage() {
   }
 
   return (
-    <CustomContainer>
-      <Grid container className="flex w-full h-full">
-        <ProductImage product={filteredProduct} />
-      </Grid>
-    </CustomContainer>
+      <CustomContainer>
+        <Grid container className="flex w-full h-full">
+          <ProductImage
+            product={filteredProduct}
+            title={title}
+            variant={variant}
+            gb={gb}
+          />
+        </Grid>
+      </CustomContainer>
   );
-}
+};
+
+export default ProductDetail;

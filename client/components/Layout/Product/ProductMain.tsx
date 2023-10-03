@@ -24,22 +24,24 @@ interface Product {
         };
     }[];
 }
-
 function capitalizeFirstLetter(str: any) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
-
 interface ProductListProps {
     products: Product[];
 }
 
 function ProductMain({ products }: ProductListProps) {
 
+
     return (
         <Grid item xs={12} sm={7} md={8} lg={9} xl={9} className='flex flex-wrap justify-center sm:justify-start' >
             {products?.map((product) => (
                 <Grid item sm={12} md={6} lg={4} xl={3} className='h-fit flex justify-center items-center p-4' key={product._id}>
-                    <Link href={`/products/${product.category}/${product._id}`} passHref>
+                    <Link
+                        href={product.variant && product.gb
+                            ? `/products/${product.category}/${product.title}-${product.variant}-${product.gb}`
+                            : `/products/${product.category}/${product.title}`} passHref>
                         <Card className='h-fit' shadow="md" key={product._id} isPressable>
                             <CardBody className="overflow-visible p-0">
                                 {product.images.length > 0 && (
