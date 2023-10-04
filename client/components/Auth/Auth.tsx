@@ -20,7 +20,7 @@ function Auth() {
     };
     const handleClickShowPassword = () => setShowPassword((show) => !show);
     return (
-        <Box component="form" noValidate sx={{ mt: 3 }}>
+        <Box component="form" action="/api/register" method='post' noValidate sx={{ mt: 3 }}>
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={6}>
                     <TextField
@@ -104,7 +104,7 @@ function Auth() {
             </Grid>
 
             {/* Signup Button */}
-            <Button>SIGN UP</Button>
+            <Button color='primary' type='submit' >SIGN UP</Button>
 
             {/* Sign In Link */}
             <Grid container justifyContent="flex-end">

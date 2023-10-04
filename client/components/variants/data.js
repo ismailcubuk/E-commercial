@@ -94,8 +94,7 @@ export const variations = {
         "7.000 - 15.999 TL",
       ],
       Brand: ["Apple", "Huawei", "Samsung"],
-      Size: ["40mm", "41mm", "44mm" ,"45mm" ,"46mm", "49mm"],
-      Color: ["Black", "Blue", "Green", "White", "Grey"],
+      Size: ["40mm", "41mm", "44mm" ,"45mm" ,"46mm", "49mm"]
     },
   },
 };
