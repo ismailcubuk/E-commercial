@@ -2,25 +2,11 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
-import Mail from '@/components/UserProfileFrom/Mail';
-import Password from '@/components/UserProfileFrom/Password';
-import Remember from '@/components/CheckBoxs/Login/Remember';
-import Forgot from '@/components/Links/Login/Forgot';
-import SignUp from '@/components/Links/Login/SignUpPage';
 import LockIcon from '@/components/Icons/Login/LockIcon';
 import Typography from '@mui/material/Typography';
-import { CustomWButton } from '@/components/CustomButton';
+import Login from '@/components/Auth/Login';
 
 export default function Signin() {
-    const handleSubmit = (event: React.FormEvent) => {
-        event.preventDefault();
-        const formData = new FormData(event.target as HTMLFormElement);
-        console.log({
-            email: formData.get('email'),
-            password: formData.get('password'),
-        });
-    };
-
     return (
         <Grid container>
             {/* Left Side */}
@@ -54,18 +40,7 @@ export default function Signin() {
                     </Typography>
 
                     {/* Sign-in Form */}
-                    <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1 }}>
-                        <Mail />
-                        <Password />
-                        <Remember />
-                        <CustomWButton>SIGN IN</CustomWButton>
-
-                        {/* Forgot Password and Sign Up Links */}
-                        <Grid container>
-                            <Forgot />
-                            <SignUp />
-                        </Grid>
-                    </Box>
+                    <Login />
                 </Box>
             </Grid>
         </Grid>

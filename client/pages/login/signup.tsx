@@ -3,25 +3,10 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import LockIcon from '@/components/Icons/Login/LockIcon';
-import Mail from '@/components/UserProfileFrom/Mail';
-import Password from '@/components/UserProfileFrom/Password';
-import Policies from '@/components/CheckBoxs/Login/Policies';
-import SignInPage from '@/components/Links/Login/SignInPage';
 import Typography from '@mui/material/Typography';
-import { CustomWButton } from '@/components/CustomButton';
-import FirstName from '@/components/UserProfileFrom/FirstName';
-import LastName from '@/components/UserProfileFrom/LastName';
-import Auth from '@/components/Auth/Auth';
+import Register from '@/components/Auth/Register';
 
 export default function Signup() {
-    const handleSubmit = (event: React.FormEvent) => {
-        event.preventDefault();
-        const formData = new FormData(event.target as HTMLFormElement);
-        console.log({
-            email: formData.get('email'),
-            password: formData.get('password'),
-        });
-    };
 
     return (
         <Grid container component="main">
@@ -56,7 +41,7 @@ export default function Signup() {
                     </Typography>
 
                     {/* Signup Form */}
-                    <Auth />
+                    <Register />
                 </Box>
             </Grid>
         </Grid>
