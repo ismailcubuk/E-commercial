@@ -40,8 +40,8 @@ function ProductMain({ products }: ProductListProps) {
                 <Grid item sm={12} md={6} lg={4} xl={3} className='h-fit flex justify-center items-center p-4' key={product._id}>
                     <Link
                         href={product.variant && product.gb
-                            ? `/products/${product.category}/${product.title}-${product.variant}-${product.gb}`
-                            : `/products/${product.category}/${product.title}`} passHref>
+                            ? `/products/${product.category}/${product.title}-${product.variant}-${product.gb}-${product.images[0].variant}`
+                            : `/products/${product.category}/${product.title}-${product.images[0].variant}`} passHref>
                         <Card className='h-fit' shadow="md" key={product._id} isPressable>
                             <CardBody className="overflow-visible p-0">
                                 {product.images.length > 0 && (

@@ -31,7 +31,12 @@ const ProductDetail = () => {
   const lowercaseCategory = category?.toLocaleLowerCase();
   const filteredProduct = data[lowercaseCategory]?.find(
     (product) =>
-      product.title === title && product.variant === variant && product.gb == gb
+      product.title === title &&
+      product.variant === variant &&
+      product.gb == gb
+  ) || data[lowercaseCategory]?.find(
+    (product) =>
+      product.title === title
   );
 
   if (!filteredProduct) {
@@ -39,16 +44,16 @@ const ProductDetail = () => {
   }
 
   return (
-      <CustomContainer>
-        <Grid container className="flex w-full h-full">
-          <ProductImage
-            product={filteredProduct}
-            title={title}
-            variant={variant}
-            gb={gb}
-          />
-        </Grid>
-      </CustomContainer>
+    <CustomContainer>
+      <Grid container className="flex w-full h-full">
+        <ProductImage
+          product={filteredProduct}
+          title={title}
+          variant={variant}
+          gb={gb}
+        />
+      </Grid>
+    </CustomContainer>
   );
 };
 
