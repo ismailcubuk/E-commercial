@@ -19,8 +19,10 @@ function Auth() {
         event.preventDefault();
     };
     const handleClickShowPassword = () => setShowPassword((show) => !show);
+
+
     return (
-        <Box component="form" action="/api/register" method='post' noValidate sx={{ mt: 3 }}>
+        <Box component="form" action="/api/register" method='post'  noValidate sx={{ mt: 3 }}>
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={6}>
                     <TextField

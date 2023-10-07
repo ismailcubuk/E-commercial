@@ -8,6 +8,6 @@ export default async function handler(req, res) {
   if (!user) {
     return res.json({ status: "Not able to find the user" });
   } else {
-    res.redirect("/");
+    return res.json({ status: "Success", email: user.email, firstName: user.firstName, lastName: user.lastName });
   }
 }

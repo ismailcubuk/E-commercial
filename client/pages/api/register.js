@@ -6,7 +6,7 @@ export default async function handler(req, res) {
         await connect();
         const user = await User.create(req.body);
         console.log("Kullanıcı oluşturuldu:", user); 
-        res.redirect('/');
+        res.redirect('/login/signin');
         if (!user) {
             return res.json({ code: 'User not created' });
         }

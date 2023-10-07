@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import InputAdornment from '@mui/material/InputAdornment';
@@ -10,8 +10,11 @@ import Checkbox from '@mui/material/Checkbox';
 import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
 import { Button } from '@nextui-org/react';
+import { useRouter } from 'next/router';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import Box from '@mui/material/Box';
+import { useDispatch } from 'react-redux';
+import { setUserData } from '../../redux/slices/userSlice';
 
 function Login() {
     const [showPassword, setShowPassword] = React.useState(false);
@@ -19,8 +22,39 @@ function Login() {
         event.preventDefault();
     };
     const handleClickShowPassword = () => setShowPassword((show) => !show);
+    const dispatch = useDispatch();
+
+
+    const router = useRouter();
+
+    const handleLogin = async (e) => {
+        e.preventDefault();
+
+        const response = await fetch('/api/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                email: e.target.email.value,
+                password: e.target.password.value,
+            }),
+        });
+
+        if (response.ok) {
+            const data = await response.json();
+            dispatch(setUserData({
+                email: data.email,
+                firstName: data.firstName,
+                lastName: data.lastName,
+            }));
+            router.push('/');
+        } else {
+            console.error('Giriş başarısız');
+        }
+    };
     return (
-        <Box component="form" noValidate action="/api/login" method='post' sx={{ mt: 1 }}>
+        <Box component="form" noValidate action="/api/login" method='post' onSubmit={handleLogin} sx={{ mt: 1 }}>
             <TextField
                 margin="normal"
                 required
