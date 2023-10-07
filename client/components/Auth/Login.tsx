@@ -5,8 +5,6 @@ import InputAdornment from '@mui/material/InputAdornment';
 import IconButton from '@mui/material/IconButton';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
 import { Button } from '@nextui-org/react';
@@ -17,7 +15,8 @@ import { useDispatch } from 'react-redux';
 import { setUserData } from '../../redux/slices/userSlice';
 
 function Login() {
-    const [showPassword, setShowPassword] = React.useState(false);
+    const [showPassword, setShowPassword] = useState(false);
+    const [loginError, setLoginError] = useState('');
     const handleMouseDownPassword = (event: React.MouseEvent<HTMLButtonElement>) => {
         event.preventDefault();
     };
@@ -43,18 +42,20 @@ function Login() {
 
         if (response.ok) {
             const data = await response.json();
-            dispatch(setUserData({
-                email: data.email,
-                firstName: data.firstName,
-                lastName: data.lastName,
-            }));
-            router.push('/');
-        } else {
-            console.error('Giriş başarısız');
+            if (data.status.toLowerCase() === "success") {
+                dispatch(setUserData({
+                    email: data.email,
+                    firstName: data.firstName,
+                    lastName: data.lastName,
+                }));
+                router.push('/');
+            } else {
+                setLoginError("Invalid Mail or Password.")
+            }
         }
     };
     return (
-        <Box component="form" noValidate action="/api/login" method='post' onSubmit={handleLogin} sx={{ mt: 1 }}>
+        <Box component="form" noValidate action="/api/login" method='post' onSubmit={handleLogin} className='w-full xl:px-10' sx={{ mt: 1 }}>
             <TextField
                 margin="normal"
                 required
@@ -103,10 +104,9 @@ function Login() {
                     )
                 }}
             />
-            <FormControlLabel
-                control={<Checkbox value="remember" color="primary" />}
-                label="Remember me"
-            />
+            {loginError && (
+                <div className='text-red-700 bg-red-100 mb-2 p-1 px-5 rounded-md'>{loginError}</div>
+            )}
             <Button color="primary" type='submit' fullWidth >
                 SIGN IN
             </Button>
