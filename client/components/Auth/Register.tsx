@@ -29,13 +29,7 @@ function capitalizeFirstLetter(string) {
 }
 function Register() {
     const router = useRouter();
-    const [showPassword, setShowPassword] = React.useState(false);
-    const handleMouseDownPassword = (event: React.MouseEvent<HTMLButtonElement>) => {
-        event.preventDefault();
-    };
-    const handleClickShowPassword = () => setShowPassword((show) => !show);
     const [open, setOpen] = useState(false);
-
     const [errorMessage, setErrorMessage] = useState("");
     const [countdown, setCountdown] = useState(3);
     const [firstName, setFirstName] = useState("");
