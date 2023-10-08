@@ -10,6 +10,8 @@ import FirstName from '../UserProfileFrom/FirstName';
 import LastName from '../UserProfileFrom/LastName';
 import Mail from '../UserProfileFrom/Mail';
 import Password from '../UserProfileFrom/Password';
+import { useSelector, useDispatch } from 'react-redux';
+import { openModal, closeModal } from '@/redux/actions/Actions';
 
 const style = {
     position: 'absolute',
@@ -29,18 +31,21 @@ function capitalizeFirstLetter(string) {
 }
 function Register() {
     const router = useRouter();
-    const [open, setOpen] = useState(false);
     const [errorMessage, setErrorMessage] = useState("");
     const [countdown, setCountdown] = useState(3);
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
+
+    const dispatch = useDispatch();
+    const isOpen = useSelector((state) => state.modal.isOpen);
+
     const handleCloseModal = () => {
-        setOpen(false);
+        dispatch(closeModal());
         setErrorMessage("");
         setCountdown(3);
         router.push('/login/signin');
-
     };
+
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
@@ -66,13 +71,13 @@ function Register() {
             } else {
                 const errorData = await response.json();
                 setErrorMessage(errorData.message)
-                setOpen(true);
+                dispatch(openModal());
                 let countdownTimer = setInterval(() => {
                     setCountdown((prevCountdown) => prevCountdown - 1);
                 }, 1000);
                 setTimeout(() => {
                     clearInterval(countdownTimer);
-                    handleCloseModal();
+                    dispatch(closeModal());
                 }, 3000);
                 setFirstName(capitalizeFirstLetter(formObject.firstName));
                 setLastName(capitalizeFirstLetter(formObject.lastName));
@@ -91,8 +96,8 @@ function Register() {
     return (
         <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 3 }}>
             <Modal
-                open={open}
-                onClose={() => setOpen(false)}
+                open={isOpen}
+                onClose={handleCloseModal}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
             >

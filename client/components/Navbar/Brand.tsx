@@ -4,7 +4,7 @@ import ShantyIcon from "../Icons/Navbar/shanty.png";
 import Image from 'next/image';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '@/redux/types/actionTypes';
-import { toggleMenu } from '@/redux/actions/menuActions';
+import { toggleMenu } from '@/redux/actions/Actions';
 
 export default function Brand() {
     const isMenuOpen = useSelector((state: RootState) => state.toggleMenu.isMenuOpen);

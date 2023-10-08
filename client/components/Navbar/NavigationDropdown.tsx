@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavbarMenu, NavbarMenuItem,Link } from "@nextui-org/react";
 import { useDispatch } from 'react-redux';
-import { closeMenu } from '@/redux/actions/menuActions';
+import { closeMenu } from '@/redux/actions/Actions';
 import Typography from '@mui/material/Typography';
 
 const menuItems = [
