@@ -3,7 +3,6 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { useDispatch, useSelector } from 'react-redux';
 import { useRouter } from 'next/router';
-import { clearErrorMessage } from '@/redux/actions/errorActions';
 import { closeModal } from '@/redux/actions/Actions';
 
 interface FormModalProps {
@@ -19,7 +18,7 @@ export default function FormModal({ countdown, firstName, lastName }: FormModalP
     const isOpen = useSelector((state: any) => state.modal.isOpen);
     const handleCloseModal = () => {
         dispatch(closeModal());
-        dispatch(clearErrorMessage());
+        setErrorMessage(errorData.message)
         router.push('/login/signin');
     };
     useEffect(() => {

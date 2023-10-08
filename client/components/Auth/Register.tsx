@@ -12,6 +12,7 @@ import Mail from '../UserProfileFrom/Mail';
 import Password from '../UserProfileFrom/Password';
 import { useSelector, useDispatch } from 'react-redux';
 import { openModal, closeModal } from '@/redux/actions/Actions';
+import FormModal from '../UserProfileFrom/FormModal';
 
 const style = {
     position: 'absolute',
@@ -26,7 +27,7 @@ const style = {
     borderRadius: 2,
     outline: 'none'
 };
-function capitalizeFirstLetter(string:string) {
+function capitalizeFirstLetter(string: string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 function Register() {
@@ -37,7 +38,7 @@ function Register() {
     const [lastName, setLastName] = useState("");
 
     const dispatch = useDispatch();
-    const isOpen = useSelector((state:any) => state.modal.isOpen);
+    const isOpen = useSelector((state: any) => state.modal.isOpen);
 
     const handleCloseModal = () => {
         dispatch(closeModal());
@@ -94,22 +95,7 @@ function Register() {
     }, [countdown]);
     return (
         <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 3 }}>
-            <Modal
-                open={isOpen}
-                onClose={handleCloseModal}
-                aria-labelledby="modal-modal-title"
-                aria-describedby="modal-modal-description"
-            >
-                <Box sx={style}>
-                    <Typography className='flex justify-center' variant="h4" >
-                        {countdown}
-                    </Typography>
-                    <Typography className='flex justify-center' variant='h6'>
-                        Hoş geldiniz {firstName} {lastName}
-                    </Typography>
-                </Box>
-            </Modal>
-
+            <FormModal countdown={countdown} firstName={firstName} lastName={lastName} />
             <Grid container spacing={1}>
                 <FirstName />
                 <LastName />
