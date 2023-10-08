@@ -26,7 +26,7 @@ function Login() {
 
     const router = useRouter();
 
-    const handleLogin = async (e) => {
+    const handleLogin = async (e:any) => {
         e.preventDefault();
 
         const response = await fetch('/api/login', {

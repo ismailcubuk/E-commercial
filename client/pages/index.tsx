@@ -3,7 +3,7 @@ import HeadphonesList from "@/components/HeadphonesList";
 import { useSelector } from 'react-redux';
 
 function index() {
-  const { firstName, lastName, email } = useSelector((state) => state.user);
+  const { firstName, lastName, email } = useSelector((state: any) => state.user);
   return (
     <div>
       <HeadphonesList />

@@ -26,7 +26,7 @@ const style = {
     borderRadius: 2,
     outline: 'none'
 };
-function capitalizeFirstLetter(string) {
+function capitalizeFirstLetter(string:string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 function Register() {
@@ -37,12 +37,11 @@ function Register() {
     const [lastName, setLastName] = useState("");
 
     const dispatch = useDispatch();
-    const isOpen = useSelector((state) => state.modal.isOpen);
+    const isOpen = useSelector((state:any) => state.modal.isOpen);
 
     const handleCloseModal = () => {
         dispatch(closeModal());
         setErrorMessage("");
-        setCountdown(3);
         router.push('/login/signin');
     };
 
