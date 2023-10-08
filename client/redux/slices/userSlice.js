@@ -11,8 +11,8 @@ const userSlice = createSlice({
     setUserData: (state, action) => {
       const { email, firstName, lastName } = action.payload;
       state.email = email;
-      state.firstName = firstName;
-      state.lastName = lastName;
+      state.firstName = firstName.charAt(0).toUpperCase() + firstName.slice(1);
+      state.lastName = lastName.charAt(0).toUpperCase() + lastName.slice(1);
     },
   },
 });
