@@ -18,7 +18,6 @@ export default function FormModal({ countdown, firstName, lastName }: FormModalP
     const isOpen = useSelector((state: any) => state.modal.isOpen);
     const handleCloseModal = () => {
         dispatch(closeModal());
-        setErrorMessage(errorData.message)
         router.push('/login/signin');
     };
     useEffect(() => {

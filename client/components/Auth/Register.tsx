@@ -3,9 +3,6 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
 import { Button } from '@nextui-org/react';
-import Typography from '@mui/material/Typography';
-import Modal from '@mui/material/Modal';
-import { useRouter } from 'next/router';
 import FirstName from '../UserProfileFrom/FirstName';
 import LastName from '../UserProfileFrom/LastName';
 import Mail from '../UserProfileFrom/Mail';
@@ -13,38 +10,19 @@ import Password from '../UserProfileFrom/Password';
 import { useSelector, useDispatch } from 'react-redux';
 import { openModal, closeModal } from '@/redux/actions/Actions';
 import FormModal from '../UserProfileFrom/FormModal';
+import { setErrorMessage, clearErrorMessage, selectErrorMessage } from '@/redux/slices/errorSlice'; 
 
-const style = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    width: 450,
-    bgcolor: 'background.paper',
-    boxShadow: 24,
-    p: 4,
-    zIndex: 50,
-    borderRadius: 2,
-    outline: 'none'
-};
 function capitalizeFirstLetter(string: string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 function Register() {
-    const router = useRouter();
-    const [errorMessage, setErrorMessage] = useState("");
     const [countdown, setCountdown] = useState(3);
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
 
     const dispatch = useDispatch();
-    const isOpen = useSelector((state: any) => state.modal.isOpen);
+    const errorMessage = useSelector(selectErrorMessage);
 
-    const handleCloseModal = () => {
-        dispatch(closeModal());
-        setErrorMessage("");
-        router.push('/login/signin');
-    };
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -67,10 +45,10 @@ function Register() {
 
             if (!response.ok) {
                 const errorStatus = await response.json();
-                setErrorMessage(errorStatus.error);
+                dispatch(setErrorMessage(errorStatus.error));
             } else {
                 const errorData = await response.json();
-                setErrorMessage(errorData.message)
+                dispatch(setErrorMessage(errorData.message));
                 dispatch(openModal());
                 let countdownTimer = setInterval(() => {
                     setCountdown((prevCountdown) => prevCountdown - 1);
@@ -78,21 +56,17 @@ function Register() {
                 setTimeout(() => {
                     clearInterval(countdownTimer);
                     dispatch(closeModal());
+                    dispatch(clearErrorMessage()); 
                 }, 3000);
                 setFirstName(capitalizeFirstLetter(formObject.firstName));
                 setLastName(capitalizeFirstLetter(formObject.lastName));
             }
         } catch (error) {
             console.error("Sunucu ile iletişim hatası:", error);
-            setErrorMessage("Bir hata oluştu. Lütfen tekrar deneyin.");
+            dispatch(setErrorMessage("Bir hata oluştu. Lütfen tekrar deneyin."));
         }
     };
 
-    useEffect(() => {
-        if (countdown === 0) {
-            handleCloseModal();
-        }
-    }, [countdown]);
     return (
         <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 3 }}>
             <FormModal countdown={countdown} firstName={firstName} lastName={lastName} />
