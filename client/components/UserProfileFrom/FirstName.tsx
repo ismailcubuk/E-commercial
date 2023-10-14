@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 
 export default function FirstName() {
     return (
-        <Grid item xs={12} sm={6}>
+        
             <TextField
                 autoComplete="given-name"
                 name="firstName"
@@ -14,6 +14,5 @@ export default function FirstName() {
                 label="First Name"
                 autoFocus
             />
-        </Grid>
     )
 }

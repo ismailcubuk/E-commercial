@@ -1,5 +1,9 @@
 import connect from "../../lib/mongodb";
 import User from "../../models/User";
+import jwt from "jsonwebtoken";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 export default async function handler(req, res) {
   await connect();
@@ -8,6 +12,12 @@ export default async function handler(req, res) {
   if (!user) {
     return res.json({ status: "Not able to find the user" });
   } else {
-    return res.json({ status: "Success", email: user.email, firstName: user.firstName, lastName: user.lastName });
+    const secretKey = process.env.SECRET_KEY;
+    const token = jwt.sign(
+      { email: user.email, firstName: user.firstName, lastName: user.lastName },
+      secretKey,
+      { expiresIn: "7d" }
+    );
+    return res.status(200).json({ status: "Success", token });
   }
 }

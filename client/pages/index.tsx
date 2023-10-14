@@ -1,20 +1,37 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import HeadphonesList from "@/components/HeadphonesList";
 import { useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
+import { setUserData } from '@/redux/slices/userSlice';
+import jwt from 'jsonwebtoken';
 
 function index() {
-  const { firstName, lastName, email } = useSelector((state: any) => state.user);
+  const dispatch = useDispatch();
+
+  const { firstName, lastName } = useSelector((state: any) => state.user);
+  useEffect(() => {
+    const token = localStorage.getItem('token');
+
+    if (token) {
+        const decodedToken = jwt.decode(token);
+
+        if (decodedToken) {
+            dispatch(setUserData({
+                email: decodedToken.email,
+                firstName: decodedToken.firstName,
+                lastName: decodedToken.lastName,
+            }));
+        }
+    }
+}, [dispatch]);
   return (
     <div>
       <HeadphonesList />
       <div>
-        user firstname : {firstName}
-      </div>
-      <div>
-        user lastname : {lastName}
-      </div>
-      <div>
-        user mail : {email}
+        <div>
+          User First Name: {firstName}
+          User Last Name: {lastName}
+        </div>
       </div>
     </div>
   )

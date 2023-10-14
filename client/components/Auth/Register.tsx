@@ -10,7 +10,7 @@ import Password from '../UserProfileFrom/Password';
 import { useSelector, useDispatch } from 'react-redux';
 import { openModal, closeModal } from '@/redux/actions/Actions';
 import FormModal from '../UserProfileFrom/FormModal';
-import { setErrorMessage, clearErrorMessage, selectErrorMessage } from '@/redux/slices/errorSlice'; 
+import { setErrorMessage, clearErrorMessage, selectErrorMessage } from '@/redux/slices/errorSlice';
 
 function capitalizeFirstLetter(string: string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -56,7 +56,7 @@ function Register() {
                 setTimeout(() => {
                     clearInterval(countdownTimer);
                     dispatch(closeModal());
-                    dispatch(clearErrorMessage()); 
+                    dispatch(clearErrorMessage());
                 }, 3000);
                 setFirstName(capitalizeFirstLetter(formObject.firstName));
                 setLastName(capitalizeFirstLetter(formObject.lastName));
@@ -71,8 +71,12 @@ function Register() {
         <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 3 }}>
             <FormModal countdown={countdown} firstName={firstName} lastName={lastName} />
             <Grid container spacing={1}>
-                <FirstName />
-                <LastName />
+                <Grid item xs={12} sm={6}>
+                    <FirstName />
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                    <LastName />
+                </Grid>
                 <Mail />
                 <Password />
                 <Grid item className='w-full'>

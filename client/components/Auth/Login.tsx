@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import TextField from '@mui/material/TextField';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import InputAdornment from '@mui/material/InputAdornment';
@@ -11,22 +11,22 @@ import { Button } from '@nextui-org/react';
 import { useRouter } from 'next/router';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import Box from '@mui/material/Box';
-import { useDispatch } from 'react-redux';
-import { setUserData } from '../../redux/slices/userSlice';
+import { useSelector } from 'react-redux';
+
 
 function Login() {
+    const { firstName, lastName } = useSelector((state: any) => state.user);
+
     const [showPassword, setShowPassword] = useState(false);
     const [loginError, setLoginError] = useState('');
     const handleMouseDownPassword = (event: React.MouseEvent<HTMLButtonElement>) => {
         event.preventDefault();
     };
     const handleClickShowPassword = () => setShowPassword((show) => !show);
-    const dispatch = useDispatch();
-
 
     const router = useRouter();
-
-    const handleLogin = async (e:any) => {
+   
+    const handleLogin = async (e: any) => {
         e.preventDefault();
 
         const response = await fetch('/api/login', {
@@ -43,11 +43,8 @@ function Login() {
         if (response.ok) {
             const data = await response.json();
             if (data.status.toLowerCase() === "success") {
-                dispatch(setUserData({
-                    email: data.email,
-                    firstName: data.firstName,
-                    lastName: data.lastName,
-                }));
+                const token = data.token;
+                localStorage.setItem('token', token);
                 router.push('/');
             } else {
                 setLoginError("Invalid Mail or Password.")
@@ -124,6 +121,12 @@ function Login() {
                     </Link>
                 </Grid>
             </Grid>
+            {firstName && lastName && (
+                <div>
+                    First Name: {firstName}
+                    Last Name: {lastName}
+                </div>
+            )}
         </Box>
     )
 }
