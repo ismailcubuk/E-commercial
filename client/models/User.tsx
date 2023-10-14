@@ -18,6 +18,26 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    profilePictures: {
+        type: String,
+    },
+    wishlist: {
+        type: Array,
+        default: [],
+    },
+    orders: {
+        type: Array,
+        default: [],
+    },
+    basket: {
+        type: Array,
+        default: [],
+    },
+    addresses: {
+        type: Array,
+        default: [],
+    },
+
 });
 
 module.exports = mongoose.models.User || mongoose.model('User', userSchema);

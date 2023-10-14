@@ -4,7 +4,7 @@ import User from "../../models/User";
 export default async function handler(req, res) {
   try {
     await connect();
-    const { email } = req.body;
+    const { email, firstName, lastName, password, profilePictures } = req.body;
 
     const existingUser = await User.findOne({ email });
 
@@ -13,10 +13,20 @@ export default async function handler(req, res) {
         .status(400)
         .json({ error: "Girilen e-posta adresi zaten kayıtlı." });
     } else {
-      const user = await User.create(req.body);
-      if (!user) {
-        return res.status(500).json({ error: "Kullanıcı oluşturulamadı." });
-      }
+      const newUser = new User({
+        firstName,
+        lastName,
+        email,
+        password,
+        profilePictures,
+        wishlist: [],
+        orders: [],
+        basket: [],
+        addresses: [],
+      });
+
+      await newUser.save();
+
       res.status(200).json({ message: "Kayıt başarıyla gerçekleşti." });
     }
   } catch (error) {
