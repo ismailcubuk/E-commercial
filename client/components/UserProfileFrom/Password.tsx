@@ -18,11 +18,7 @@ export default function Password({ password }) {
 
 
     const handleClickShowPassword = () => {
-        if (isDisabled) {
-            return;
-        } else {
             setShowPassword((show) => !show)
-        }
     }
     useEffect(() => {
         if (isDisabled) {
