@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import TextField from '@mui/material/TextField';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import InputAdornment from '@mui/material/InputAdornment';
@@ -15,7 +15,21 @@ export default function Password({ password }) {
     const handleMouseDownPassword = (event: React.MouseEvent<HTMLButtonElement>) => {
         event.preventDefault();
     };
-    const handleClickShowPassword = () => setShowPassword((show) => !show);
+
+
+    const handleClickShowPassword = () => {
+        if (isDisabled) {
+            return;
+        } else {
+            setShowPassword((show) => !show)
+        }
+    }
+    useEffect(() => {
+        if (isDisabled) {
+            setShowPassword(false)
+        }
+    }, [isDisabled])
+
     return (
         <Grid item xs={12}>
             <TextField
@@ -38,14 +52,15 @@ export default function Password({ password }) {
                     ),
                     endAdornment: (
                         <InputAdornment position="end">
-                            <IconButton
-                                aria-label="toggle password visibility"
-                                onClick={handleClickShowPassword}
-                                onMouseDown={handleMouseDownPassword}
-                                edge="end"
-                            >
-                                {showPassword ? <VisibilityOff /> : <Visibility />}
-                            </IconButton>
+                            {isDisabled ? null :
+                                <IconButton
+                                    aria-label="toggle password visibility"
+                                    onClick={handleClickShowPassword}
+                                    onMouseDown={handleMouseDownPassword}
+                                    edge="end"
+                                >
+                                    {showPassword ? <VisibilityOff /> : <Visibility />}
+                                </IconButton>}
                         </InputAdornment>
                     )
                 }}
