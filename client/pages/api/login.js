@@ -14,7 +14,12 @@ export default async function handler(req, res) {
   } else {
     const secretKey = process.env.SECRET_KEY;
     const token = jwt.sign(
-      { email: user.email, firstName: user.firstName, lastName: user.lastName },
+      {
+        email: user.email,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        password: user.password,
+      },
       secretKey,
       { expiresIn: "7d" }
     );

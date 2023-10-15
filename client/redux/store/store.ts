@@ -1,16 +1,17 @@
 import { configureStore } from "@reduxjs/toolkit";
-import {menuReducer, modalReducer} from "../reducers/Reducer";
+import { editReducer, menuReducer, modalReducer } from "../reducers/Reducer";
 import alldataReducer from "../slices/alldataSlice";
 import userReducer from "../slices/userSlice";
-import errorReducer from '../slices/errorSlice';
+import errorReducer from "../slices/errorSlice";
 
 export const store = configureStore({
   reducer: {
     alldata: alldataReducer,
     toggleMenu: menuReducer,
     user: userReducer,
-    modal : modalReducer,
+    modal: modalReducer,
     error: errorReducer,
+    edit: editReducer,
   },
 });
 

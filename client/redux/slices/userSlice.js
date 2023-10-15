@@ -1,18 +1,15 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
+
+const initialState = {
+  userData: null,
+};
 
 const userSlice = createSlice({
-  name: "user",
-  initialState: {
-    email: null,
-    firstName: null,
-    lastName: null,
-  },
+  name: 'user',
+  initialState,
   reducers: {
     setUserData: (state, action) => {
-      const { email, firstName, lastName } = action.payload;
-      state.email = email;
-      state.firstName = firstName.charAt(0).toUpperCase() + firstName.slice(1);
-      state.lastName = lastName.charAt(0).toUpperCase() + lastName.slice(1);
+      state.userData = action.payload;
     },
   },
 });

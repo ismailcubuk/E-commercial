@@ -17,3 +17,10 @@ export const closeModal = () => {
     type: 'CLOSE_MODAL',
   };
 };
+
+export const disableInput = () => ({
+  type: "DISABLE_INPUT",
+});
+export const enableInput = () => ({
+  type: "ENABLE_INPUT",
+});

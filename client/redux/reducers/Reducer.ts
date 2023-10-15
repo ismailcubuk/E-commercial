@@ -2,13 +2,16 @@ const modalInitialState = {
   isOpen: false,
 };
 
-export const modalReducer = (state = modalInitialState, action: { type: string; }) => {
+export const modalReducer = (
+  state = modalInitialState,
+  action: { type: string }
+) => {
   switch (action.type) {
-    case 'OPEN_MODAL':
+    case "OPEN_MODAL":
       return {
         isOpen: true,
       };
-    case 'CLOSE_MODAL':
+    case "CLOSE_MODAL":
       return {
         isOpen: false,
       };
@@ -19,12 +22,36 @@ export const modalReducer = (state = modalInitialState, action: { type: string; 
 
 const menuInitialState = false;
 
-export const menuReducer = (state = menuInitialState, action: { type: string; }) => {
+export const menuReducer = (
+  state = menuInitialState,
+  action: { type: string }
+) => {
   switch (action.type) {
-    case 'TOGGLE_MENU':
+    case "TOGGLE_MENU":
       return !state;
-    case 'CLOSE_MENU':
+    case "CLOSE_MENU":
       return false;
+    default:
+      return state;
+  }
+};
+
+const editInitialState = {
+  isDisabled: false,
+};
+
+export const editReducer = (state = editInitialState, action: { type: string; }) => {
+  switch (action.type) {
+    case "DISABLE_INPUT":
+      return {
+        ...state,
+        isDisabled: true,
+      };
+      case "ENABLE_INPUT":
+      return {
+        ...state,
+        isDisabled: false,
+      };
     default:
       return state;
   }
