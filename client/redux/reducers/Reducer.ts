@@ -40,17 +40,45 @@ const editInitialState = {
   isDisabled: false,
 };
 
-export const editReducer = (state = editInitialState, action: { type: string; }) => {
+export const editReducer = (
+  state = editInitialState,
+  action: { type: string }
+) => {
   switch (action.type) {
     case "DISABLE_INPUT":
       return {
         ...state,
         isDisabled: true,
       };
-      case "ENABLE_INPUT":
+    case "ENABLE_INPUT":
       return {
         ...state,
         isDisabled: false,
+      };
+    default:
+      return state;
+  }
+};
+
+const visibilityInitialState = {
+  isVisibleEdıt: true,
+  isVisibleChanges: false,
+};
+
+export const visibilityReducer = (
+  state = visibilityInitialState,
+  action: { type: string }
+) => {
+  switch (action.type) {
+    case "TOGGLE_VISIBILITY_EDIT":
+      return {
+        ...state,
+        isVisibleEdıt: !state.isVisibleEdıt,
+      };
+    case "TOGGLE_VISIBILITY_CHANGES":
+      return {
+        ...state,
+        isVisibleChanges: !state.isVisibleChanges,
       };
     default:
       return state;

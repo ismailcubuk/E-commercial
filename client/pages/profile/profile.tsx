@@ -10,15 +10,22 @@ import Password from "@/components/UserProfileFrom/Password";
 import { Button } from "@nextui-org/react";
 import { useQuery } from 'react-query';
 import userDataService from '@/utils/userDataService';
-import { useDispatch } from 'react-redux';
-import { disableInput  } from "@/redux/actions/Actions";
+import { useDispatch, useSelector } from 'react-redux';
+import { disableInput, toggleVisibilityChanges, toggleVisibilityEdit } from "@/redux/actions/Actions";
 
 export default function profile() {
   const dispatch = useDispatch();
+  const isVisibleChanges = useSelector((state) => state.visibility.isVisibleChanges);
+
   useEffect(() => {
     dispatch(disableInput());
   }, [])
 
+  const changeClick = () => {
+    dispatch(toggleVisibilityChanges())
+    dispatch(toggleVisibilityEdit())
+    dispatch(disableInput())
+  }
 
   const { data, error, isLoading } = useQuery('userData', userDataService.getUserData);
   if (isLoading) {
@@ -59,7 +66,7 @@ export default function profile() {
               </Grid>
             </Grid>
           </Grid>
-          <Button color="primary" >SAVE CHANGES</Button>
+          {isVisibleChanges && <Button color="primary" onClick={changeClick} >SAVE CHANGES</Button>}
         </Main>
       </Grid>
     </Container>

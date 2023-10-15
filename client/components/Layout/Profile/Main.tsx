@@ -6,8 +6,8 @@ import ShoppingBasketOutlinedIcon from "@mui/icons-material/ShoppingBasketOutlin
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import { Button } from '@nextui-org/react';
-import { enableInput } from '@/redux/actions/Actions';
-import { useDispatch } from 'react-redux';
+import { enableInput, toggleVisibilityChanges, toggleVisibilityEdit } from '@/redux/actions/Actions';
+import { useDispatch, useSelector } from 'react-redux';
 
 interface MainProps {
     children: any;
@@ -45,9 +45,12 @@ export default function Main(props: MainProps) {
             break;
     }
     const dispatch = useDispatch();
+    const isVisibleEdit = useSelector((state) => state.visibility.isVisibleEdıt);
 
     const editClick = () => {
         dispatch(enableInput());
+        dispatch(toggleVisibilityChanges())
+        dispatch(toggleVisibilityEdit())
     }
     return (
         <Grid item xs={12} sm={12} md={8} lg={9} xl={9} paddingX={2} >
@@ -60,7 +63,7 @@ export default function Main(props: MainProps) {
                         <Typography variant="h4">{typographyText}</Typography>
                     </div>
                     <div>
-                        {buttonLabel && <Button color="primary" onClick={editClick}>{buttonLabel}</Button>}
+                        {isVisibleEdit && buttonLabel && <Button color="primary" onClick={editClick}>{buttonLabel}</Button>}
                     </div>
                 </div>
                 {props.children}
