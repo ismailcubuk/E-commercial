@@ -8,12 +8,10 @@ export default function FirstName() {
     const { data, refetch } = useQuery('userData', userDataService.getUserData);
 
     const isDisabled = useSelector(state => state.edit.isDisabled);
-    const [formData, setFormData] = useState({
-        firstName: data?.firstName,
-    });
+    const [newFirstName, setNewFirstName] = useState(data?.firstName);
 
     const handleChange = (e) => {
-        setFormData({ firstName: e.target.value });
+        setNewFirstName( e.target.value );
     };
 
     const handleSubmit = async (e) => {
@@ -26,7 +24,7 @@ export default function FirstName() {
                 },
                 body: JSON.stringify({
                     _id: data?._id,
-                    firstName: formData.firstName
+                    firstName: newFirstName
                 })
             });
             if (response.ok) {
@@ -55,7 +53,7 @@ export default function FirstName() {
                     fullWidth
                     id="firstName"
                     label="First Name"
-                    value={formData.firstName}
+                    value={newFirstName}
                     onChange={handleChange}
                 />
                 <button type="submit">Güncelle</button>

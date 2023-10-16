@@ -27,7 +27,7 @@ export default function profile() {
     dispatch(disableInput())
   }
 
-  const { data, error, isLoading, refetch } = useQuery('userData', userDataService.getUserData);
+  const { data, error, isLoading } = useQuery('userData', userDataService.getUserData);
   if (isLoading) {
     return <p>Loading...</p>;
   }
