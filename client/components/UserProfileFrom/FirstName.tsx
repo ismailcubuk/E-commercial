@@ -1,11 +1,15 @@
 import { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import { useSelector } from 'react-redux';
+import { useQuery } from 'react-query';
+import userDataService from '@/utils/userDataService';
 
-export default function FirstName({ firstName, id }) {
+export default function FirstName() {
+    const { data, refetch } = useQuery('userData', userDataService.getUserData);
+
     const isDisabled = useSelector(state => state.edit.isDisabled);
     const [formData, setFormData] = useState({
-        firstName: firstName,
+        firstName: data?.firstName,
     });
 
     const handleChange = (e) => {
@@ -21,7 +25,7 @@ export default function FirstName({ firstName, id }) {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    _id: id,
+                    _id: data?._id,
                     firstName: formData.firstName
                 })
             });
@@ -29,6 +33,7 @@ export default function FirstName({ firstName, id }) {
                 const data = await response.json();
                 if (data.token) {
                     localStorage.setItem('token', data.token);
+                    refetch()
                 }
                 console.log("response", "response okey");
             } else {
@@ -41,7 +46,6 @@ export default function FirstName({ firstName, id }) {
 
     return (
         <div>
-            {id}
             <form onSubmit={handleSubmit}>
                 <TextField
                     disabled={isDisabled}

@@ -27,7 +27,7 @@ export default function profile() {
     dispatch(disableInput())
   }
 
-  const { data, error, isLoading } = useQuery('userData', userDataService.getUserData);
+  const { data, error, isLoading, refetch } = useQuery('userData', userDataService.getUserData);
   if (isLoading) {
     return <p>Loading...</p>;
   }
@@ -40,13 +40,13 @@ export default function profile() {
       <Grid container>
         <Navigation />
         <Main variant="profile">
-          <UserProfile firstName={data?.firstName} lastName={data?.lastName} />
+          <UserProfile firstName={data?.firstName} lastName={data?.lastName}  />
           <Grid container spacing={2} mt={2} mb={4}>
             {/* İlk grup */}
             <Grid item xs={12} >
               <Grid container spacing={2}>
                 <Grid item xs={12} sm={12} md={6}>
-                  <FirstName firstName={data?.firstName} id={data?._id}/>
+                  <FirstName />
                 </Grid>
                 <Grid item xs={12} sm={12} md={6}>
                   <LastName lastName={data?.lastName} />
