@@ -15,8 +15,6 @@ import { useSelector } from 'react-redux';
 
 
 function Login() {
-    const { firstName, lastName } = useSelector((state: any) => state.user);
-
     const [showPassword, setShowPassword] = useState(false);
     const [loginError, setLoginError] = useState('');
     const handleMouseDownPassword = (event: React.MouseEvent<HTMLButtonElement>) => {

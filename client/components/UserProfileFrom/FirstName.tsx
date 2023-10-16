@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import { useSelector } from 'react-redux';
-import axios from 'axios';
 
 export default function FirstName({ firstName, id }) {
     const isDisabled = useSelector(state => state.edit.isDisabled);
@@ -27,6 +26,10 @@ export default function FirstName({ firstName, id }) {
                 })
             });
             if (response.ok) {
+                const data = await response.json();
+                if (data.token) {
+                    localStorage.setItem('token', data.token);
+                }
                 console.log("response", "response okey");
             } else {
                 console.log("response", "response not okey");
