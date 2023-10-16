@@ -1,5 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { editReducer, menuReducer, modalReducer, visibilityReducer } from "../reducers/Reducer";
+import { userFormReducer } from "../reducers/userFormReducer";
 import alldataReducer from "../slices/alldataSlice";
 import userReducer from "../slices/userSlice";
 import errorReducer from "../slices/errorSlice";
@@ -13,6 +14,7 @@ export const store = configureStore({
     error: errorReducer,
     edit: editReducer,
     visibility: visibilityReducer,
+    form: userFormReducer,
   },
 });
 

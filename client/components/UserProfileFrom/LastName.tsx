@@ -1,9 +1,20 @@
-import React from 'react'
 import TextField from '@mui/material/TextField';
-import { useSelector } from 'react-redux';
-
-export default function LastName({ lastName }) {
+import { useDispatch, useSelector } from 'react-redux';
+import { updateLastName } from '@/redux/actions/userFormActions';
+import { useEffect } from 'react';
+import { useQuery } from 'react-query';
+import userDataService from '@/utils/userDataService';
+export default function LastName() {
+    const dispatch = useDispatch();
+    const { data } = useQuery('userData', userDataService.getUserData);
     const isDisabled = useSelector(state => state.edit.isDisabled);
+    const newLastName = useSelector(state => state.form.newLastName);
+    useEffect(() => {
+        dispatch(updateLastName(data?.lastName))
+    }, [data?.lastName])
+    const handleChange = (e: { target: { value: string; }; }) => {
+        dispatch(updateLastName(e.target.value));
+    };
     return (
         <TextField
             disabled={isDisabled}
@@ -13,7 +24,8 @@ export default function LastName({ lastName }) {
             fullWidth
             id="lastName"
             label="Last Name"
-            defaultValue={lastName}
+            value={newLastName}
+            onChange={handleChange}
         />
     )
 }

@@ -5,13 +5,16 @@ import jwt from 'jsonwebtoken';
 export default async function handler(req, res) {
   try {
     await connect();
-    const { _id, firstName } = req.body;
+    const { _id, firstName,lastName,email, password } = req.body;
     const existingUser = await User.findOne({ _id });
     if (!existingUser) {
       return res.status(404).json({ error: "Kullanıcı bulunamadı." });
     }
 
     existingUser.firstName = firstName;
+    existingUser.lastName= lastName;
+    existingUser.email = email;
+    existingUser.password = password;
     await existingUser.save();
 
     const updatedToken = jwt.sign({
@@ -19,6 +22,7 @@ export default async function handler(req, res) {
       email: existingUser.email,
       firstName: existingUser.firstName,
       lastName: existingUser.lastName,
+      password: existingUser.password
     }, 'asd'); 
 
     res.status(200).json({

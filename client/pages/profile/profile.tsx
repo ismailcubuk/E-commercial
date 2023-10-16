@@ -16,25 +16,50 @@ import { disableInput, toggleVisibilityChanges, toggleVisibilityEdit } from "@/r
 export default function profile() {
   const dispatch = useDispatch();
   const isVisibleChanges = useSelector((state) => state.visibility.isVisibleChanges);
+  const newFirstName = useSelector(state => state.form.newFirstName);
+  const newLastName = useSelector(state => state.form.newLastName);
+  const newEmail = useSelector(state => state.form.newEmail);
+  const newPassword = useSelector(state => state.form.newPassword);
 
-  useEffect(() => {
-    dispatch(disableInput());
-  }, [])
+  const { data, refetch } = useQuery('userData', userDataService.getUserData);
 
-  const changeClick = () => {
+  const handleSubmit = async () => {
     dispatch(toggleVisibilityChanges())
     dispatch(toggleVisibilityEdit())
     dispatch(disableInput())
-  }
+    try {
+        const response = await fetch('/api/update', {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                _id: data?._id,
+                firstName: newFirstName,
+                lastName: newLastName,
+                email: newEmail,
+                password: newPassword
+            })
+        });
+        if (response.ok) {
+            const data = await response.json();
+            if (data.token) {
+                localStorage.setItem('token', data.token);
+                refetch()
+            }
+            console.log("response", "response okey");
+        } else {
+            console.log("response", "response not okey");
+        }
+    } catch (error) {
+        console.error(error);
+    }
+};
+useEffect(() => {
+  dispatch(disableInput());
+}, [])
 
-  const { data, error, isLoading } = useQuery('userData', userDataService.getUserData);
-  if (isLoading) {
-    return <p>Loading...</p>;
-  }
 
-  if (error) {
-    return <p>Error: {error.message}</p>;
-  }
   return (
     <Container maxWidth="xl" className="flex p-10 ">
       <Grid container>
@@ -49,7 +74,7 @@ export default function profile() {
                   <FirstName />
                 </Grid>
                 <Grid item xs={12} sm={12} md={6}>
-                  <LastName lastName={data?.lastName} />
+                  <LastName/>
                 </Grid>
               </Grid>
             </Grid>
@@ -57,15 +82,15 @@ export default function profile() {
             <Grid item xs={12}>
               <Grid container spacing={2}>
                 <Grid item xs={12} sm={12} md={6}>
-                  <Mail email={data?.email} />
+                  <Mail/>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6}>
-                  <Password password={data?.password} />
+                  <Password />
                 </Grid>
               </Grid>
             </Grid>
           </Grid>
-          {isVisibleChanges && <Button color="primary" onClick={changeClick} >SAVE CHANGES</Button>}
+          {isVisibleChanges && <Button color="primary" onClick={handleSubmit} >SAVE CHANGES</Button>}
         </Main>
       </Grid>
     </Container>
