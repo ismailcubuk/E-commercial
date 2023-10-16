@@ -35,7 +35,6 @@ export default function profile() {
   if (error) {
     return <p>Error: {error.message}</p>;
   }
-
   return (
     <Container maxWidth="xl" className="flex p-10 ">
       <Grid container>
@@ -47,7 +46,7 @@ export default function profile() {
             <Grid item xs={12} >
               <Grid container spacing={2}>
                 <Grid item xs={12} sm={12} md={6}>
-                  <FirstName firstName={data?.firstName} />
+                  <FirstName firstName={data?.firstName} id={data?._id}/>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6}>
                   <LastName lastName={data?.lastName} />

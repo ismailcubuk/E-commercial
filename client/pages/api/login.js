@@ -15,6 +15,7 @@ export default async function handler(req, res) {
     const secretKey = process.env.SECRET_KEY;
     const token = jwt.sign(
       {
+        _id: user._id,
         email: user.email,
         firstName: user.firstName,
         lastName: user.lastName,

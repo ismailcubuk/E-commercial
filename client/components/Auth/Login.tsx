@@ -121,12 +121,6 @@ function Login() {
                     </Link>
                 </Grid>
             </Grid>
-            {firstName && lastName && (
-                <div>
-                    First Name: {firstName}
-                    Last Name: {lastName}
-                </div>
-            )}
         </Box>
     )
 }

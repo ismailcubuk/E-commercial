@@ -6,6 +6,7 @@ const getUserData = () => {
     const decodedToken = jwt.decode(token);
     if (decodedToken) {
       return {
+        _id: decodedToken._id,
         email: decodedToken.email,
         firstName: decodedToken.firstName,
         lastName: decodedToken.lastName,
