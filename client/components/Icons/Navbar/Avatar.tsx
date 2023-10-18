@@ -1,6 +1,8 @@
 import React from 'react';
 import { Avatar, Button, Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Badge } from "@nextui-org/react";
 import { useRouter } from 'next/router';
+import { useQuery } from 'react-query';
+import userDataService from '@/utils/userDataService';
 
 export default function ShoppingCartBadge() {
   const avatarImage = "https://i.pravatar.cc/150?u=a042581f4e29026024d";
@@ -13,24 +15,29 @@ export default function ShoppingCartBadge() {
     {
       key: "Orders",
       label: "Orders",
-      route: "/profile/Orders"
+      route: "/profile/orders"
     },
     {
-      key: "Favorite",
-      label: "Favorite ",
-      route: "/profile/Favorite"
+      key: "Wishlist",
+      label: "Wishlist ",
+      route: "/profile/wishlist"
     },
     {
       key: "Logout",
       label: "Logout",
-      route: "/"
+      route: "/",
     }
   ];
 
   const router = useRouter();
+  const { refetch } = useQuery('userData', userDataService.getUserData);
 
   const handleItemClick = (route: string) => {
     router.push(route.toLowerCase());
+    if (route === "/") {
+      localStorage.removeItem('token')
+      refetch()
+    }
   };
 
   const dropdownItems = items.map((item) => (

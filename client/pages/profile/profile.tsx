@@ -59,7 +59,6 @@ useEffect(() => {
   dispatch(disableInput());
 }, [])
 
-
   return (
     <Container maxWidth="xl" className="flex p-10 ">
       <Grid container>
