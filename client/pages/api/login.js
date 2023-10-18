@@ -20,6 +20,11 @@ export default async function handler(req, res) {
         firstName: user.firstName,
         lastName: user.lastName,
         password: user.password,
+        profilePictures: user.profilePictures,
+        wishlist: user.wishlist,
+        orders: user.orders,
+        basket: user.basket,
+        addresses: user.addresses
       },
       secretKey,
       { expiresIn: "7d" }

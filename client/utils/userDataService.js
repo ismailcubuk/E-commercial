@@ -11,6 +11,11 @@ const getUserData = () => {
         firstName: decodedToken.firstName,
         lastName: decodedToken.lastName,
         password: decodedToken.password,
+        profilePictures: decodedToken.profilePictures,
+        wishlist: decodedToken.wishlist,
+        orders: decodedToken.orders,
+        basket: decodedToken.basket,
+        addresses: decodedToken.addresses
       };
     }
   }
