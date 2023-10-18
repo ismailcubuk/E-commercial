@@ -9,10 +9,10 @@ export default function FirstName() {
     const dispatch = useDispatch();
     const { data } = useQuery('userData', userDataService.getUserData);
     const isDisabled = useSelector(state => state.edit.isDisabled);
-    const newFirstName = useSelector(state => state.form.newFirstName);
+    const newFirstName = useSelector(state => state.form.newFirstName) || '';
     useEffect(() => {
         dispatch(updateFirstName(data?.firstName))
-    }, [data?.firstName])
+    }, [data])
     const handleChange = (e: { target: { value: string; }; }) => {
         dispatch(updateFirstName(e.target.value));
     };

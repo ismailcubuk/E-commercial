@@ -13,7 +13,7 @@ export default function Mail() {
     const dispatch = useDispatch();
     const { data } = useQuery('userData', userDataService.getUserData);
     const isDisabled = useSelector(state => state.edit.isDisabled);
-    const newEmail = useSelector(state => state.form.newEmail);
+    const newEmail = useSelector(state => state.form.newEmail) || '';
     useEffect(() => {
         dispatch(updateEmail(data?.email))
     }, [data?.email])

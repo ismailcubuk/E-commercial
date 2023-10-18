@@ -8,7 +8,7 @@ export default function LastName() {
     const dispatch = useDispatch();
     const { data } = useQuery('userData', userDataService.getUserData);
     const isDisabled = useSelector(state => state.edit.isDisabled);
-    const newLastName = useSelector(state => state.form.newLastName);
+    const newLastName = useSelector(state => state.form.newLastName) || '';
     useEffect(() => {
         dispatch(updateLastName(data?.lastName))
     }, [data?.lastName])

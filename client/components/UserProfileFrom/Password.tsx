@@ -15,7 +15,7 @@ export default function Password() {
     const dispatch = useDispatch();
     const { data } = useQuery('userData', userDataService.getUserData);
     const isDisabled = useSelector(state => state.edit.isDisabled);
-    const newPassword = useSelector(state => state.form.newPassword);
+    const newPassword = useSelector(state => state.form.newPassword) || '';
     useEffect(() => {
         dispatch(updatePassword(data?.password))
     }, [data?.firstName])
