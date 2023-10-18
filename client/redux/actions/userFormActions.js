@@ -14,3 +14,7 @@ export const updatePassword = (newPassword) => ({
   type: "UPDATE_PASSWORD",
   payload: newPassword,
 });
+export const updateProfilePictures = (newProfilePictures) => ({
+  type: "UPDATE_PROFILE_PICTURES",
+  payload: newProfilePictures,
+});

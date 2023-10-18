@@ -28,43 +28,43 @@ export default function profile() {
     dispatch(toggleVisibilityEdit())
     dispatch(disableInput())
     try {
-        const response = await fetch('/api/update', {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                _id: data?._id,
-                firstName: newFirstName,
-                lastName: newLastName,
-                email: newEmail,
-                password: newPassword
-            })
-        });
-        if (response.ok) {
-            const data = await response.json();
-            if (data.token) {
-                localStorage.setItem('token', data.token);
-                refetch()
-            }
-            console.log("response", "response okey");
-        } else {
-            console.log("response", "response not okey");
+      const response = await fetch('/api/update', {
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          _id: data?._id,
+          firstName: newFirstName,
+          lastName: newLastName,
+          email: newEmail,
+          password: newPassword
+        })
+      });
+      if (response.ok) {
+        const data = await response.json();
+        if (data.token) {
+          localStorage.setItem('token', data.token);
+          refetch()
         }
+        console.log("response", "response okey");
+      } else {
+        console.log("response", "response not okey");
+      }
     } catch (error) {
-        console.error(error);
+      console.error(error);
     }
-};
-useEffect(() => {
-  dispatch(disableInput());
-}, [])
+  };
+  useEffect(() => {
+    dispatch(disableInput());
+  }, [])
 
   return (
     <Container maxWidth="xl" className="flex p-10 ">
       <Grid container>
         <Navigation />
         <Main variant="profile">
-          <UserProfile firstName={data?.firstName} lastName={data?.lastName}  />
+          <UserProfile />
           <Grid container spacing={2} mt={2} mb={4}>
             {/* İlk grup */}
             <Grid item xs={12} >
@@ -73,7 +73,7 @@ useEffect(() => {
                   <FirstName />
                 </Grid>
                 <Grid item xs={12} sm={12} md={6}>
-                  <LastName/>
+                  <LastName />
                 </Grid>
               </Grid>
             </Grid>
@@ -81,7 +81,7 @@ useEffect(() => {
             <Grid item xs={12}>
               <Grid container spacing={2}>
                 <Grid item xs={12} sm={12} md={6}>
-                  <Mail/>
+                  <Mail />
                 </Grid>
                 <Grid item xs={12} sm={12} md={6}>
                   <Password />

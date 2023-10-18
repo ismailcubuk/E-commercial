@@ -3,6 +3,7 @@ const initialState = {
   newLastName: "",
   newEmail: "",
   newPassword: "",
+  newProfilePictures: "",
 };
 
 export const userFormReducer = (state = initialState, action) => {
@@ -26,6 +27,11 @@ export const userFormReducer = (state = initialState, action) => {
       return {
         ...state,
         newPassword: action.payload,
+      };
+    case "UPDATE_PROFILE_PICTURES":
+      return {
+        ...state,
+        newProfilePictures: action.payload,
       };
     default:
       return state;
