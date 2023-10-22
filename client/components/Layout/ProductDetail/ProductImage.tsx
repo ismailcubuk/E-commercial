@@ -52,15 +52,11 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    _id: data._id,
-                    firstName: data.firstName,
-                    lastName: data.lastName,
-                    email: data.email,
-                    password: data.password,
+                    ...data,
                     basket: updatedBasket
                 })
             });
-            
+
             if (response.ok) {
                 const responseData = await response.json();
                 if (responseData.token) {
@@ -74,7 +70,7 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
             console.error(error);
         }
     };
-    
+
     useEffect(() => {
         const itemsToShow = 4;
         const minBefore = Math.max(0, selectedImageIndex - (itemsToShow - 1));
