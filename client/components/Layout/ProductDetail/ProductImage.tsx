@@ -4,10 +4,21 @@ import { Card, CardBody, Image, Button, CardHeader, CardFooter } from "@nextui-o
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Logos from '../../Icons/Logo/Logo'
+import { setBasket } from '@/redux/actions/basketActions';
+
 import { useRouter } from 'next/router';
+import { useDispatch, useSelector } from 'react-redux';
+import { useQuery } from 'react-query';
+import userDataService from '@/utils/userDataService';
 export default function ProductImage({ product, title, variant, gb }: any,) {
+    const dispatch = useDispatch();
+    const basket = useSelector(state => state.basket);
+    const router = useRouter();
+    const { query } = router;
+
     const [selectedImageIndex, setSelectedImageIndex] = useState<number>(0);
     const [selectedColorIndex, setSelectedColorIndex] = useState<number>(0);
+    const [selectedColor, setSelectedColor] = useState<string>("");
     const [before, setBefore] = useState<number>(0);
     const [after, setAfter] = useState<number>(0);
     const imagesPerPage = product.images[0].sizes.s.length;
@@ -18,8 +29,52 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
         }
     };
 
+    const { data } = useQuery('userData', userDataService.getUserData);
 
+    const addBasket = async () => {
+        try {
+            if (!data) {
+                console.log("Kullanıcı verileri yüklenemedi.");
+                return;
+            }
+            const existingBasket = data.basket || [];
+            const basketItem = {
+                productImage: product.images[0].sizes.s[0],
+                productName: product.description,
+                productDetail: query,
+                productPrice: product.price.quantity,
+            };
+            const updatedBasket = [...existingBasket, basketItem];
 
+            const response = await fetch('/api/update', {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    _id: data._id,
+                    firstName: data.firstName,
+                    lastName: data.lastName,
+                    email: data.email,
+                    password: data.password,
+                    basket: updatedBasket
+                })
+            });
+            
+            if (response.ok) {
+                const responseData = await response.json();
+                if (responseData.token) {
+                    localStorage.setItem('token', responseData.token);
+                }
+                console.log("response", "response okey");
+            } else {
+                console.log("response", "response not okey");
+            }
+        } catch (error) {
+            console.error(error);
+        }
+    };
+    
     useEffect(() => {
         const itemsToShow = 4;
         const minBefore = Math.max(0, selectedImageIndex - (itemsToShow - 1));
@@ -61,15 +116,15 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
             return null;
         }
     }
-    const router = useRouter();
     const [selectedGB, setSelectedGB] = useState<number>(gb);
 
     const handleLinkClick = (memory: number) => {
         setSelectedGB(memory)
     }
-    const handleColorClick = (index: number) => {
+    const handleColorClick = (index: number, color: string) => {
         setSelectedColorIndex(index);
         setSelectedImageIndex(0);
+        setSelectedColor(color)
     };
 
     if (product.category === "Phones") {
@@ -198,7 +253,7 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
                                                 variant="bordered"
                                                 key={index}
                                                 className="w-10 h-10 "
-                                                onClick={() => handleColorClick(index)}
+                                                onClick={() => handleColorClick(index, color)}
                                                 style={{ backgroundColor: color }} />
                                         ))}
                                     </CardBody>
@@ -232,7 +287,7 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
                     <CardFooter className='border-t-4'>
                         <div className="w-full flex justify-between">
                             <div className="flex w-3/6">
-                                <Button color="primary" className="w-full">Add Basket</Button>
+                                <Button color="primary" onClick={addBasket} className="w-full">Add Basket</Button>
                             </div>
                             <div className="flex w-2/6">
                                 <Button color="primary" className="w-full">A</Button>
@@ -245,7 +300,3 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
         </div>
     )
 }
-
-
-
-

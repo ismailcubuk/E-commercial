@@ -1,5 +1,22 @@
 import mongoose from 'mongoose';
-
+const orderSchema = new mongoose.Schema({
+    productName: {
+        type: String,
+        required: true
+    },
+    productStatus: {
+        type: String,
+        required: true
+    },
+    productDate: {
+        type: String,
+        required: true
+    },
+    productPrice: {
+        type: String,
+        required: true
+    }
+});
 const userSchema = new mongoose.Schema({
     firstName: {
         type: String,
@@ -25,10 +42,7 @@ const userSchema = new mongoose.Schema({
         type: Array,
         default: [],
     },
-    orders: {
-        type: Array,
-        default: [],
-    },
+    orders: [orderSchema],
     basket: {
         type: Array,
         default: [],

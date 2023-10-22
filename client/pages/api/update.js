@@ -1,29 +1,34 @@
 import connect from "../../lib/mongodb";
 import User from "../../models/User";
-import jwt from 'jsonwebtoken';
+import jwt from "jsonwebtoken";
 
 export default async function handler(req, res) {
   try {
     await connect();
-    const { _id, firstName,lastName,email, password } = req.body;
+    const { _id, firstName, lastName, email, password, basket } = req.body;
     const existingUser = await User.findOne({ _id });
     if (!existingUser) {
       return res.status(404).json({ error: "Kullanıcı bulunamadı." });
     }
 
     existingUser.firstName = firstName;
-    existingUser.lastName= lastName;
+    existingUser.lastName = lastName;
     existingUser.email = email;
     existingUser.password = password;
+    existingUser.basket = basket;
     await existingUser.save();
 
-    const updatedToken = jwt.sign({
-      _id: existingUser._id,
-      email: existingUser.email,
-      firstName: existingUser.firstName,
-      lastName: existingUser.lastName,
-      password: existingUser.password
-    }, 'asd'); 
+    const updatedToken = jwt.sign(
+      {
+        _id: existingUser._id,
+        email: existingUser.email,
+        firstName: existingUser.firstName,
+        lastName: existingUser.lastName,
+        password: existingUser.password,
+        basket: existingUser.basket,
+      },
+      "asd"
+    );
 
     res.status(200).json({
       message: "Kullanıcı bilgileri başarıyla güncellendi.",
