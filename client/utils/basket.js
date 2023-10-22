@@ -1,4 +1,4 @@
-export const addBasket = async (data, product, query) => {
+export const addBasket = async (data, product, color) => {
     try {
         if (!data) {
             console.log("Kullanıcı verileri yüklenemedi.");
@@ -8,7 +8,7 @@ export const addBasket = async (data, product, query) => {
         const basketItem = {
             productImage: product.images[0].sizes.s[0],
             productName: product.description,
-            productDetail: query,
+            productDetail: color,
             productPrice: product.price.quantity,
         };
         const updatedBasket = [...existingBasket, basketItem];

@@ -1,27 +1,14 @@
 import React from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
-import { Button } from "@nextui-org/react";
-import { Container, Grid, Typography, } from "@mui/material";
+import { Button, Image } from "@nextui-org/react";
+import { Grid } from "@mui/material";
+import userDataService from "@/utils/userDataService";
+import { useQuery } from "react-query";
 
 export default function OrdersCard() {
-    const orders = (
-        <div className="flex flex-row justify-between items-center w-full">
-            <Grid sm={3} >
-                icon
-            </Grid>
-            <Grid sm={3} >
-                <p>budi 2017</p>
-                <p>$226.00 x 4</p>
-            </Grid>
-            <Grid sm={3} >
-                <p>Product properties :</p>
-                <p>Black, L</p>
-            </Grid>
-            <Grid sm={3} className=" mr-7 flex justify-center">
-                <Button color="primary">wiew</Button>
-            </Grid>
-        </div >
-    )
+    const { data } = useQuery('userData', userDataService.getUserData);
+    console.log("mydata", data);
+
 
     const tittle = (
         <div className="flex flex-row justify-between items-center">
@@ -57,15 +44,26 @@ export default function OrdersCard() {
                 </Grid>
             </div>
             <Accordion variant="splitted">
-                <AccordionItem key="1" aria-label="Accordion 1" title={tittle}>
-                    {orders}
-                </AccordionItem>
-                <AccordionItem key="2" aria-label="Accordion 2" title={tittle}>
-                    {orders}
-                </AccordionItem>
-                <AccordionItem key="3" aria-label="Accordion 3" title={tittle}>
-                    {orders}
-                </AccordionItem>
+                {data&&data.basket.map((item, index) => (
+                    <AccordionItem key={index} aria-label={`Accordion ${index + 1}`} title={tittle}>
+                        <div className="flex flex-row justify-between items-center w-full">
+                            <Grid sm={3}>
+                                <Image width={80} src={item.productImage} />
+                            </Grid>
+                            <Grid sm={3}>
+                                <p>{item.productName}</p>
+                                <p>{item.productPrice} TRY</p>
+                            </Grid>
+                            <Grid sm={3}>
+                                <p>Product properties :</p>
+                                <p>{item.productDetail}</p>
+                            </Grid>
+                            <Grid sm={3} className="mr-7 flex justify-center">
+                                <Button color="primary">View</Button>
+                            </Grid>
+                        </div>
+                    </AccordionItem>
+                ))}
             </Accordion>
         </div>
     );
