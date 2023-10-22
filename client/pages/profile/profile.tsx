@@ -12,6 +12,7 @@ import { useQuery } from 'react-query';
 import userDataService from '@/utils/userDataService';
 import { useDispatch, useSelector } from 'react-redux';
 import { disableInput, toggleVisibilityChanges, toggleVisibilityEdit } from "@/redux/actions/Actions";
+import { handleSubmit } from '@/utils/profileChanges';
 
 export default function profile() {
   const dispatch = useDispatch();
@@ -23,37 +24,11 @@ export default function profile() {
 
   const { data, refetch } = useQuery('userData', userDataService.getUserData);
 
-  const handleSubmit = async () => {
-    dispatch(toggleVisibilityChanges())
-    dispatch(toggleVisibilityEdit())
-    dispatch(disableInput())
-    try {
-      const response = await fetch('/api/update', {
-        method: "POST",
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          _id: data?._id,
-          firstName: newFirstName,
-          lastName: newLastName,
-          email: newEmail,
-          password: newPassword
-        })
-      });
-      if (response.ok) {
-        const data = await response.json();
-        if (data.token) {
-          localStorage.setItem('token', data.token);
-          refetch()
-        }
-        console.log("response", "response okey");
-      } else {
-        console.log("response", "response not okey");
-      }
-    } catch (error) {
-      console.error(error);
-    }
+  const submitProfileChanges  = async () => {
+    handleSubmit(data, newFirstName, newLastName, newEmail, newPassword, refetch);
+    dispatch(toggleVisibilityChanges());
+    dispatch(toggleVisibilityEdit());
+    dispatch(disableInput());
   };
   useEffect(() => {
     dispatch(disableInput());
@@ -89,7 +64,7 @@ export default function profile() {
               </Grid>
             </Grid>
           </Grid>
-          {isVisibleChanges && <Button color="primary" onClick={handleSubmit} >SAVE CHANGES</Button>}
+          {isVisibleChanges && <Button color="primary" onClick={submitProfileChanges } >SAVE CHANGES</Button>}
         </Main>
       </Grid>
     </Container>
