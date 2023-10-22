@@ -5,6 +5,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Logos from '../../Icons/Logo/Logo'
 import { setBasket } from '@/redux/actions/basketActions';
+import { addBasket } from '@/utils/basket';
 
 import { useRouter } from 'next/router';
 import { useDispatch, useSelector } from 'react-redux';
@@ -31,46 +32,13 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
 
     const { data } = useQuery('userData', userDataService.getUserData);
 
-    const addBasket = async () => {
+    const addToBasket = async () => {
         try {
-            if (!data) {
-                console.log("Kullanıcı verileri yüklenemedi.");
-                return;
-            }
-            const existingBasket = data.basket || [];
-            const basketItem = {
-                productImage: product.images[0].sizes.s[0],
-                productName: product.description,
-                productDetail: query,
-                productPrice: product.price.quantity,
-            };
-            const updatedBasket = [...existingBasket, basketItem];
-
-            const response = await fetch('/api/update', {
-                method: "POST",
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    ...data,
-                    basket: updatedBasket
-                })
-            });
-
-            if (response.ok) {
-                const responseData = await response.json();
-                if (responseData.token) {
-                    localStorage.setItem('token', responseData.token);
-                }
-                console.log("response", "response okey");
-            } else {
-                console.log("response", "response not okey");
-            }
+            await addBasket(data, product, query);
         } catch (error) {
-            console.error(error);
+            console.error("Ürün eklerken hata oluştu: ", error);
         }
     };
-
     useEffect(() => {
         const itemsToShow = 4;
         const minBefore = Math.max(0, selectedImageIndex - (itemsToShow - 1));
@@ -283,7 +251,7 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
                     <CardFooter className='border-t-4'>
                         <div className="w-full flex justify-between">
                             <div className="flex w-3/6">
-                                <Button color="primary" onClick={addBasket} className="w-full">Add Basket</Button>
+                                <Button color="primary" onClick={addToBasket} className="w-full">Add Basket</Button>
                             </div>
                             <div className="flex w-2/6">
                                 <Button color="primary" className="w-full">A</Button>
