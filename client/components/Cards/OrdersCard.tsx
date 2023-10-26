@@ -44,7 +44,7 @@ export default function OrdersCard() {
                 </Grid>
             </div>
             <Accordion variant="splitted">
-                {data&&data.basket.map((item, index) => (
+                {data && data.basket && data.basket.map((item, index) => (
                     <AccordionItem key={index} aria-label={`Accordion ${index + 1}`} title={tittle}>
                         <div className="flex flex-row justify-between items-center w-full">
                             <Grid sm={3}>
