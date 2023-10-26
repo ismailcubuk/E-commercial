@@ -4,7 +4,7 @@ import { Button, Image } from "@nextui-org/react";
 import userDataService from "@/utils/userDataService";
 import { useQuery } from "react-query";
 import DeleteIcon from "@mui/icons-material/Delete";
-import { clearBasket, deleteBasketItem } from "@/utils/basket";
+import { clearBasket, deleteBasketItem, incrementProductCount, decrementProductCount} from "@/utils/basket";
 export default function basket() {
   const { data, refetch } = useQuery("userData", userDataService.getUserData);
   console.log(data);
@@ -13,7 +13,7 @@ export default function basket() {
       await clearBasket(data);
       refetch();
     } catch (error) {
-      console.error("Ürün silerken hata oluştu: ", error);
+      console.error("Basket cant cleraed ", error);
     }
   };
   const deleteToBasketItem = async (itemName) => {
@@ -21,7 +21,24 @@ export default function basket() {
       await deleteBasketItem(data,itemName);
       refetch();
     } catch (error) {
-      console.error("Ürün silerken hata oluştu: ", error);
+      console.error("cant delete item", error);
+    }
+  };
+  const handleIncrement = async (data,itemName) => {
+    try {
+      await incrementProductCount(data, itemName);
+      refetch();
+    } catch (error) {
+      console.error("cant increment ", error);
+    }
+  };
+
+  const handleDecrement = async (data,itemName) => {
+    try {
+      await decrementProductCount(data, itemName);
+      refetch();
+    } catch (error) {
+      console.error("cant decrement ", error);
     }
   };
   return (
@@ -37,7 +54,12 @@ export default function basket() {
                 key={index}
                 className="flex flex-row justify-between items-center py-2 border-b-2 w-full"
               >
-                <Grid item xs={6} md={3}>
+                <Grid item xs={6} md={3} className="border-2 flex items-center">
+                <div className="border-2 flex w-20 justify-around">
+                <button onClick={() => handleDecrement(data, item.productName)}>-</button>
+                    <div>{item.productCount}</div>
+                    <button onClick={() => handleIncrement(data, item.productName)}>+</button>
+                </div>
                   <Image height={100} width={100} src={item.productImage} />
                 </Grid>
                 <Grid item xs={6} md={3}>
@@ -48,7 +70,9 @@ export default function basket() {
                   <p>{item.productDetail}</p>
                 </Grid>
                 <Grid>
-                  <p>{item.productPrice} TRY</p>
+                <p>{(item.productPrice * item.productCount).toFixed(3)} TRY</p>
+
+
                 </Grid>
                 <Grid item sm={6} md={3} className="flex justify-center">
                   <Button isIconOnly onClick={() =>deleteToBasketItem(item.productName)} color="danger" aria-label="Delete">

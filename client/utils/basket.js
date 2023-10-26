@@ -10,6 +10,7 @@ export const addBasket = async (data, product, color) => {
       productName: product.description,
       productDetail: color,
       productPrice: product.price.quantity,
+      productCount: 1
     };
     const updatedBasket = [...existingBasket, basketItem];
 
@@ -37,7 +38,7 @@ export const addBasket = async (data, product, color) => {
     console.error(error);
   }
 };
-
+// clear
 export const clearBasket = async (data) => {
   try {
     const response = await fetch("/api/update", {
@@ -63,11 +64,51 @@ export const clearBasket = async (data) => {
     console.error(error);
   }
 };
+// delete
+export const deleteBasketItem = async (data, itemName) => {
+  try {
+    const updatedBasket = data.basket.filter(
+      (item) => item.productName !== itemName
+    );
 
-export const deleteBasketItem = async (data,itemName) => {
+    const response = await fetch("/api/update", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        ...data,
+        basket: updatedBasket,
+      }),
+    });
+
+    if (response.ok) {
+      const responseData = await response.json();
+      if (responseData.token) {
+        localStorage.setItem("token", responseData.token);
+      }
+      console.log(`Item "${itemName}" removed from the basket`);
+    } else {
+      console.log("Failed to remove the item from the basket");
+    }
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+// increment
+export const incrementProductCount = async (data, itemName) => {
     try {
-      const updatedBasket = data.basket.filter((item) => item.productName !== itemName);
-
+      const updatedBasket = data.basket.map((item) => {
+        if (item.productName === itemName) {
+          return {
+            ...item,
+            productCount: item.productCount + 1,
+          };
+        }
+        return item;
+      });
+  
       const response = await fetch("/api/update", {
         method: "POST",
         headers: {
@@ -78,15 +119,53 @@ export const deleteBasketItem = async (data,itemName) => {
           basket: updatedBasket,
         }),
       });
-
+  
       if (response.ok) {
         const responseData = await response.json();
         if (responseData.token) {
           localStorage.setItem("token", responseData.token);
         }
-        console.log(`Item "${itemName}" removed from the basket`);
+        console.log(`Ürün sayısı "${itemName}" artırıldı`);
       } else {
-        console.log("Failed to remove the item from the basket");
+        console.log("Ürün sayısı artırılamadı");
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  };
+  
+  // decrement
+  export const decrementProductCount = async (data, itemName) => {
+    try {
+      const updatedBasket = data.basket.map((item) => {
+        if (item.productName === itemName && item.productCount > 1) {
+          return {
+            ...item,
+            productCount: item.productCount - 1,
+          };
+        }
+        return item;
+      });
+  
+      const response = await fetch("/api/update", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          ...data,
+          basket: updatedBasket,
+        }),
+      });
+  
+      if (response.ok) {
+        const responseData = await response.json();
+        if (responseData.token) {
+          localStorage.setItem("token", responseData.token);
+        }
+        console.log(`Ürün sayısı "${itemName}" azaltıldı`);
+      } else {
+        console.log("Ürün sayısı azaltılamadı");
       }
     } catch (error) {
       console.error(error);
