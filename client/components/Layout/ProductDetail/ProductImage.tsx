@@ -30,12 +30,13 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
         }
     };
 
-    const { data } = useQuery('userData', userDataService.getUserData);
+    const { data, refetch } = useQuery('userData', userDataService.getUserData);
 
     const addToBasket = async () => {
         const color = product.images[selectedColorIndex].variant
         try {
             await addBasket(data, product, color);
+            refetch()
         } catch (error) {
             console.error("Ürün eklerken hata oluştu: ", error);
         }

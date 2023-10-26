@@ -54,7 +54,7 @@ export default function basket() {
                 key={index}
                 className="flex flex-row justify-between items-center py-2 border-b-2 w-full"
               >
-                <Grid item xs={6} md={3} className="border-2 flex items-center">
+                <Grid item xs={6} md={3} className="border-2 flex items-center justify-around">
                 <div className="border-2 flex w-20 justify-around">
                 <button onClick={() => handleDecrement(data, item.productName)}>-</button>
                     <div>{item.productCount}</div>
@@ -70,11 +70,9 @@ export default function basket() {
                   <p>{item.productDetail}</p>
                 </Grid>
                 <Grid>
-                <p>{(item.productPrice * item.productCount).toFixed(3)} TRY</p>
-
-
+                <p>{(item.productPrice * item.productCount).toFixed(3)} TRY </p>
                 </Grid>
-                <Grid item sm={6} md={3} className="flex justify-center">
+                <Grid item sm={6} md={1} className="border-2 flex justify-center">
                   <Button isIconOnly onClick={() =>deleteToBasketItem(item.productName)} color="danger" aria-label="Delete">
                     <DeleteIcon />
                   </Button>

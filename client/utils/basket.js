@@ -5,6 +5,15 @@ export const addBasket = async (data, product, color) => {
       return;
     }
     const existingBasket = data.basket || [];
+    const existingItemIndex = existingBasket.findIndex(
+        (item) =>
+          item.productName === product.description && item.productDetail === color
+      );
+  
+      if (existingItemIndex !== -1) {
+        alert("Bu ürün zaten sepette.");
+        return;
+      }
     const basketItem = {
       productImage: product.images[0].sizes.s[0],
       productName: product.description,
