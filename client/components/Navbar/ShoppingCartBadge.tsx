@@ -12,7 +12,7 @@ export default function ShoppingCartBadge() {
     const { data } = useQuery("userData", userDataService.getUserData);
 
     return (
-        <Badge content={data?.basket.length} color="primary" >
+        <Badge content={data?.basket?.length} color="primary" >
             <Button
                 radius="md"
                 isIconOnly

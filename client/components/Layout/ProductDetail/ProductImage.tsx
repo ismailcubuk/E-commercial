@@ -34,8 +34,9 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
 
     const addToBasket = async () => {
         const color = product.images[selectedColorIndex].variant
+        const img = product.images[selectedColorIndex].sizes.s[0]
         try {
-            await addBasket(data, product, color);
+            await addBasket(data, product, color,img);
             refetch()
         } catch (error) {
             console.error("Ürün eklerken hata oluştu: ", error);

@@ -1,4 +1,4 @@
-export const addBasket = async (data, product, color) => {
+export const addBasket = async (data, product, color,img) => {
   try {
     if (!data) {
       console.log("Kullanıcı verileri yüklenemedi.");
@@ -15,7 +15,7 @@ export const addBasket = async (data, product, color) => {
         return;
       }
     const basketItem = {
-      productImage: product.images[0].sizes.s[0],
+        productImage: img,
       productName: product.description,
       productDetail: color,
       productPrice: product.price.quantity,
@@ -106,10 +106,10 @@ export const deleteBasketItem = async (data, itemName) => {
 };
 
 // increment
-export const incrementProductCount = async (data, itemName) => {
+export const incrementProductCount = async (data, itemName,itemDetail) => {
     try {
       const updatedBasket = data.basket.map((item) => {
-        if (item.productName === itemName) {
+        if (item.productName === itemName&& item.productDetail === itemDetail) {
           return {
             ...item,
             productCount: item.productCount + 1,
@@ -144,10 +144,10 @@ export const incrementProductCount = async (data, itemName) => {
   };
   
   // decrement
-  export const decrementProductCount = async (data, itemName) => {
+  export const decrementProductCount = async (data, itemName,itemDetail) => {
     try {
       const updatedBasket = data.basket.map((item) => {
-        if (item.productName === itemName && item.productCount > 1) {
+        if (item.productName === itemName && item.productDetail === itemDetail && item.productCount > 1) {
           return {
             ...item,
             productCount: item.productCount - 1,

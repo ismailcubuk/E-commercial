@@ -24,18 +24,18 @@ export default function basket() {
       console.error("cant delete item", error);
     }
   };
-  const handleIncrement = async (data,itemName) => {
+  const handleIncrement = async (data,itemName,itemDetail) => {
     try {
-      await incrementProductCount(data, itemName);
+      await incrementProductCount(data, itemName,itemDetail);
       refetch();
     } catch (error) {
       console.error("cant increment ", error);
     }
   };
 
-  const handleDecrement = async (data,itemName) => {
+  const handleDecrement = async (data,itemName,itemDetail) => {
     try {
-      await decrementProductCount(data, itemName);
+      await decrementProductCount(data, itemName,itemDetail);
       refetch();
     } catch (error) {
       console.error("cant decrement ", error);
@@ -56,9 +56,9 @@ export default function basket() {
               >
                 <Grid item xs={6} md={3} className="border-2 flex items-center justify-around">
                 <div className="border-2 flex w-20 justify-around">
-                <button onClick={() => handleDecrement(data, item.productName)}>-</button>
+                <button onClick={() => handleDecrement(data, item.productName,item.productDetail)}>-</button>
                     <div>{item.productCount}</div>
-                    <button onClick={() => handleIncrement(data, item.productName)}>+</button>
+                    <button onClick={() => handleIncrement(data, item.productName,item.productDetail)}>+</button>
                 </div>
                   <Image height={100} width={100} src={item.productImage} />
                 </Grid>
