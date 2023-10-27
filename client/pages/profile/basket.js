@@ -13,7 +13,7 @@ export default function basket() {
       await clearBasket(data);
       refetch();
     } catch (error) {
-      console.error("Basket cant cleraed ", error);
+      console.error("Basket cant cleraed", error);
     }
   };
   const deleteToBasketItem = async (itemName) => {
@@ -29,7 +29,7 @@ export default function basket() {
       await incrementProductCount(data, itemName,itemDetail);
       refetch();
     } catch (error) {
-      console.error("cant increment ", error);
+      console.error("cant increment", error);
     }
   };
 
@@ -38,7 +38,7 @@ export default function basket() {
       await decrementProductCount(data, itemName,itemDetail);
       refetch();
     } catch (error) {
-      console.error("cant decrement ", error);
+      console.error("cant decrement", error);
     }
   };
   return (
@@ -46,7 +46,7 @@ export default function basket() {
       <Grid container className="border-2 w-full">
         <Grid item xs={12} lg={8} className="border-2 p-10">
           <Typography variant="h4" className="pb-5">
-            BASKET{" "}
+            BASKET
           </Typography>
           {data &&
             data.basket.map((item, index) => (
@@ -54,7 +54,7 @@ export default function basket() {
                 key={index}
                 className="flex flex-row justify-between items-center py-2 border-b-2 w-full"
               >
-                <Grid item xs={6} md={3} className="border-2 flex items-center justify-around">
+                <Grid item xs={6} md={3} className="flex items-center justify-around">
                 <div className="border-2 flex w-20 justify-around">
                 <button onClick={() => handleDecrement(data, item.productName,item.productDetail)}>-</button>
                     <div>{item.productCount}</div>
@@ -72,7 +72,7 @@ export default function basket() {
                 <Grid>
                 <p>{(item.productPrice * item.productCount).toFixed(3)} TRY </p>
                 </Grid>
-                <Grid item sm={6} md={1} className="border-2 flex justify-center">
+                <Grid item className="flex justify-center">
                   <Button isIconOnly onClick={() =>deleteToBasketItem(item.productName)} color="danger" aria-label="Delete">
                     <DeleteIcon />
                   </Button>
