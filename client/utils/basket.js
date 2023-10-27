@@ -74,10 +74,10 @@ export const clearBasket = async (data) => {
   }
 };
 // delete
-export const deleteBasketItem = async (data, itemName) => {
+export const deleteBasketItem = async (data, itemName,itemDetail) => {
   try {
     const updatedBasket = data.basket.filter(
-      (item) => item.productName !== itemName
+      (item) => item.productName !== itemName || item.productDetail !== itemDetail
     );
 
     const response = await fetch("/api/update", {
