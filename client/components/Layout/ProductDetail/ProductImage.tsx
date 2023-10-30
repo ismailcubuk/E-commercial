@@ -6,7 +6,8 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Logos from '../../Icons/Logo/Logo'
 import { setBasket } from '@/redux/actions/basketActions';
 import { addBasket } from '@/utils/basket';
-
+import { addFavorite } from '@/utils/wishList';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 import { useRouter } from 'next/router';
 import { useDispatch, useSelector } from 'react-redux';
 import { useQuery } from 'react-query';
@@ -32,11 +33,21 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
 
     const { data, refetch } = useQuery('userData', userDataService.getUserData);
 
+    const addToFavorite = async () => {
+        const color = product.images[selectedColorIndex].variant
+        const img = product.images[selectedColorIndex].sizes.s[0]
+        try {
+            await addFavorite(data, product, color, img);
+            refetch()
+        } catch (error) {
+            console.error("Ürün eklerken hata oluştu: ", error);
+        }
+    }
     const addToBasket = async () => {
         const color = product.images[selectedColorIndex].variant
         const img = product.images[selectedColorIndex].sizes.s[0]
         try {
-            await addBasket(data, product, color,img);
+            await addBasket(data, product, color, img);
             refetch()
         } catch (error) {
             console.error("Ürün eklerken hata oluştu: ", error);
@@ -253,12 +264,10 @@ export default function ProductImage({ product, title, variant, gb }: any,) {
                     </CardBody>
                     <CardFooter className='border-t-4'>
                         <div className="w-full flex justify-between">
-                            <div className="flex w-3/6">
-                                <Button color="primary" onClick={addToBasket} className="w-full">Add Basket</Button>
-                            </div>
-                            <div className="flex w-2/6">
-                                <Button color="primary" className="w-full">A</Button>
-                            </div>
+                                <Button color="primary" onClick={addToBasket} className="w-3/6">Add Basket</Button>
+                                <Button isIconOnly onClick={addToFavorite} color="danger" aria-label="Like">
+                                    <FavoriteIcon />
+                                </Button>
                         </div>
                     </CardFooter>
                 </Card>

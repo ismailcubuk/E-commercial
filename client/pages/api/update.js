@@ -5,7 +5,7 @@ import jwt from "jsonwebtoken";
 export default async function handler(req, res) {
   try {
     await connect();
-    const { _id, firstName, lastName, email, password, basket } = req.body;
+    const { _id, firstName, lastName, email, password, basket, wishlist } = req.body;
     const existingUser = await User.findOne({ _id });
     if (!existingUser) {
       return res.status(404).json({ error: "Kullanıcı bulunamadı." });
@@ -16,6 +16,7 @@ export default async function handler(req, res) {
     existingUser.email = email;
     existingUser.password = password;
     existingUser.basket = basket;
+    existingUser.wishlist = wishlist;
     await existingUser.save();
 
     const updatedToken = jwt.sign(
@@ -26,6 +27,7 @@ export default async function handler(req, res) {
         lastName: existingUser.lastName,
         password: existingUser.password,
         basket: existingUser.basket,
+        wishlist: existingUser.wishlist,
       },
       "asd"
     );
